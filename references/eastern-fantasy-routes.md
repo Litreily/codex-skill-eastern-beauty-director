@@ -1,0 +1,110 @@
+# Eastern Fantasy Route Registry
+
+Choose exactly one primary route for each visual direction. Routes are not sentence banks; use them as art-direction constraints and then fuse the final prompt into one coherent image moment.
+
+## Route Selection Priority
+
+1. User explicitly names a substyle or setting.
+2. User gives a prop or visual hook.
+3. User gives a mood or color system.
+4. User asks for a series; choose routes that create a balanced lineup.
+5. If unclear, default to `celestial-empire`.
+
+## Implemented Routes
+
+| Route ID | Chinese Name | Use When | Core Hook |
+|---|---|---|---|
+| `celestial-empire` | 天象神朝 | 星象、天文、观星台、命盘、神官、帝国感 | jade astrolabe, bronze armillary sphere, cloud observatory |
+| `kunlun-snow-sword` | 昆仑雪剑 | 清冷、雪山、剑姬、守护者、月白、冰蓝 | ice jade sword, suspended bridge, snow mist |
+| `dunhuang-mural-oracle` | 敦煌壁画神女 | 敦煌、飞天、壁画、矿物色、沙漠神秘感 | living mural ribbons, grotto, mineral pigments |
+| `tide-dragon-court` | 沧海龙庭 | 龙女、海潮、琉璃、珍珠、水下宫殿 | tide pearl, dragon tide, underwater palace gate |
+| `lotus-dream-exorcist` | 莲梦镇邪 | 莲灯、梦境、纸符、镜湖、温柔诡秘 | lotus lantern, talisman orbit, dream lake |
+| `phoenix-palace-fire` | 凤阙宫火 | 红金、宫廷、凤凰、华贵、女王感 | phoenix lantern, lacquer palace, ember ribbons |
+| `moon-palace-alchemy` | 月宫炼华 | 月宫、桂树、银炉、炼丹、清冷神性、月白银金 | moon mirror, silver furnace, osmanthus branches |
+| `bronze-oracle-city` | 青铜神谕城 | 青铜器、甲骨、古城、祭司、战争预言、厚重史诗感 | oracle bone tablet, bronze mask, cracked city gate |
+| `mist-bath-boudoir` | 雾浴私语 | 成年古风浴后、纯欲、私房氛围、湿发、寝衣、水汽 | moonlit screen halo, wet hair, silk robe, steam lotus |
+
+For stronger images, pair each route with one wow device from `wow-factor-system.md`; do not rely on the core hook alone.
+
+## Route Notes
+
+### celestial-empire
+
+- Role: celestial cartographer, star priestess, fate registrar, imperial astronomer.
+- Default wow device: giant bronze armillary sphere cracking open as a celestial gate behind the heroine.
+- Costume: dark teal ceremonial hanfu armor, gold cloud-shoulder plates, constellation embroidery, jade ornaments.
+- Scene: floating observatory, bronze armillary sphere, cloud sea, celestial palace silhouettes.
+- Light: moon blue ambient light plus warm golden starlight from the artifact.
+- Avoid: generic starry background without astronomical instruments.
+
+### kunlun-snow-sword
+
+- Role: sword guardian, mountain oath keeper, moonlit patrol, seal protector.
+- Default wow device: ice jade sword cutting the snowstorm into a clean crescent of moonlight while the bridge fractures behind her.
+- Costume: moon-white cloak, silver-thread robe, jade armor accents, wind-tight sleeves.
+- Scene: snow bridge, cliff temple, frozen pine, mountain gate, breath mist.
+- Light: cold moon rim light, snow bounce, faint sword glow.
+- Avoid: Western knight armor or random ice queen styling.
+
+### dunhuang-mural-oracle
+
+- Role: mural oracle, desert shrine dancer, scripture keeper, wind messenger.
+- Default wow device: giant circular fresco tearing open as painted celestial figures and mineral pigment streams become real light.
+- Costume: mineral-colored layered silk, flying ribbons, gold jewelry, mural-inspired patterns.
+- Scene: glowing grotto, sandstorm edge, fresco wall, hanging prayer ribbons.
+- Light: warm desert side light, pigment glow, torch accents.
+- Avoid: generic belly-dance styling or non-Chinese fantasy temple cues.
+
+### tide-dragon-court
+
+- Role: dragon court envoy, tide priestess, pearl keeper, storm negotiator.
+- Default wow device: tide pearl opening a spiral water gate with a huge dragon eye visible inside.
+- Costume: pearl-white and blue-green robes, coral ornaments, scale-like embroidery, glassy jade.
+- Scene: underwater palace gate, moonlit tide, dragon shadow, floating bubbles and silk.
+- Light: caustic water light, pearl glow, cold blue rim light.
+- Avoid: mermaid tail unless requested; keep hanfu-derived silhouette.
+
+### lotus-dream-exorcist
+
+- Role: dream exorcist, lotus lantern keeper, ghost-path guide, mirror-lake diviner.
+- Default wow device: lotus lantern revealing an inverted ghost city under the mirror lake surface.
+- Costume: pale jade robe, ink-wash hems, talisman knots, soft pink lotus accents.
+- Scene: mirror lake, night lotus field, paper talismans, ghostly reflections.
+- Light: lantern glow, misty moonlight, soft green-pink highlights.
+- Avoid: horror gore; keep lyrical supernatural tension.
+
+### phoenix-palace-fire
+
+- Role: phoenix lantern queen, palace fire priestess, dawn empress, oath witness.
+- Default wow device: ember ribbons forming one enormous phoenix wing while palace screens burn into an oath circle.
+- Costume: cinnabar robe, black lacquer belt, gold phoenix embroidery, heavy ceremonial hair crown.
+- Scene: palace fire court, lacquer screens, bronze lamps, phoenix-shaped ember trails.
+- Light: warm fire key light, dark red shadows, gold rim light.
+- Avoid: over-saturated red-and-gold clutter; preserve a premium controlled palette.
+
+### moon-palace-alchemy
+
+- Role: moon palace alchemist, osmanthus elixir keeper, lunar mirror seer, silver furnace priestess.
+- Default wow device: a giant moon mirror opens behind the heroine, reflecting a second moon palace where silver elixir bowls float in impossible gravity.
+- Costume: moon-white and pale silver layered hanfu, translucent outer gauze over opaque inner robe, osmanthus embroidery, pearl hairpins.
+- Scene: moon palace alchemy hall, silver furnace, osmanthus branches, jade steps, quiet lunar courtyard.
+- Light: cold moon backlight plus warm amber glow from the elixir furnace.
+- Avoid: generic moon fairy styling without alchemy tools, empty moon background, over-soft pastel blur.
+
+### bronze-oracle-city
+
+- Role: bronze city war seer, oracle-bone priestess, storm diviner, ancient gate witness.
+- Default wow device: cracked oracle bones rise into a giant bronze mask halo while lightning reveals an army-shaped shadow behind the city gate.
+- Costume: dark bronze and verdigris ceremonial robe, structured shoulders, oracle-bone ornaments, engraved metal belt pieces.
+- Scene: ancient bronze city, cracked ritual platform, storm clouds, tall gate, bronze bells and sacrificial vessels.
+- Light: lightning white rim light, furnace-orange underlight, deep bronze shadow.
+- Avoid: Western barbarian armor, horror gore, random steampunk machinery.
+
+### mist-bath-boudoir
+
+- Role: bath-chamber muse, moonlit private-chamber beauty, lotus mist attendant, quiet noblewoman after bathing.
+- Default wow device: moonlit lattice reflection forms a circular halo behind her while steam curls into lotus shapes around wet hair and silk sleeves.
+- Costume: opaque crossed-collar silk night robe, shawl or pibo kept closed, damp sheen and fabric weight without transparency or exposure.
+- Scene: private bath chamber, carved screen, bronze basin, lotus petals, candle lanterns, moonlit lattice window, bamboo shadows.
+- Light: warm candle key light plus cool moon rim light through steam.
+- Avoid: nudity, exposed chest, transparent revealing fabric, lingerie, voyeuristic framing, underage or age-ambiguous styling.
