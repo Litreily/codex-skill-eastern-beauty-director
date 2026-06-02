@@ -11,6 +11,7 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | "做系列", "人物设定", "世界观", "IP" | series bible + lineup | `eastern-fantasy-series.md`, route reference |
 | "太普通", "没亮点", "不够惊艳", "高级感不够" | rewrite with stronger wow device | `wow-factor-system.md`, `quality-control.md` |
 | "脸不好看", "气质", "体态", "纯欲", "私房" | character-focused rewrite | `character-subject-system.md`, safety notes |
+| "写实", "现代", "摄影", "杂志", "新中式", "东方高级感" | realistic / modern Eastern beauty prompt | `prompt-framework.md`, `character-subject-system.md`; route reference optional |
 | "小程序", "标签", "参数块", "表单字段" | modular fields | `prompt-framework.md`, relevant mini-program tags |
 | "MJ", "Midjourney", "SD", "ComfyUI", "DALL-E", "GPT image", "Seedream" | model-specific prompt | `prompt-framework.md` model adaptation |
 
@@ -27,6 +28,16 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | 月宫, 桂树, 炼丹, 银炉, 月镜 | `moon-palace-alchemy` | Combine cold lunar divinity with warm alchemy light. |
 | 青铜, 甲骨, 古城, 祭司, 预言 | `bronze-oracle-city` | Make it epic and archaeological; avoid steampunk. |
 | 浴后, 湿发, 私房, 纯欲, 水汽 | `mist-bath-boudoir` | Keep adult, covered, opaque, and non-voyeuristic. |
+
+## Realistic and Modern Eastern Beauty
+
+When the user asks for 写实, 现代, 摄影, 杂志, 新中式, 东方高级感, or realistic portrait:
+
+1. Do not force hanfu, mythology, magical artifacts, or wonder-scale environments.
+2. Prioritize facial temperament, styling, garment silhouette, fabric, posture, lens, light, background, and tasteful Eastern aesthetic cues.
+3. Keep the subject adult, dignified, and non-sexualized.
+4. Use gu feng or Eastern fantasy routes only when the user also asks for 古风, 仙侠, 神话, 国风角色, or a fantasy setting.
+5. Add a note that current skill coverage is strongest for gu feng / Eastern fantasy if the user expects a fully developed modern-realistic system.
 
 If multiple phrases appear, choose the user's strongest noun as the primary route and treat the others as accents only when compatible.
 

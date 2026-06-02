@@ -1,4 +1,4 @@
 interface:
-  display_name: "Eastern Fantasy Gufeng Director"
-  short_description: "Director-level gu feng prompts, routes, rewrites, and prompt packs."
-  default_prompt: "Create a director-level Eastern fantasy gu feng beauty prompt with request routing, one primary route, locked parameters, mythic role, iconic artifact, wonder-scale setting, cinematic lighting, model adaptation, and negative prompts."
+  display_name: "Eastern Beauty Art Director"
+  short_description: "Director-level Eastern beauty prompts, currently focused on gu feng and fantasy."
+  default_prompt: "Create a director-level Eastern beauty prompt. For current gu feng or Eastern fantasy requests, use request routing, one primary route, locked parameters, mythic role, iconic artifact, wonder-scale setting, cinematic lighting, model adaptation, and negative prompts."

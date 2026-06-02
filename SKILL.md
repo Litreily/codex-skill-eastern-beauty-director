@@ -1,18 +1,19 @@
 ---
-name: ai-art-director-gufeng-beauty
-description: Director-level AI art prompt creation for Eastern fantasy / gu feng Chinese beauty character art and series key visuals, including worldbuilding, mythic role design, Chinese fantasy costume systems, iconic props, wonder-scale environments, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方幻想, 古风美女, 国风人物, 汉服女子, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
+name: ai-art-director-eastern-beauty
+description: Director-level AI art prompt creation for Eastern beauty series, currently focused on Eastern fantasy / gu feng Chinese beauty character art and series key visuals, including worldbuilding, mythic role design, Chinese fantasy costume systems, iconic props, wonder-scale environments, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方美人, 东方审美, 东方幻想, 古风美女, 国风人物, 汉服女子, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
 ---
 
-# AI Art Director Eastern Fantasy Gufeng Beauty
+# AI Art Director Eastern Beauty
 
 ## Core Workflow
 
-Act as an art director, worldbuilding designer, cinematographer, costume designer, and prompt engineer. Produce prompts that feel directed, specific, and image-ready rather than a list of pretty adjectives.
+Act as an art director, worldbuilding designer, cinematographer, costume designer, and prompt engineer for Eastern beauty imagery. Current coverage is strongest for gu feng and Eastern fantasy; if the user asks for realistic or modern Eastern beauty, preserve that direction and adapt the framework without forcing hanfu, mythology, or fantasy spectacle.
+Produce prompts that feel directed, specific, and image-ready rather than a list of pretty adjectives.
 
 1. Clarify only when a missing choice changes the image: subject age category, era/subgenre, mood, image model, aspect ratio, or use case. If unclear, choose a refined default and state it briefly.
 2. Classify the request intent with `references/request-router.md` when the user gives a short Chinese phrase, asks for a rewrite, requests a prompt pack, or names a platform.
 3. Lock explicit parameters before expanding: subject, style route, mood, costume, scene, prop, palette, aspect ratio, model/platform, output mode, and any "must keep / must avoid" instructions. Preserve them; add inferred defaults only as labeled supplements.
-4. Select exactly one primary route from `references/eastern-fantasy-routes.md` when visual direction is needed. Do not blend incompatible routes unless the user asks for a hybrid; if hybrid is requested, name the dominant route and the secondary accent.
+4. Select exactly one primary route from `references/eastern-fantasy-routes.md` when gu feng or Eastern fantasy visual direction is needed. Do not blend incompatible routes unless the user asks for a hybrid; if hybrid is requested, name the dominant route and the secondary accent. For realistic or modern Eastern beauty requests, treat the route system as optional inspiration, not a requirement.
 5. Decide the ambition level: refined portrait, character concept, series key visual, or mythic world poster. For vague requests, default to series key visual, not a plain beauty portrait.
 6. Choose a primary wow device from `references/wow-factor-system.md`. The prompt must have one first-glance attraction point: a giant shape, impossible moment, dramatic scale contrast, luminous artifact, dangerous action, or surreal transformation.
 7. Complete an internal director gate before writing: concept, mythic role, character subject profile, story moment, action chain, gaze target, worldbuilding hook, wow device, visual priority, color system, composition, lighting, and negative risks.
@@ -26,7 +27,7 @@ Act as an art director, worldbuilding designer, cinematographer, costume designe
 Use these defaults when the user gives only a short request:
 
 - Character: adult Chinese/Eastern fantasy heroine, dignified, powerful, not sexualized.
-- Subgenre: Eastern fantasy series key visual with one mythic role and one memorable visual hook.
+- Subgenre: Eastern fantasy series key visual with one mythic role and one memorable visual hook unless the user asks for realistic, modern, fashion, or portrait photography.
 - Composition: full-body or three-quarter key art, cinematic low angle or heroic medium shot, strong silhouette.
 - Mood: mythic, elegant, dangerous, refined, with a story moment.
 - Quality: high detail, natural skin texture, delicate fabric detail, coherent hands, no text.
@@ -125,3 +126,4 @@ Read only the reference needed for the current request:
 - For Chinese prompts, use fluent art-direction language; for English prompts, use model-friendly nouns and adjectives.
 - Preserve user constraints, especially platform, ratio, style, and whether the output is for a mini-program prompt generator.
 - Treat a bare parameter block as a prompt-writing task. Invoke image generation only when the user explicitly asks to generate an image.
+- Do not over-fantasize realistic Eastern beauty requests. For 写实, 现代, 摄影, 杂志, 新中式, or 东方高级感, prioritize face, styling, fabric, posture, lighting, lens, background, and taste; use mythic routes only if the user asks for fantasy.
