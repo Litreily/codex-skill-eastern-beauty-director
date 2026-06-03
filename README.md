@@ -1,4 +1,4 @@
-# AI Art Director Eastern Beauty
+# Eastern Beauty Director
 
 一个面向 Codex 的「东方美人系列」AI 绘画提示词 Skill。它的长期方向不只限于古风，也可以扩展到写实东方美人、现代东方审美、国风时尚、古风人物、东方幻想角色等方向。
 
@@ -20,24 +20,24 @@
 
 ```bash
 cd ~/.codex/skills
-git clone https://github.com/<your-name>/ai-art-director-eastern-beauty.git
+git clone https://github.com/<your-name>/codex-skill-eastern-beauty-director.git
 ```
 
 Windows 用户如果你的 Codex skills 目录在 `C:\Users\<你的用户名>\.codex\skills`，可以把仓库克隆或复制到：
 
 ```text
-C:\Users\<你的用户名>\.codex\skills\ai-art-director-eastern-beauty
+C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 ```
 
 ### 方法二：手动下载
 
 1. 在 GitHub 页面点击 `Code`。
 2. 点击 `Download ZIP`。
-3. 解压后，把文件夹改名为 `ai-art-director-eastern-beauty`。
+3. 解压后，把文件夹改名为 `codex-skill-eastern-beauty-director`。
 4. 放到你的 Codex skills 目录：
 
 ```text
-~/.codex/skills/ai-art-director-eastern-beauty
+~/.codex/skills/codex-skill-eastern-beauty-director
 ```
 
 重启 Codex 后，它会自动发现这个 skill。
@@ -111,7 +111,7 @@ C:\Users\<你的用户名>\.codex\skills\ai-art-director-eastern-beauty
 - 古风人物：汉服、宫廷、江南、武侠、宋韵、唐风等。
 - 东方幻想：仙侠、神话角色、神官、龙女、敦煌、月宫、青铜古城等。
 
-当前仓库名使用 `ai-art-director-eastern-beauty`，表达长期方向是东方美人系列；当前内容先稳定古风与东方幻想能力，后续可以继续扩展写实东方美人、现代东方审美和新中式方向。
+当前推荐仓库名使用 `codex-skill-eastern-beauty-director`，Skill 内部名称使用 `eastern-beauty-director`。这个命名表达长期方向是东方美人系列的执行导演；当前内容先稳定古风与东方幻想能力，后续可以继续扩展写实东方美人、现代东方审美和新中式方向。
 
 ## 示例文件
 

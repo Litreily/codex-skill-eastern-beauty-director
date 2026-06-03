@@ -1,9 +1,9 @@
 ---
-name: ai-art-director-eastern-beauty
+name: eastern-beauty-director
 description: Director-level AI art prompt creation for Eastern beauty series, including Eastern fantasy / gu feng Chinese beauty character art, realistic and modern Eastern beauty, 甜系纯欲生活写真 / SweetHomeGirl lifestyle portraits built around realism, feminine charm, romantic feeling, story moment, and natural attraction, new-Chinese-style fashion editorials, magazine portraits, worldbuilding, mythic role design, costume/styling systems, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方美人, 东方审美, 东方幻想, 古风美女, 国风人物, 汉服女子, 写实东方美人, 现代东方审美, 新中式, 东方高级感, SweetHomeGirl, 甜系纯欲生活写真, 甜系纯欲, 甜美女友感, 真实女生, 自然抓拍, 故事感, 女友视角, lifestyle girlfriend portrait, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
 ---
 
-# AI Art Director Eastern Beauty
+# Eastern Beauty Director
 
 ## Core Workflow
 
