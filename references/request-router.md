@@ -11,7 +11,8 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | "做系列", "人物设定", "世界观", "IP" | series bible + lineup | `eastern-fantasy-series.md`, route reference |
 | "太普通", "没亮点", "不够惊艳", "高级感不够" | rewrite with stronger wow device | `wow-factor-system.md`, `quality-control.md` |
 | "脸不好看", "气质", "体态", "纯欲", "私房" | character-focused rewrite | `character-subject-system.md`, safety notes |
-| "写实", "现代", "摄影", "杂志", "新中式", "东方高级感" | realistic / modern Eastern beauty prompt | `prompt-framework.md`, `character-subject-system.md`; route reference optional |
+| "SweetHomeGirl", "甜系纯欲生活写真", "甜系纯欲", "甜美女友感", "真实女生", "自然抓拍", "故事感", "女友视角", "girlfriend portrait" | 甜系纯欲生活写真 realistic pure-desire lifestyle prompt | `styles/甜系纯欲生活写真.md`, `prompt-framework.md`, `quality-control.md` |
+| "写实", "现代", "摄影", "杂志", "新中式", "东方高级感" | realistic / modern Eastern beauty prompt | `styles/现代东方美人.md`, `prompt-framework.md`, `character-subject-system.md` |
 | "小程序", "标签", "参数块", "表单字段" | modular fields | `prompt-framework.md`, relevant mini-program tags |
 | "MJ", "Midjourney", "SD", "ComfyUI", "DALL-E", "GPT image", "Seedream" | model-specific prompt | `prompt-framework.md` model adaptation |
 
@@ -29,15 +30,32 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | 青铜, 甲骨, 古城, 祭司, 预言 | `bronze-oracle-city` | Make it epic and archaeological; avoid steampunk. |
 | 浴后, 湿发, 私房, 纯欲, 水汽 | `mist-bath-boudoir` | Keep adult, covered, opaque, and non-voyeuristic. |
 
+## SweetHomeGirl Routing
+
+When the user asks for SweetHomeGirl, 甜系纯欲生活写真, 甜系纯欲, 甜美女友感, 真实女生, 自然抓拍, 故事感, 女友视角, lifestyle girlfriend portrait, private-room portrait, or home fashion shoot:
+
+1. Load `styles/甜系纯欲生活写真.md`.
+2. Apply the 甜系纯欲生活写真 priority exactly: body system, story moment, pure-desire, face, outfit, composition, scene.
+3. Treat the core formula as realism + feminine charm + romantic feeling + story moment + natural pure-desire.
+4. Build story first, action second, expression last.
+5. Do not lock one fixed face. Vary face style while preserving body system, realism, natural attraction, adult age impression, high attractiveness, and approachability.
+6. Never let face style, clothing, action, scene, props, camera, or composition override the body system hard lock.
+7. If the user provides the Chinese structured format (`技能 / 人脸风格 / 场景 / 穿搭 / 故事瞬间 / 构图`), preserve those field names in the parameter lock.
+8. Use the user's selected face style, scene, outfit, story moment, and composition when provided.
+9. If composition is only an aspect ratio such as `9比16`, choose a real framing mode from the composition system and label it as a supplement.
+10. If any field is missing, infer a tasteful default and label it as a supplement.
+11. Return a complete prompt and checklist first; generate an image only when the user explicitly asks to generate directly or confirms.
+
 ## Realistic and Modern Eastern Beauty
 
-When the user asks for 写实, 现代, 摄影, 杂志, 新中式, 东方高级感, or realistic portrait:
+When the user asks for 写实, 现代, 摄影, 杂志, 新中式, 东方高级感, fashion editorial, beauty campaign, or realistic portrait:
 
 1. Do not force hanfu, mythology, magical artifacts, or wonder-scale environments.
-2. Prioritize facial temperament, styling, garment silhouette, fabric, posture, lens, light, background, and tasteful Eastern aesthetic cues.
-3. Keep the subject adult, dignified, and non-sexualized.
-4. Use gu feng or Eastern fantasy routes only when the user also asks for 古风, 仙侠, 神话, 国风角色, or a fantasy setting.
-5. Add a note that current skill coverage is strongest for gu feng / Eastern fantasy if the user expects a fully developed modern-realistic system.
+2. Load `styles/现代东方美人.md` and choose one modern style route from that file.
+3. Prioritize facial temperament, styling, garment silhouette, fabric, posture, lens, light, background, and tasteful Eastern aesthetic cues.
+4. Keep the subject adult, dignified, and non-sexualized.
+5. Use gu feng or Eastern fantasy routes only when the user also asks for 古风, 仙侠, 神话, 国风角色, or a fantasy setting.
+6. Add a brief note that current skill coverage is strongest for gu feng / Eastern fantasy only if the user expects a fully developed modern-realistic system.
 
 If multiple phrases appear, choose the user's strongest noun as the primary route and treat the others as accents only when compatible.
 

@@ -26,6 +26,39 @@ If fewer than three of role, artifact, wonder setting, supernatural phenomenon, 
 
 If the prompt has many decorative details but no dominant shape or event, remove secondary ornaments and add a single oversized or impossible visual device.
 
+## Avoid Generic Modern Beauty
+
+For 写实, 现代, 摄影, 杂志, 新中式, 东方高级感, check:
+
+- Is one modern style route driving the prompt?
+- Does the face have a temperament, structure, gaze, and natural skin texture?
+- Is the clothing a specific modern or new-Chinese silhouette, not a vague "Chinese dress"?
+- Does the posture or hand action reveal character without sexualized framing?
+- Is the background tasteful and spatially clear?
+- Are lens, light source, and palette named?
+- Are cheap cosplay, heavy filters, plastic skin, transparent revealing fabric, and clutter excluded?
+
+If the result reads like "pretty woman in Chinese clothes," upgrade styling, posture, light, and location before returning.
+
+## SweetHomeGirl Consistency
+
+For SweetHomeGirl prompts, check:
+
+- Is 甜系纯欲生活写真 / SweetHomeGirl using the correct priority: body, story moment, pure-desire, face, outfit, composition, scene?
+- Does the prompt follow the core formula: realism + feminine charm + romantic feeling + story moment + natural pure-desire?
+- Is the body system hard lock placed first and protected from all other parameters?
+- Does the prompt preserve young mature feminine body, healthy fullness, rounded natural curves, full natural bust, natural waist-hip transition, soft S-curve, full healthy legs, and no supermodel/fitness/bony/anime drift?
+- Is there a real story moment, with story first, action second, expression last?
+- Is pure-desire built from gaze, expression, action, outfit, atmosphere, and feminine curves rather than exposure, erotic suggestion, exaggerated pose, or deliberate seduction?
+- Does the subject read as 20-26 adult young urban woman, not underage, childish, or student-girl?
+- Is the face style varied without becoming a different universe or a fixed-face clone?
+- Does the outfit feel like something a real woman would wear, not lingerie/swimsuit/gown/professional/stage/overexposed styling?
+- Is composition treated as framing, not just aspect ratio: upper-body close-up, thigh-up, full body, or face close-up?
+- Does the person occupy more than 60% of the frame, with expression/gaze first and background only supporting?
+- Does the image avoid influencer photoshoot, fashion editorial, edge-bait, AI-sexy, static model display, and background-dominant feeling?
+- Does the prompt keep realistic anatomy, natural proportions, correct hands, and natural body posture?
+- Is the negative prompt protecting against body drift, age drift, story loss, static posing, influencer/fashion/AI-sexy feeling, excessive exposure, background dominance, deformed hands, plastic skin, and low-quality artifacts?
+
 ## Prompt Copy Blocks
 
 When returning a final prompt for copy/paste, keep the final prompt and negative prompt in separate Markdown `text` code blocks. Do not mix notes, route labels, or analysis inside the copyable prompt block.

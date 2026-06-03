@@ -1,6 +1,6 @@
 ---
 name: ai-art-director-eastern-beauty
-description: Director-level AI art prompt creation for Eastern beauty series, currently focused on Eastern fantasy / gu feng Chinese beauty character art and series key visuals, including worldbuilding, mythic role design, Chinese fantasy costume systems, iconic props, wonder-scale environments, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方美人, 东方审美, 东方幻想, 古风美女, 国风人物, 汉服女子, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
+description: Director-level AI art prompt creation for Eastern beauty series, including Eastern fantasy / gu feng Chinese beauty character art, realistic and modern Eastern beauty, 甜系纯欲生活写真 / SweetHomeGirl lifestyle portraits built around realism, feminine charm, romantic feeling, story moment, and natural attraction, new-Chinese-style fashion editorials, magazine portraits, worldbuilding, mythic role design, costume/styling systems, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方美人, 东方审美, 东方幻想, 古风美女, 国风人物, 汉服女子, 写实东方美人, 现代东方审美, 新中式, 东方高级感, SweetHomeGirl, 甜系纯欲生活写真, 甜系纯欲, 甜美女友感, 真实女生, 自然抓拍, 故事感, 女友视角, lifestyle girlfriend portrait, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
 ---
 
 # AI Art Director Eastern Beauty
@@ -11,9 +11,9 @@ Act as an art director, worldbuilding designer, cinematographer, costume designe
 Produce prompts that feel directed, specific, and image-ready rather than a list of pretty adjectives.
 
 1. Clarify only when a missing choice changes the image: subject age category, era/subgenre, mood, image model, aspect ratio, or use case. If unclear, choose a refined default and state it briefly.
-2. Classify the request intent with `references/request-router.md` when the user gives a short Chinese phrase, asks for a rewrite, requests a prompt pack, or names a platform.
+2. Classify the request intent with `references/request-router.md` when the user gives a short Chinese phrase, asks for a rewrite, requests a prompt pack, asks for SweetHomeGirl, asks for realistic/modern Eastern beauty, or names a platform.
 3. Lock explicit parameters before expanding: subject, style route, mood, costume, scene, prop, palette, aspect ratio, model/platform, output mode, and any "must keep / must avoid" instructions. Preserve them; add inferred defaults only as labeled supplements.
-4. Select exactly one primary route from `references/eastern-fantasy-routes.md` when gu feng or Eastern fantasy visual direction is needed. Do not blend incompatible routes unless the user asks for a hybrid; if hybrid is requested, name the dominant route and the secondary accent. For realistic or modern Eastern beauty requests, treat the route system as optional inspiration, not a requirement.
+4. Select exactly one primary route from `styles/东方幻想古风.md` when gu feng or Eastern fantasy visual direction is needed. Do not blend incompatible routes unless the user asks for a hybrid; if hybrid is requested, name the dominant route and the secondary accent. For SweetHomeGirl / 甜系纯欲生活写真 requests, load `styles/甜系纯欲生活写真.md`. For other realistic or modern Eastern beauty requests, load `styles/现代东方美人.md` instead of forcing fantasy routes.
 5. Decide the ambition level: refined portrait, character concept, series key visual, or mythic world poster. For vague requests, default to series key visual, not a plain beauty portrait.
 6. Choose a primary wow device from `references/wow-factor-system.md`. The prompt must have one first-glance attraction point: a giant shape, impossible moment, dramatic scale contrast, luminous artifact, dangerous action, or surreal transformation.
 7. Complete an internal director gate before writing: concept, mythic role, character subject profile, story moment, action chain, gaze target, worldbuilding hook, wow device, visual priority, color system, composition, lighting, and negative risks.
@@ -87,6 +87,8 @@ English prompt:
 [aspect ratio, style strength, seed/CFG notes if relevant]
 ```
 
+Keep the final Chinese prompt, English prompt, and negative prompt in separate Markdown `text` code blocks when they are meant to be copied directly.
+
 For prompt packs, use a compact table with: theme, visual hook, prompt, negative prompt, best ratio.
 
 For series development, return:
@@ -108,7 +110,9 @@ Read only the reference needed for the current request:
 
 - `references/prompt-framework.md`: prompt grammar, output templates, model adaptation rules.
 - `references/request-router.md`: short-request intent routing, Chinese trigger phrases, output mode selection, and rewrite handling.
-- `references/eastern-fantasy-routes.md`: the primary route registry; choose exactly one route for each visual direction.
+- `styles/甜系纯欲生活写真.md`: SweetHomeGirl-compatible Chinese style reference for 甜系纯欲生活写真, built around realism, feminine charm, romantic feeling, story moment, and natural pure-desire.
+- `styles/现代东方美人.md`: realistic, modern, new-Chinese-style, fashion editorial, magazine, and cinematic Eastern beauty prompt direction.
+- `styles/东方幻想古风.md`: the primary gu feng / Eastern fantasy style route registry; choose exactly one route for each visual direction.
 - `references/wow-factor-system.md`: first-glance attraction devices, anti-bland upgrades, and route-specific spectacle hooks.
 - `references/character-subject-system.md`: face, temperament, body language, posture, hand action, and route-specific heroine profiles.
 - `references/gufeng-visual-library.md`: gu feng subgenres, clothing, hair, makeup, props, settings, light, color palettes.

@@ -6,7 +6,7 @@ Use this reference when the user wants "东方幻想", a stronger visual hook, a
 
 Every series entry needs:
 
-- Route: one primary route from `eastern-fantasy-routes.md`.
+- Route: one primary route from `styles/东方幻想古风.md`.
 - Role: a readable fantasy profession or destiny.
 - Symbol: one iconic prop or supernatural motif.
 - Territory: a place that implies a world beyond the portrait.

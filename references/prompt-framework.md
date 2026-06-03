@@ -81,6 +81,21 @@ This analysis should read like art direction, not a field recap.
 东方幻想系列主视觉，电影级光影，细腻皮肤质感，真实布料纹理，强剪影，高级国风审美，画面干净，无文字
 ```
 
+## Modern Eastern Beauty Template
+
+Use this template for 写实, 现代, 摄影, 杂志, 新中式, 东方高级感, or fashion editorial requests after loading `styles/现代东方美人.md`:
+
+```text
+生成一张[画幅比例]现代东方美人人像/主视觉。成年东方女性，[现代东方审美路线]，
+[脸部气质/脸型/眼神/妆容/自然皮肤质感]，
+[姿态/身体语言/视线目标/手部动作]，
+身着[新中式或现代服装轮廓/材质/细节]，
+置身[现代空间/背景元素/空间层次]，
+[主光源/辅光/阴影形态]，[镜头/景别/构图]，
+[克制色彩系统]，
+高级东方审美，真实质感，精致妆造，克制优雅，无文字
+```
+
 ## English Prompt Template
 
 ```text
@@ -113,6 +128,12 @@ DALL-E / GPT image tools:
 - Use natural language instructions.
 - Mention composition and exact exclusions clearly.
 - Avoid tag soup and unsupported sampler parameters.
+
+Gemini / Seedream:
+
+- Use clear natural language, not dense tag lists.
+- Put subject, style route, scene, lighting, and exclusions in direct sentences.
+- Include aspect ratio and usage target if the user supplies them, but avoid sampler-specific parameters unless requested.
 
 Chinese prompt generator apps:
 
