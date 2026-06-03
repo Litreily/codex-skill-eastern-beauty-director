@@ -4,7 +4,7 @@
 
 当前版本重点覆盖古风与东方幻想，也开始支持写实东方美人、现代东方审美、新中式杂志人像、甜系纯欲生活写真（兼容 SweetHomeGirl 调用）等方向。它会把「古风美女」「国风人物」「仙侠女主」「敦煌飞天」「龙女」「浴后美人」「新中式东方高级感」「甜美女友感居家写真」这类简单需求，扩写成更有导演感、更适合 Midjourney、Stable Diffusion、ComfyUI、DALL-E、GPT image、Gemini、Seedream 等工具使用的提示词。
 
-## 适合谁用
+## 1. 适合谁用
 
 - 你想生成东方美人、古风美女、东方幻想角色、国风人物主视觉。
 - 你觉得普通提示词太像「漂亮女人 + 汉服 + 背景」，想要更有故事、更惊艳。
@@ -12,11 +12,11 @@
 - 你需要一个真实、自然、有故事感，同时保留女性魅力的 SweetHomeGirl 系列。
 - 你是新手，不知道怎么把想法写成专业 AI 绘画 prompt。
 
-## 安装方法
+## 2. 安装方法
 
 把这个仓库放到 Codex 的 skills 目录下即可。
 
-### 方法一：直接克隆
+### 2.1 直接克隆
 
 ```bash
 cd ~/.codex/skills
@@ -29,7 +29,7 @@ Windows 用户如果你的 Codex skills 目录在 `C:\Users\<你的用户名>\.c
 C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 ```
 
-### 方法二：手动下载
+### 2.2 手动下载
 
 1. 在 GitHub 页面点击 `Code`。
 2. 点击 `Download ZIP`。
@@ -42,9 +42,11 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 
 重启 Codex 后，它会自动发现这个 skill。
 
-## 怎么使用
+## 3. 怎么使用
 
 在 Codex 里直接提需求即可，不需要手动打开 `SKILL.md`。
+
+### 3.1 通用调用示例
 
 你可以这样说：
 
@@ -76,7 +78,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 我要做小程序提示词生成器，帮我拆成主题、人物、服饰、场景、光影、镜头、负面词
 ```
 
-## 甜系纯欲生活写真 / SweetHomeGirl
+### 3.2 甜系纯欲生活写真 / SweetHomeGirl
 
 `技能` 可以写 `甜系纯欲生活写真`，也可以写 `SweetHomeGirl`。这个风格适合生成真实、自然、有故事感，同时保留女性魅力和恋爱感的年轻都市女性生活写真。它的核心不是固定同一张脸，而是固定审美体系：真实感、女性魅力、恋爱感、故事瞬间和自然吸引力。
 
@@ -110,7 +112,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
   配饰:
 ```
 
-### 轻量示例
+#### 3.2.1 轻量示例
 
 ```text
 技能: 甜系纯欲生活写真
@@ -123,7 +125,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 时间: 夜晚
 ```
 
-### 精控示例
+#### 3.2.2 精控示例
 
 ```text
 技能: SweetHomeGirl
@@ -147,7 +149,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 - [`甜系纯欲生活写真-默认示例.md`](examples/甜系纯欲生活写真-默认示例.md)
 - [`甜系纯欲生活写真-人民广场.md`](examples/甜系纯欲生活写真-人民广场.md)
 
-## 它会输出什么
+## 4. 它会输出什么
 
 通常会包含：
 
@@ -158,7 +160,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 - 负面提示词：避免低质量、坏手、廉价 cosplay、现代物品、文字水印等问题。
 - 参数建议：比如画幅比例、风格强度等。
 
-## 内置风格路线
+## 5. 内置风格路线
 
 当前版本主要包含这些古风 / 东方幻想路线：
 
@@ -172,7 +174,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 - 青铜神谕城：青铜器、甲骨、古城、祭司、战争预言。
 - 雾浴私语：成年浴后、湿发、水汽、私房氛围，保持克制与安全。
 
-## 未来方向
+## 6. 未来方向
 
 这个 skill 的定位可以逐步从「古风美女」升级为更完整的「东方美人系列」：
 
@@ -184,7 +186,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 
 当前推荐仓库名使用 `codex-skill-eastern-beauty-director`，Skill 内部名称使用 `eastern-beauty-director`。这个命名表达长期方向是东方美人系列的执行导演；当前内容先稳定古风与东方幻想能力，后续可以继续扩展写实东方美人、现代东方审美和新中式方向。
 
-## 示例文件
+## 7. 示例文件
 
 可以查看 `examples/` 目录，里面有完整可复制的示例提示词：
 
@@ -202,19 +204,20 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 - `甜系纯欲生活写真-推荐调用格式.md`
 - `甜系纯欲生活写真-人民广场.md`
 
-## 文件说明
+## 8. 文件说明
 
 - `SKILL.md`：Codex 读取的核心 skill 指令。
 - `references/`：请求路由、提示词框架、角色系统、视觉库、质量控制规则。
 - `styles/`：可直接调用的具体风格体系参考文件，统一使用中文文件名。
-- `styles/甜系纯欲生活写真.md`：甜系纯欲生活写真，兼容 SweetHomeGirl 调用，包含身材系统、故事瞬间系统、自然纯欲、人脸风格、穿搭/构图规则和中文参数格式。
-- `styles/现代东方美人.md`：写实东方美人、现代东方审美、新中式、东方高级感、杂志写真和电影感人像。
-- `styles/东方幻想古风.md`：东方幻想、古风、仙侠、宫廷、江南、敦煌等主风格路线注册表。
+  - `styles/甜系纯欲生活写真.md`：甜系纯欲生活写真，兼容 SweetHomeGirl 调用，包含身材系统、故事瞬间系统、自然纯欲、人脸风格、穿搭/构图规则和中文参数格式。
+  - `styles/现代东方美人.md`：写实东方美人、现代东方审美、新中式、东方高级感、杂志写真和电影感人像。
+  - `styles/东方幻想古风.md`：东方幻想、古风、仙侠、宫廷、江南、敦煌等主风格路线注册表。
 - `examples/`：不同路线的完整提示词示例。
 - `agents/openai.yaml`：Codex UI 展示用的元数据。
 
-## 注意事项
+## 9. 注意事项
 
-- 这个仓库本身不会生成图片，它负责帮助 Codex 写出高质量 AI 绘画提示词。
-- 如果你想真正生成图片，需要把提示词复制到 Midjourney、Stable Diffusion、ComfyUI、DALL-E、GPT image、Seedream 等工具中。
+- 这个仓库本身是 Codex Skill，不自带图像模型；它负责让 Codex 按「执行导演」流程写出高质量 AI 绘画提示词。
+- 如果当前 Codex 环境提供 GPT image / image generation 工具，可以在确认最终 Prompt 后让 Codex 直接生图。
+- 也可以把提示词复制到 Midjourney、Stable Diffusion、ComfyUI、DALL-E、GPT image、Seedream 等外部工具中使用。
 - 对涉及私房、浴后、纯欲等方向的请求，skill 会保持成年、克制、非暴露、非窥视视角。
