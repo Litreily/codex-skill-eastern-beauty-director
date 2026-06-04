@@ -11,8 +11,10 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | "做系列", "人物设定", "世界观", "IP" | series bible + lineup | `eastern-fantasy-series.md`, route reference |
 | "太普通", "没亮点", "不够惊艳", "高级感不够" | rewrite with stronger wow device | `wow-factor-system.md`, `quality-control.md` |
 | "脸不好看", "气质", "体态", "纯欲", "私房" | character-focused rewrite | `character-subject-system.md`, safety notes |
+| "东方美人", "东方审美", "柔美", "妩媚", "成熟", "优雅", "高贵", "清冷", "温婉", "英气", "神性", "慵懒" | aesthetic-led Eastern beauty prompt | `styles/东方美人审美系统.md`, then route reference |
 | "SweetHomeGirl", "甜系纯欲生活写真", "甜系纯欲", "甜美女友感", "真实女生", "自然抓拍", "故事感", "女友视角", "girlfriend portrait" | 甜系纯欲生活写真 realistic pure-desire lifestyle prompt | `styles/甜系纯欲生活写真.md`, `prompt-framework.md`, `quality-control.md` |
-| "写实", "现代", "摄影", "杂志", "新中式", "东方高级感" | realistic / modern Eastern beauty prompt | `styles/现代东方美人.md`, `prompt-framework.md`, `character-subject-system.md` |
+| "古典东方美人", "宋韵", "唐宫", "江南", "洛神", "青瓷", "昆曲", "仕女" | classical Eastern beauty prompt | `styles/东方美人审美系统.md`, `styles/古典东方美人.md`, `prompt-framework.md` |
+| "写实", "现代", "摄影", "杂志", "新中式", "东方高级感", "旗袍电影感", "东方静奢", "珠宝大片", "茶室光影", "都市晚宴" | realistic / modern Eastern beauty prompt | `styles/东方美人审美系统.md`, `styles/现代东方美人.md`, `prompt-framework.md`, `character-subject-system.md` |
 | "小程序", "标签", "参数块", "表单字段" | modular fields | `prompt-framework.md`, relevant mini-program tags |
 | "MJ", "Midjourney", "SD", "ComfyUI", "DALL-E", "GPT image", "Seedream" | model-specific prompt | `prompt-framework.md` model adaptation |
 
@@ -30,6 +32,29 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | 月宫, 桂树, 炼丹, 银炉, 月镜 | `moon-palace-alchemy` | Combine cold lunar divinity with warm alchemy light. |
 | 青铜, 甲骨, 古城, 祭司, 预言 | `bronze-oracle-city` | Make it epic and archaeological; avoid steampunk. |
 | 浴后, 湿发, 私房, 纯欲, 水汽 | `mist-bath-boudoir` | Keep adult, covered, opaque, and non-voyeuristic. |
+
+## Aesthetic-Led Eastern Beauty
+
+When the user asks for 东方美人, 东方审美, 美人风格, 柔美, 妩媚, 成熟, 优雅, 高贵, 清冷, 温婉, 英气, 神性, or 慵懒:
+
+1. Load `styles/东方美人审美系统.md`.
+2. Choose one dominant aesthetic and at most one secondary accent.
+3. Then choose the correct route family:
+   - fantasy / mythic / 仙侠 / 神女 / 龙女 / 宫廷奇观 -> `styles/东方幻想古风.md`
+   - classical / 宋韵 / 唐宫 / 江南 / 洛神 / 青瓷 / 昆曲 / 仕女 -> `styles/古典东方美人.md`
+   - realistic / modern / magazine / new-Chinese / qipao / jewelry / tea room / city evening -> `styles/现代东方美人.md`
+   - girlfriend / lifestyle / SweetHomeGirl / 真实女生 / 故事感 -> `styles/甜系纯欲生活写真.md`
+4. Let the aesthetic system shape gaze, posture, hand gesture, fabric behavior, light, and composition before adding route-specific props.
+5. If the user says 妩媚, mature allure must come from gaze, posture, fabric, candlelight, jewelry, and controlled expression, not exposure.
+
+## Classical Eastern Beauty
+
+When the user asks for 古典东方美人, 古典美人, 宋韵, 唐宫, 江南, 洛神, 青瓷, 昆曲, 仕女, 闺阁, or a classical but non-fantasy beauty image:
+
+1. Load `styles/东方美人审美系统.md` and `styles/古典东方美人.md`.
+2. Choose one classical route and one dominant aesthetic.
+3. Do not force mythic artifacts, impossible scale, or battle spectacle unless the user asks for fantasy.
+4. Focus on line, gesture, fabric, light, face temperament, and spatial poetry.
 
 ## SweetHomeGirl Routing
 

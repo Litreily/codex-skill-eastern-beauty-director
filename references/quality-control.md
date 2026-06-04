@@ -26,6 +26,32 @@ If fewer than three of role, artifact, wonder setting, supernatural phenomenon, 
 
 If the prompt has many decorative details but no dominant shape or event, remove secondary ornaments and add a single oversized or impossible visual device.
 
+## Avoid Generic Eastern Beauty
+
+For 东方美人, 东方审美, 柔美, 妩媚, 成熟, 优雅, 高贵, 清冷, 温婉, 英气, 神性, or 慵懒, check:
+
+- Is one dominant beauty temperament driving the image?
+- Does the prompt express beauty through gaze, posture, hand gesture, shoulder-neck line, hair rhythm, fabric behavior, light, and emotion?
+- Is the woman still the visual subject rather than being swallowed by costume, props, or background?
+- Does 妩媚 come from mature gaze, controlled posture, fabric, jewelry, candlelight, and atmosphere rather than exposure?
+- Does 高贵 come from identity, ritual, symmetry, posture, and composition rather than random gold clutter?
+- Does 成熟 come from composure, material weight, deep palette, and controlled expression rather than age exaggeration?
+- Does 清冷 still have emotion in the eyes rather than a blank mannequin face?
+
+If the result reads like "pretty woman + Eastern clothes + vague elegance," add a concrete gesture, a precise material, a motivated light source, and a specific emotional moment.
+
+## Avoid Generic Classical Beauty
+
+For 古典东方美人, 宋韵, 唐宫, 江南, 洛神, 青瓷, 昆曲, 仕女, or 闺阁, check:
+
+- Is one classical route driving the image?
+- Is the image classical without automatically becoming mythic fantasy?
+- Are line, fabric, gesture, face temperament, light, and atmosphere doing the beauty work?
+- Does the scene have cultural taste without turning into costume cosplay or tourist photography?
+- Is gauze used as atmosphere or layering, not revealing fabric?
+
+If the prompt is too plain, add one poetic visual device: rain reflection, water mirror, tea steam, porcelain moonlight, flower-window shadow, bamboo shadow, lantern in snow, or spring curtain light.
+
 ## Avoid Generic Modern Beauty
 
 For 写实, 现代, 摄影, 杂志, 新中式, 东方高级感, check:
