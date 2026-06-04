@@ -26,6 +26,7 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | 龙女, 海潮, 珍珠, 水下, 琉璃 | `tide-dragon-court` | Keep hanfu-derived silhouette; no mermaid tail unless requested. |
 | 莲灯, 梦境, 镇邪, 符箓, 镜湖 | `lotus-dream-exorcist` | Lyrical supernatural tension, not gore horror. |
 | 凤凰, 宫廷, 女王, 红金, 火焰 | `phoenix-palace-fire` | Control red/gold density; use one dominant phoenix shape. |
+| 绮罗, 金帐, 红金寝殿, 纱幔, 珠饰, 香雾, 烛火秘仪 | `red-gold-luo-curtain` | Use ornate red-gold palace intimacy; avoid fetish framing, transparent revealing fabric, and extreme poses. |
 | 月宫, 桂树, 炼丹, 银炉, 月镜 | `moon-palace-alchemy` | Combine cold lunar divinity with warm alchemy light. |
 | 青铜, 甲骨, 古城, 祭司, 预言 | `bronze-oracle-city` | Make it epic and archaeological; avoid steampunk. |
 | 浴后, 湿发, 私房, 纯欲, 水汽 | `mist-bath-boudoir` | Keep adult, covered, opaque, and non-voyeuristic. |

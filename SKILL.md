@@ -117,6 +117,7 @@ Read only the reference needed for the current request:
 - `references/prompt-framework.md`: prompt grammar, output templates, model adaptation rules.
 - `references/request-router.md`: short-request intent routing, Chinese trigger phrases, output mode selection, and rewrite handling.
 - `styles/甜系纯欲生活写真.md`: SweetHomeGirl-compatible Chinese style reference for 甜系纯欲生活写真, built around realism, feminine charm, romantic feeling, story moment, and natural pure-desire.
+- `styles/甜系纯欲生活写真-场景素材库.md`: optional SweetHomeGirl micro-scene library for more specific, story-rich, less repetitive lifestyle scenes.
 - `styles/现代东方美人.md`: realistic, modern, new-Chinese-style, fashion editorial, magazine, and cinematic Eastern beauty prompt direction.
 - `styles/东方幻想古风.md`: the primary gu feng / Eastern fantasy style route registry; choose exactly one route for each visual direction.
 - `references/wow-factor-system.md`: first-glance attraction devices, anti-bland upgrades, and route-specific spectacle hooks.

@@ -69,6 +69,13 @@ If a prompt feels ordinary, apply this sequence:
 - Phoenix lantern opens like a small sun, lighting only her face and hands.
 - She stands still while a fire court collapses into controlled sparks around her.
 
+### red-gold-luo-curtain
+
+- A giant painted screen behind her opens into a red-gold palace dream.
+- Hanging jewel chains and incense smoke form a circular halo around her face.
+- Red silk curtains create an S-shaped frame across the foreground and background.
+- A bronze candle stand lights only her gaze, hands, jewelry, and layered silk.
+
 ### moon-palace-alchemy
 
 - A giant moon mirror opens into a second lunar palace behind her.

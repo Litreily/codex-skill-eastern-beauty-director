@@ -81,6 +81,7 @@ overexposed, oversaturated, messy background, duplicate person
 - Avoid transparent clothing used to reveal the body.
 - Avoid "young girl", "schoolgirl", or age-ambiguous sensual language.
 - For beauty-focused prompts, emphasize dignity, expression, styling, and cinematic craft.
+- For red-gold palace boudoir or ornate pure-desire gu feng prompts, use candlelight, incense haze, silk layers, jewelry, carved screens, and dignified gaze; avoid foot-sole foreground, fetish framing, extreme contortion, exposed chest, lingerie, or transparent revealing fabric.
 - For pure-desire or private-chamber prompts, build attraction through gaze, shoulder-neck line, wet hair, opaque silk folds, candlelight, steam, and composition. Do not use nudity, exposed chest, lingerie, voyeuristic framing, or transparent revealing clothing.
 
 ## Mini-Program Prompt Generator Fit
