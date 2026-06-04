@@ -7,6 +7,7 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | User intent | Output mode | What to load |
 |---|---|---|
 | "写提示词", "优化提示词", "扩写", "改得高级" | single prompt | `prompt-framework.md`, route reference, quality control |
+| Chinese parameter block with fields such as `技能 / 风格 / 气质 / 场景 / 服装 / 动作 / 构图 / 生成` | structured call | `structured-call-format.md`, route reference, quality control |
 | "来一组", "10个", "批量", "关键词包" | prompt pack | route reference, `eastern-fantasy-series.md` |
 | "做系列", "人物设定", "世界观", "IP" | series bible + lineup | `eastern-fantasy-series.md`, route reference |
 | "太普通", "没亮点", "不够惊艳", "高级感不够" | rewrite with stronger wow device | `wow-factor-system.md`, `quality-control.md` |
@@ -32,6 +33,18 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | 月宫, 桂树, 炼丹, 银炉, 月镜 | `moon-palace-alchemy` | Combine cold lunar divinity with warm alchemy light. |
 | 青铜, 甲骨, 古城, 祭司, 预言 | `bronze-oracle-city` | Make it epic and archaeological; avoid steampunk. |
 | 浴后, 湿发, 私房, 纯欲, 水汽 | `mist-bath-boudoir` | Keep adult, covered, opaque, and non-voyeuristic. |
+
+## Structured Chinese Calls
+
+When the user provides fields such as `技能 / 风格 / 气质 / 场景 / 服装 / 动作 / 构图 / 生成`:
+
+1. Load `references/structured-call-format.md`.
+2. Treat the block as a complete user interface request, not as prose to rewrite.
+3. Preserve user fields exactly in parameter lock.
+4. Infer missing route, aesthetic, clothing, gesture, light, palette, lens, and negative prompt from the relevant style file.
+5. If a field needs safety rewriting, apply intent-preserving safety rewrite: change only the risky wording, not the scene, temperament, costume class, story relation, or composition.
+6. If `生成: 是`, `生图`, or `直接生成` is present, assemble a safe final prompt and generate the image. Otherwise return prompt first.
+7. Never ask the user to read examples or style docs.
 
 ## Aesthetic-Led Eastern Beauty
 
