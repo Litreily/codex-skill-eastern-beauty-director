@@ -196,6 +196,7 @@ C:\Users\<你的用户名>\.codex\skills\codex-skill-eastern-beauty-director
 - `沧海龙庭-潮汐龙女.md`
 - `莲梦镇邪-莲灯灵使.md`
 - `凤阙宫火-凤凰女王.md`
+- `绮罗金帐-宫廷秘仪.md`
 - `月宫炼华-月镜炼丹师.md`
 - `青铜神谕城-甲骨战巫.md`
 - `雾浴私语-浴后美人.md`
