@@ -22,6 +22,13 @@ Produce prompts that feel directed, specific, and image-ready rather than a list
 10. Adapt wording for the target model. If the user does not specify a model, provide a universal Chinese prompt plus an English prompt suitable for Midjourney/SD-style tools.
 11. Include 2-4 controlled variations when developing a series: route, role, wow device, element, color system, setting, or camera scale.
 
+## Output Ratio System
+
+- Default ratio: `9:16`.
+- Priority: highest.
+- Unless the user explicitly specifies another ratio, all outputs use `9:16`.
+- If the user explicitly specifies another ratio, preserve the user's ratio.
+
 ## Defaults
 
 Use these defaults when the user gives only a short request:
@@ -31,7 +38,6 @@ Use these defaults when the user gives only a short request:
 - Composition: full-body or three-quarter key art, cinematic low angle or heroic medium shot, strong silhouette.
 - Mood: mythic, elegant, dangerous, refined, with a story moment.
 - Quality: high detail, natural skin texture, delicate fabric detail, coherent hands, no text.
-- Aspect ratio: portrait `2:3` unless the user asks for wallpaper, avatar, poster, or banner.
 
 ## Distinctiveness Requirements
 
