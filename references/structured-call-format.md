@@ -24,6 +24,7 @@ Recommended for all Eastern beauty routes:
 Field meanings:
 
 - `技能`: 东方美人, 古典东方美人, 东方幻想古风, 现代东方美人, 甜系纯欲生活写真, or SweetHomeGirl.
+- `技能` can also be 东方美学图鉴 when the user wants a 3:4 小红书 / 博物馆图录感 content system.
 - `风格`: route or broad style, such as 宋韵茶影, 唐宫夜宴, 绮罗金帐, 东方珠宝大片.
 - `气质`: one or two aesthetics, such as 温婉优雅, 成熟妩媚, 高贵成熟, 清冷高贵.
 - `场景`: user-facing scene phrase. If broad, refine it internally.
@@ -130,6 +131,93 @@ Keep the existing lightweight SweetHomeGirl format:
 生成:
 ```
 
+### 东方美学图鉴
+
+Use this format for 小红书图鉴封面、正文页、四大美人、四大才女、十二花神、东方神女、敦煌飞天、朝代服饰、东方器物、东方神话等内容系统。
+
+Keep the same `技能 + 参数字段 + 生成` usage style as other routes. `Type` is supported as a Codex-friendly alias for `页面类型`.
+
+中文优先格式：
+
+```text
+技能: 东方美学图鉴
+
+页面类型: 人物页
+人物:
+朝代:
+身份标签:
+标签:
+引文:
+服装:
+动作:
+主题元素:
+配色:
+生成:
+```
+
+Codex-friendly alias:
+
+```text
+技能: 东方美学图鉴
+
+Type: Character
+Name:
+Dynasty:
+Identity:
+Tags:
+Quote:
+Costume:
+Action:
+MainElement:
+Color:
+生成:
+```
+
+封面：
+
+```text
+技能: 东方美学图鉴
+
+页面类型: 封面
+期数:
+主标题:
+副标题:
+主题元素:
+配色:
+人物:
+生成:
+```
+
+总览页：
+
+```text
+技能: 东方美学图鉴
+
+页面类型: 总览页
+主标题:
+副标题:
+人物:
+布局:
+配色:
+生成:
+```
+
+人物页：
+
+```text
+技能: 东方美学图鉴
+
+页面类型: 人物页
+人物:
+身份标签:
+主题元素:
+内容:
+配色:
+生成:
+```
+
+Timeline / Compare / Knowledge pages can use the same fields plus `时间节点 / 对比对象 / 知识主题` when needed.
+
 ## Inference Rules
 
 When fields are missing:
@@ -144,6 +232,7 @@ When fields are missing:
 4. If `服装` is missing, infer route-appropriate opaque clothing.
 5. If `构图` is missing, default to 大腿以上 for beauty portraits, 全身 for key visuals.
 6. If `生成: 是`, produce the image after prompt assembly unless the request is unsafe or ambiguous.
+7. For 东方美学图鉴, default ratio is `3:4` / `1080x1440`, not global `9:16`.
 
 ## Intent-Preserving Safety Rewrite
 

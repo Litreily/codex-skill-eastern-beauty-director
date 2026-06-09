@@ -21,10 +21,83 @@ Before finalizing, check:
 - Is the lighting named and motivated?
 - Is the color palette restrained?
 - Are modern/cosplay cues excluded?
+- Does the face remain the first visual priority?
+- Is there only one dominant wow device?
+- Are jewelry, pibo, ribbons, particles, murals, embroidery, and background details controlled rather than competing?
+- Does the image have visual breathing room?
 
 If fewer than three of role, artifact, wonder setting, supernatural phenomenon, strict color system, story conflict, or wow device are present, upgrade the prompt before returning it.
 
 If the prompt has many decorative details but no dominant shape or event, remove secondary ornaments and add a single oversized or impossible visual device.
+
+If the prompt solves weak imagery by adding more gold, jewelry, floating particles, embroidery, ribbons, murals, or glow effects, rewrite it with `oriental-visual-discipline.md`: clean face priority, one wow device, controlled ornament density, premium color harmony, and subject-first composition.
+
+## Oriental Visual Discipline
+
+For 东方美人, 东方幻想古风, gu feng, Dunhuang, red-gold palace, mythic, jeweled, mural, candle, silk-curtain, or ornament-heavy routes, check:
+
+- Is the viewer's first read the woman's face and eyes?
+- Is the second read the story moment or action?
+- Are costume, jewelry, pibo, ribbons, particles, murals, and background secondary?
+- Is there one primary light logic instead of glow everywhere?
+- Is the palette clean, with smooth color transitions and no oversaturated red/gold overload?
+- Are there quiet areas or shadow areas that allow the subject to breathe?
+- Does the image read as cinematic Eastern aesthetics rather than AI wallpaper, mobile game splash art, or fantasy poster clutter?
+
+Use these positive controls as hidden prompt guidance when needed:
+
+```text
+cinematic oriental aesthetics, controlled ornament density, elegant visual hierarchy,
+premium costume design, refined fabric layering, natural silk texture,
+clean mineral color palette, smooth color transitions, subtle atmospheric depth,
+harmonious warm lighting, soft facial illumination, natural skin rendering,
+controlled jewelry density, balanced decorative elements, graceful fabric flow,
+clean background treatment, selective detail emphasis, visual breathing room,
+museum-quality color grading, high-end fantasy cinematography,
+subject-first composition, less but better
+```
+
+Use these negatives for ornate Eastern fantasy routes:
+
+```text
+visual clutter, excessive particles, overdecorated costume, too many jewelry layers,
+chaotic ribbons, excessive glowing effects, magic dust everywhere,
+crowded composition, busy background, ornament overload, excessive embroidery,
+oversharpened textures, artificial glow, floating random elements, visual noise,
+multiple focal points, overly saturated red and gold, cheap game character design,
+mobile game splash art, AI fantasy poster style, wallpaper style composition
+```
+
+### Dunhuang Route De-Noise
+
+For `dunhuang-mural-oracle`, enforce:
+
+- clean mural treatment
+- abstract fresco motifs only
+- controlled pigment flow
+- minimal floating particles
+- single wow device priority
+- clean facial area
+- preserve large quiet areas
+- subtle fresco illumination
+- soft desert atmosphere
+- natural mineral pigment transitions
+
+Avoid detailed miniature mural figures, crowded fresco people, excessive ribbons, pigment explosions, and belly-dance styling.
+
+### Red-Gold Luo Curtain De-Noise
+
+For `red-gold-luo-curtain`, enforce:
+
+- controlled red-gold palette
+- limited jewelry count
+- soft candlelight only
+- clean silk surfaces
+- focus on face and fabric
+- preserved shadow areas
+- one jewel-chain halo or one curtain action, not many competing ornaments
+
+Avoid excessive gold reflections, chaotic silk curtains, too many pearl chains, too many candles, random hanging ornaments, busy palace background, mobile game splash art, and AI fantasy poster style.
 
 ## Avoid Generic Eastern Beauty
 
@@ -98,7 +171,10 @@ distorted face, asymmetrical eyes, plastic skin, over-smoothed skin,
 modern clothing, cheap cosplay, zipper, sneakers, phone, microphone,
 generic hanfu photoshoot, plain beauty portrait, western medieval armor,
 japanese shrine, korean hanbok, random cyberpunk neon,
-overexposed, oversaturated, messy background, duplicate person
+overexposed, oversaturated, messy background, duplicate person,
+visual clutter, ornament overload, excessive particles, chaotic ribbons,
+too many jewelry layers, excessive glowing effects, artificial glow,
+multiple focal points, mobile game splash art, AI fantasy poster style
 ```
 
 ## Safety and Taste

@@ -1,1 +1,7 @@
 .codex-remote-attachments/
+__pycache__/
+*.pyc
+
+# Daily automation output belongs to the blog repo unless promoted manually.
+examples/daily/
+images/daily/
