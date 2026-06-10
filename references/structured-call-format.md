@@ -133,7 +133,7 @@ Keep the existing lightweight SweetHomeGirl format:
 
 ### 东方美学图鉴
 
-Use this format for 小红书图鉴封面、正文页、四大美人、四大才女、十二花神、东方神女、敦煌飞天、朝代服饰、东方器物、东方神话等内容系统。
+Use this format for 小红书图鉴封面、正文页、四大美人、四大才女、十二花神、二十四节气、东方神女、敦煌飞天、朝代服饰、历史人物、东方器物、东方神话、东方文化专题等内容系统。
 
 Keep the same `技能 + 参数字段 + 生成` usage style as other routes. `Type` is supported as a Codex-friendly alias for `页面类型`.
 
@@ -146,12 +146,22 @@ Keep the same `技能 + 参数字段 + 生成` usage style as other routes. `Typ
 人物:
 朝代:
 身份标签:
-标签:
+标签1:
+标签2:
+标签3:
 引文:
+小传:
+年龄:
+脸型:
+气质:
+表情:
+发型:
 服装:
 动作:
-主题元素:
-配色:
+专属道具:
+专属背景元素:
+主色:
+情绪:
 生成:
 ```
 
@@ -164,12 +174,22 @@ Type: Character
 Name:
 Dynasty:
 Identity:
-Tags:
+Tag1:
+Tag2:
+Tag3:
 Quote:
+Biography:
+Age:
+FaceShape:
+Temperament:
+Expression:
+Hairstyle:
 Costume:
-Action:
-MainElement:
-Color:
+Pose:
+MainProp:
+BackgroundSymbol:
+MainColor:
+Mood:
 生成:
 ```
 
@@ -180,11 +200,13 @@ Color:
 
 页面类型: 封面
 期数:
-主标题:
+主题:
 副标题:
+代表人物:
+服装:
+动作:
 主题元素:
 配色:
-人物:
 生成:
 ```
 
@@ -194,10 +216,11 @@ Color:
 技能: 东方美学图鉴
 
 页面类型: 总览页
-主标题:
+主题:
 副标题:
 人物:
 布局:
+底部文案:
 配色:
 生成:
 ```
@@ -209,10 +232,24 @@ Color:
 
 页面类型: 人物页
 人物:
+朝代:
 身份标签:
-主题元素:
-内容:
-配色:
+标签1:
+标签2:
+标签3:
+引文:
+小传:
+年龄:
+脸型:
+气质:
+表情:
+发型:
+服装:
+动作:
+专属道具:
+专属背景元素:
+主色:
+情绪:
 生成:
 ```
 
@@ -233,6 +270,8 @@ When fields are missing:
 5. If `构图` is missing, default to 大腿以上 for beauty portraits, 全身 for key visuals.
 6. If `生成: 是`, produce the image after prompt assembly unless the request is unsafe or ambiguous.
 7. For 东方美学图鉴, default ratio is `3:4` / `1080x1440`, not global `9:16`.
+8. For 东方美学图鉴人物页, inherit Character Page Template V4.0 and only replace parameters.
+9. For 东方美学图鉴 prompts, write layout before character description.
 
 ## Intent-Preserving Safety Rewrite
 
