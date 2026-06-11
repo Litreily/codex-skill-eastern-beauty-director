@@ -31,11 +31,46 @@ Produce prompts that feel directed, specific, and image-ready rather than a list
 - If the user explicitly specifies another ratio, preserve the user's ratio.
 - Exception: 东方美学图鉴 cover/content system defaults to `3:4` / `1080x1440` unless the user explicitly specifies another ratio.
 
+## Daily Automation Diversity And QA
+
+When generating daily Eastern Beauty images automatically, do not reuse a small fixed set of routes. Each daily batch must contain five clearly different directions selected from the full skill universe:
+
+- Eastern fantasy / gu feng routes.
+- Classical Eastern beauty routes.
+- Modern Eastern beauty and new-Chinese editorial routes.
+- SweetHomeGirl / realistic lifestyle routes.
+- Eastern aesthetic atlas / Xiaohongshu catalog routes.
+- Original exploration idea seeds that still keep the subject as Eastern beauty.
+
+Rules:
+
+1. No two images in the same daily batch may use the same route family, scene type, outfit logic, camera angle, or dominant prop.
+2. Every default five-image daily batch must include one original exploration idea seed, not a fixed prewritten style. GPT should name the style, infer the scene, design the outfit, decide the story moment, and create the visual hook from that seed.
+3. Exploration ideas may be imaginative, surreal, cinematic, futuristic, mythic, urban, or cross-genre, but they must remain tasteful, subject-first, and visually coherent.
+4. Every woman in daily image prompts must be an adult young East Asian woman age `20-26`, unless the user explicitly requests another adult age range.
+5. Avoid old-looking, matronly, overly severe, or age-ambiguous styling. Mature temperament means composure, not older age.
+6. Every prompt must state a concrete story moment, visible hand action, gaze target, and one dominant visual hook.
+7. Every object must be semantically locked: a cup remains a cup, a fan remains a fan, a lantern remains a lantern, a book remains a book, a flower bouquet remains flowers. Do not let props morph into chains, jewelry, ribbons, scenery, or random ornaments.
+8. Face integrity has highest priority: no scenery, water, buildings, flowers, chains, cups, ornaments, or texture patterns may appear inside the face, eyes, mouth, or skin area.
+9. Keep visual hierarchy: face and eyes first, story moment second, costume and environment third.
+10. If a generated candidate has broken face, object morphing, prop fusion, body distortion, or severe semantic drift, reject it and regenerate with a simpler prompt, fewer ornaments, a clearer prop phrase, and stronger negative constraints.
+
+Daily automation shared negative prompt additions:
+
+```text
+scenery inside face, landscape on face, object fused with face, cup turning into chain,
+prop morphing, object mutation, jewelry replacing prop, random chain objects,
+deformed prop, melted object, broken cup, lantern becoming jewelry,
+flowers fused into skin, fabric fused into hands, distorted facial features,
+asymmetrical eyes, extra face details, old-looking face, matronly styling,
+age drift, overly severe mature face, duplicate focal subject
+```
+
 ## Defaults
 
 Use these defaults when the user gives only a short request:
 
-- Character: adult Chinese/Eastern fantasy heroine, dignified, powerful, not sexualized.
+- Character: adult Chinese/Eastern fantasy heroine, age 20-26 by default, dignified, powerful, not sexualized.
 - Subgenre: Eastern fantasy series key visual with one mythic role and one memorable visual hook unless the user asks for realistic, modern, fashion, or portrait photography.
 - Composition: full-body or three-quarter key art, cinematic low angle or heroic medium shot, strong silhouette.
 - Mood: mythic, elegant, dangerous, refined, with a story moment.

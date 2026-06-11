@@ -177,6 +177,25 @@ too many jewelry layers, excessive glowing effects, artificial glow,
 multiple focal points, mobile game splash art, AI fantasy poster style
 ```
 
+## Daily Automation Failure Guard
+
+For automated daily Eastern Beauty image batches, reject or regenerate candidates with any of these issues:
+
+- The batch only covers familiar old routes and misses newer systems such as 东方美学图鉴, modern Eastern editorial, SweetHomeGirl, or exploratory Eastern beauty.
+- Any subject looks older than 26, matronly, overly severe, or age-ambiguous.
+- The face contains scenery, water, flowers, buildings, ornaments, cup shapes, chains, fabric patterns, or other non-face textures.
+- A named prop mutates into another object, such as a cup becoming a chain, a bouquet becoming hair, a lantern becoming jewelry, or a fan becoming background texture.
+- The prompt includes too many decorative nouns and no single dominant visual hook.
+- The background steals attention from the face, eyes, and story moment.
+
+Repair sequence:
+
+1. Simplify the scene and reduce secondary ornaments.
+2. Re-state `adult young East Asian woman age 20-26`.
+3. Re-state the exact prop identity using "must remain a clear [object]".
+4. Add face-integrity negatives: `scenery inside face, object fused with face, landscape on skin, distorted facial features`.
+5. Regenerate with the same route only after preserving the original style, scene, outfit, action, and composition.
+
 ## Safety and Taste
 
 - Keep the character adult and avoid sexualized framing.
