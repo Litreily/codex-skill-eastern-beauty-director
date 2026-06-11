@@ -196,6 +196,16 @@ Repair sequence:
 4. Add face-integrity negatives: `scenery inside face, object fused with face, landscape on skin, distorted facial features`.
 5. Regenerate with the same route only after preserving the original style, scene, outfit, action, and composition.
 
+Daily publishing transaction rules:
+
+- Use the Asia/Shanghai date for every `YYYY-MM-DD` value, post date, image directory, and asset reference.
+- Never overwrite an existing `source/_posts/YYYY-MM-DD-daily-eastern-beauty.md` post during an automated run. If the post exists, stop and report that the daily post already exists.
+- Generate and verify all five real image files before writing the final Hexo post. Prompt-only placeholders are not valid daily output.
+- Keep draft parameters, prompt summaries, and QA notes in a staging location until all images exist and pass the minimum checks.
+- If image generation, file writing, Hexo generation, image compression, or deploy fails, stop and do not leave a final post without matching images.
+- Verify that every Markdown image path points to an existing file under `source/assets/ai/eastern-beauty/YYYY-MM-DD/`.
+- Run image compression after `hexo generate` and before `hexo deploy` with Node.js 18 or newer.
+
 ## Safety and Taste
 
 - Keep the character adult and avoid sexualized framing.

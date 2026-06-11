@@ -337,6 +337,7 @@ def main() -> None:
     parser.add_argument("--date", default=None, help="YYYY-MM-DD, defaults to today")
     parser.add_argument("--count", type=int, default=5)
     parser.add_argument("--output-dir", default="examples/daily")
+    parser.add_argument("--force", action="store_true", help="overwrite an existing daily post")
     args = parser.parse_args()
 
     day = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
@@ -345,6 +346,8 @@ def main() -> None:
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / f"{day.isoformat()}-daily-eastern-beauty.md"
+    if output_file.exists() and not args.force:
+        raise SystemExit(f"Refusing to overwrite existing daily post: {output_file}")
     output_file.write_text(build_markdown(day, routes), encoding="utf-8")
     print(output_file)
 
