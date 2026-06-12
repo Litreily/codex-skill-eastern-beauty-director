@@ -30,6 +30,7 @@ Produce prompts that feel directed, specific, and image-ready rather than a list
 - Unless the user explicitly specifies another ratio, all outputs use `9:16`.
 - If the user explicitly specifies another ratio, preserve the user's ratio.
 - Exception: 东方美学图鉴 cover/content system defaults to `3:4` / `1080x1440` unless the user explicitly specifies another ratio.
+- Daily automation exception to the exception: every daily image must use `9:16`, including 东方美学图鉴 routes. Convert atlas pages into 9:16 vertical atlas-poster variants instead of generating 3:4 catalog pages.
 
 ## Daily Automation Diversity And QA
 
@@ -63,6 +64,8 @@ Daily automation execution rules:
 4. For Hexo validation, compression, deploy, and blog git operations, use WSL commands in the Hexo repo, not Windows-native shell fallbacks.
 5. After successful image generation and path validation, commit only the daily post and its daily image directory in the blog repo. Do not modify or commit `package.json`, `push.sh`, build scripts, or unrelated blog files.
 6. Push the blog source commit after validation and deployment. A daily automation run is not complete until both deployment and blog source push succeed.
+7. Daily image ratio is always `9:16`. If a route such as 东方美学图鉴 normally uses 3:4, convert it into a 9:16 daily-poster variant.
+8. Do not rely on the image model to render accurate Chinese text. For atlas/title routes, keep a clean title area in the generated image and use post-processing text overlay when accurate words such as `二十四节气` or a specific solar term are required.
 
 Daily automation shared negative prompt additions:
 

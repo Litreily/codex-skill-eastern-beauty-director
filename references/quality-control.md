@@ -200,6 +200,8 @@ Daily publishing transaction rules:
 
 - Use the Asia/Shanghai date for every `YYYY-MM-DD` value, post date, image directory, and asset reference.
 - Create the daily route plan with `scripts/daily_eastern_beauty_generator.py` and follow that plan exactly. The automation must not choose the same old route families from memory.
+- Every daily image must be `9:16`, including 东方美学图鉴 routes. Convert atlas routes into daily 9:16 vertical poster variants instead of using the normal 3:4 catalog ratio.
+- For atlas/title images, do not trust the image model to create readable Chinese. Reserve a clean text zone and use post-processing overlay for required words such as `二十四节气` or a specific solar term.
 - Never overwrite an existing `source/_posts/YYYY-MM-DD-daily-eastern-beauty.md` post during an automated run. If the post exists, stop and report that the daily post already exists.
 - Generate and verify all five real image files before writing the final Hexo post. Prompt-only placeholders are not valid daily output.
 - Keep draft parameters, prompt summaries, and QA notes in a staging location until all images exist and pass the minimum checks.
