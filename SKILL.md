@@ -55,6 +55,15 @@ Rules:
 9. Keep visual hierarchy: face and eyes first, story moment second, costume and environment third.
 10. If a generated candidate has broken face, object morphing, prop fusion, body distortion, or severe semantic drift, reject it and regenerate with a simpler prompt, fewer ornaments, a clearer prop phrase, and stronger negative constraints.
 
+Daily automation execution rules:
+
+1. Generate the daily route plan from `scripts/daily_eastern_beauty_generator.py` before creating images. Do not invent the four fixed routes from memory.
+2. Use the generated plan as the source of truth for style family, style name, scene, outfit, story moment, composition, visual hook, slug, prompt summary, and negative prompt.
+3. The default five-image batch is one original exploration route plus four fixed-family routes chosen by the script's rotation. Do not replace this with the same familiar fantasy/classical/modern/lifestyle set unless the plan says so.
+4. For Hexo validation, compression, deploy, and blog git operations, use WSL commands in the Hexo repo, not Windows-native shell fallbacks.
+5. After successful image generation and path validation, commit only the daily post and its daily image directory in the blog repo. Do not modify or commit `package.json`, `push.sh`, build scripts, or unrelated blog files.
+6. Push the blog source commit after validation and deployment. A daily automation run is not complete until both deployment and blog source push succeed.
+
 Daily automation shared negative prompt additions:
 
 ```text

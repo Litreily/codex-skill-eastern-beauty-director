@@ -199,12 +199,16 @@ Repair sequence:
 Daily publishing transaction rules:
 
 - Use the Asia/Shanghai date for every `YYYY-MM-DD` value, post date, image directory, and asset reference.
+- Create the daily route plan with `scripts/daily_eastern_beauty_generator.py` and follow that plan exactly. The automation must not choose the same old route families from memory.
 - Never overwrite an existing `source/_posts/YYYY-MM-DD-daily-eastern-beauty.md` post during an automated run. If the post exists, stop and report that the daily post already exists.
 - Generate and verify all five real image files before writing the final Hexo post. Prompt-only placeholders are not valid daily output.
 - Keep draft parameters, prompt summaries, and QA notes in a staging location until all images exist and pass the minimum checks.
 - If image generation, file writing, Hexo generation, image compression, or deploy fails, stop and do not leave a final post without matching images.
 - Verify that every Markdown image path points to an existing file under `source/assets/ai/eastern-beauty/YYYY-MM-DD/`.
-- Run image compression after `hexo generate` and before `hexo deploy` with Node.js 18 or newer.
+- Run Hexo validation, compression, deploy, git commit, and git push from WSL in the blog repo.
+- Run image compression after `hexo generate` and before `hexo deploy` with Node.js 18 or newer. In this environment, prefer `/home/litreily/.nvm/versions/node/v22.22.3/bin/node` for `compress-images.mjs`.
+- Commit only `source/_posts/YYYY-MM-DD-daily-eastern-beauty.md` and `source/assets/ai/eastern-beauty/YYYY-MM-DD/`. If `package.json`, `push.sh`, scripts, or unrelated files are modified, stop and report the unexpected dirty files.
+- Push the blog source commit after deployment. Do not report the automation as complete until both `hexo deploy` and `git push` succeed.
 
 ## Safety and Taste
 

@@ -89,6 +89,14 @@ ROUTES: list[Route] = [
 
 ]
 
+FIXED_FAMILY_ORDER = [
+    "东方幻想古风",
+    "古典东方美人",
+    "现代东方美人",
+    "甜系纯欲生活写真",
+    "东方美学图鉴",
+]
+
 
 EXPLORATION_IDEAS: list[ExplorationIdea] = [
     ExplorationIdea(
@@ -169,20 +177,30 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
     for route in ROUTES:
         by_family.setdefault(route.family, []).append(route)
 
-    families = list(by_family)
-    rng.shuffle(families)
+    # Use a deterministic rotation instead of ad hoc random sampling. A five-day
+    # window covers every fixed family, and each family walks through its full
+    # route list before repeating, so daily automation does not collapse back to
+    # the same familiar four styles.
+    ordered_families = [family for family in FIXED_FAMILY_ORDER if family in by_family]
+    if len(ordered_families) >= 5:
+        omitted_index = day.toordinal() % len(ordered_families)
+        families = ordered_families[:omitted_index] + ordered_families[omitted_index + 1 :]
+    else:
+        families = list(by_family)
+        rng.shuffle(families)
 
-    for family in families:
+    for family_index, family in enumerate(families):
         if len(selected) >= count:
             break
-        selected.append(rng.choice(by_family[family]))
+        family_routes = by_family[family]
+        route_index = (day.toordinal() + family_index) % len(family_routes)
+        selected.append(family_routes[route_index])
 
     if len(selected) < count:
         remaining = [route for route in ROUTES if route not in selected]
         rng.shuffle(remaining)
         selected.extend(remaining[: count - len(selected)])
 
-    rng.shuffle(selected)
     return selected[:count]
 
 
