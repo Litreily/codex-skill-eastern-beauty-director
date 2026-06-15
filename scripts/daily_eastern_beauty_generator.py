@@ -72,6 +72,17 @@ ROUTES: list[Route] = [
     Route("现代东方美人", "现代东方美人", "都市晚宴东方", "年轻，高贵，冷静，都市感", "高层酒店窗边，城市夜景，黑金反射地面", "黑金新中式晚装，丝缎长裙，玉石戒指", "她站在落地窗前，手持小杯，从城市灯光中转身", "9比16，全身，城市夜景背景", "窗外城市灯光形成一条书法般的金色反射", "小杯必须保持为杯子，不变成戒指、链条或灯泡", "urban-evening-oriental"),
     Route("现代东方美人", "现代东方美人", "江南现代诗意", "年轻，清润，文艺，东方感", "雨后江南白墙黑瓦街口，现代长廊，水面倒影", "浅灰新中式风衣，白色真丝内搭，低马尾", "她撑伞走过水面倒影，听见你喊她后回头", "9比16，全身，35mm环境人像", "白墙黑瓦在水中形成一条墨线", "伞必须保持为伞，不变成披帛、背景纹或头饰", "jiangnan-modern-poetic"),
 
+    # Gu feng girlfriends / private-room companionship photography routes.
+    Route("古风闺蜜", "古风闺蜜", "闺阁夜话", "温暖，安心，陪伴，生活化，非暧昧", "古代闺阁夜晚，雕花木榻，纱帐，暖黄灯笼，烛火，软枕，丝被", "姐姐月白丝棉家居常服，妹妹藕荷色轻纱外衫，内层丝棉，披帛独立，布料轻薄柔软但覆身", "姐姐替妹妹把滑落的披帛拢好，两人靠近低声说睡前话", "9比16，双人半身，85mm，中近景，人物占75%-85%", "暖黄灯笼光落在两人之间，形成安静的陪伴焦点", "灯笼、软枕、丝被、披帛必须保持独立结构；两人身体边界清晰，不能融合，不能复制粘贴脸", "gufeng-bedtime-talk"),
+    Route("古风闺蜜", "古风闺蜜", "灯下梳发", "照顾，守护，温柔，信任", "闺阁铜镜前，木梳，妆台，灯笼，低垂纱帐，少量月光", "姐姐烟灰蓝宋制家居长衫，妹妹浅樱粉丝棉内衫与薄纱披帛，材质分层清楚", "姐姐一手握木梳为妹妹梳发，妹妹从铜镜里看向姐姐，神态安心", "9比16，双人中近景，50mm，人物优先", "铜镜边缘反射出灯火，让两人的视线关系成为画面中心", "木梳必须保持为木梳，铜镜必须保持为镜子；头发、手指和披帛不能穿模，脸部骨相必须不同", "gufeng-lantern-hair-combing"),
+    Route("古风闺蜜", "古风闺蜜", "同榻共读", "亲近，安静，书卷气，成长感", "雕花木榻，同榻读书，诗集，话本，纸窗暖光，软枕与丝被分层", "姐姐浅青丝绸家居常服，妹妹米白夏季轻衫，外层轻纱有自然垂坠", "两人共捧一本诗集，妹妹指着一行字，姐姐低头轻笑", "9比16，双人半身，85mm，生活抓拍", "书页的暖光把两张不同气质的脸连接在同一条视线里", "诗集必须保持为书，不变成布料、链条或脸部纹理；枕头和身体必须边界清楚，不能融成一团", "gufeng-shared-reading"),
+    Route("古风闺蜜", "古风闺蜜", "夏夜纳凉", "松弛，陪伴，清凉，古代生活感", "湖亭夏夜，荷叶，灯笼，茶具，木栏杆，远处少量月光", "姐姐月白薄纱外衫，妹妹浅青丝棉夏季轻衫，披帛与衣袖独立飘落", "姐姐递茶给妹妹，妹妹扶着团扇回头，两人像刚听见湖面风声", "9比16，双人中景，50mm，人物占75%-85%", "荷叶间的灯笼倒影成为唯一暖色视觉钩子", "茶杯、团扇、灯笼必须保持原物体语义；团扇不能变成花或脸，茶杯不能变成链条", "gufeng-summer-pavilion"),
+    Route("古风闺蜜", "古风闺蜜", "守夜温灯", "守护，安静，依赖，温柔克制", "深夜闺阁，低灯，纱帐，软枕，丝被，少量月光从窗格进入", "姐姐烟灰蓝丝棉常服，妹妹月白寝衣，外层轻纱覆身，丝被与身体边界清晰", "妹妹靠着软枕浅睡，姐姐未睡，轻轻替她整理发丝并温柔注视", "9比16，双人近景，85mm，半身到大腿", "低灯只照亮姐姐的手和妹妹安睡的侧脸", "发丝、手指、枕头、丝被必须保持独立；禁止合脸、重复脸、人物身体融合或枕头穿模", "gufeng-night-watch"),
+    Route("古风闺蜜", "古风闺蜜", "江南湖亭共伞", "依赖，温暖，含蓄，雨中陪伴", "江南湖亭，夏季小雨，荷叶，石桥，水面夕照，细雨倒影", "姐姐雾蓝色棉麻长衫，妹妹月白丝棉轻衫，披帛收拢，雨中衣料有真实重量", "姐姐悄悄把油纸伞偏向妹妹，自己的肩头被雨打湿，妹妹发现后轻轻拉住她的袖口", "9比16，双人中景，85mm，人物占75%-85%", "偏斜的油纸伞和水面夕照共同说明她们的保护关系", "油纸伞必须保持为伞，雨滴和水面必须保持自然；袖口不能变成链条，人物肩膀不能融合", "gufeng-jiangnan-umbrella"),
+    Route("古风闺蜜", "古风闺蜜", "山寺晨行", "成长，信任，清冷温柔，同行感", "山寺清晨，竹林山路，薄雾，石阶，远处钟楼", "姐姐深青棉麻外袍，妹妹浅杏色宋制轻衫，布料朴素有纹理层次", "两人沿石阶同行，姐姐回身伸手扶住妹妹跨过湿滑青苔", "9比16，双人环境人像，50mm，人物主体清晰", "晨雾里的伸手搀扶动作成为第一故事点", "石阶、青苔、手部动作必须清晰；不能变成仙侠飞升、悬浮粒子或神女壁纸", "gufeng-mountain-temple-companions"),
+    Route("古风闺蜜", "古风闺蜜", "灯会重逢", "久别重逢，喜悦，怀旧，节庆温暖", "古代灯会夜市，纸灯笼，古街，人群虚化，摊位暖光", "姐姐茶金色宋锦短披，妹妹浅桃色丝棉长衫，节庆配色克制", "两人在灯会人群中重逢，妹妹刚要开口，姐姐已经认出她并笑着靠近", "9比16，双人近景，135mm，人群背景软焦", "一排纸灯笼在两人之间形成重逢路径", "纸灯笼必须保持为灯笼，人群必须虚化为背景；不能出现重复脸、第三主体抢戏或灯笼变首饰", "gufeng-lantern-reunion"),
+    Route("古风闺蜜", "古风闺蜜", "书肆听雨", "知己，安静，书卷气，雨天陪伴", "古代书肆，雨窗，木书架，竹帘，矮桌，茶盏", "姐姐墨蓝色棉麻长衫，妹妹浅绿丝棉内衫，衣料干净朴素", "两人共读同一本话本，窗外雨声变大时一起抬头听雨", "9比16，双人半身，85mm，室内自然窗光", "雨窗反光把两人的视线连接到同一处", "书必须保持为书，茶盏必须保持为杯盏；雨窗反光不能进入脸部或眼睛", "gufeng-bookstore-listening-rain"),
+
     # SweetHomeGirl / lifestyle routes.
     Route("甜系纯欲生活写真", "甜系纯欲生活写真", "人民广场迎面走来", "甜系，自然，恋爱感，真实", "人民广场，夏日城市街头，斑马线，树影", "浅蓝露肩短袖，白色轻盈短裙，手提小包，耳机", "她迎面走来，发现你在看她后不经意浅笑", "9比16，大腿以上", "人流里只有她的眼神和浅笑最清晰", "耳机和小包必须保持为配饰，不变成链条、手指或背景线", "people-square-sweet"),
     Route("甜系纯欲生活写真", "甜系纯欲生活写真", "雨后街角花店", "甜系，亲近，自然，轻微恋爱感", "蓝调时刻街角花店，雨后路面，暖色灯泡", "水洗牛仔外套，奶油色吊带长裙，白色球鞋", "她抱着刚包好的花束，发现你在街对面等她后浅笑", "9比16，大腿以上，街边近距离", "雨滴里的暖色灯泡倒影像一排小灯笼", "花束必须保持为鲜花和包装纸，不变成链条、头发、手指或背景装饰", "flower-shop-bluehour"),
@@ -93,6 +104,7 @@ FIXED_FAMILY_ORDER = [
     "东方幻想古风",
     "古典东方美人",
     "现代东方美人",
+    "古风闺蜜",
     "甜系纯欲生活写真",
     "东方美学图鉴",
 ]
@@ -138,6 +150,94 @@ EXPLORATION_IDEAS: list[ExplorationIdea] = [
 ]
 
 
+EXPLORATION_DETAIL_AXES = {
+    "style_name": [
+        "纸月车站",
+        "青瓷雨廊",
+        "竹影玻璃城",
+        "漆光候鸟馆",
+        "玉雾电梯井",
+        "墨色潮汐室",
+        "桂影天桥",
+        "铜镜冷光",
+        "宣纸风场",
+        "莲灯地下街",
+    ],
+    "aesthetic": [
+        "现代生活空间里出现极克制的东方诗性异常，真实摄影优先",
+        "传统材料被放入当代空间，人物像刚刚发现空间发生变化",
+        "轻微未来感与东方器物共存，但不走赛博朋克和游戏海报",
+        "普通场景被一种东方材料气质重新染色，保持安静、年轻、电影感",
+        "一个不存在的东方地理边界出现在日常路径上，人物正在经过它",
+    ],
+    "scene": [
+        "雨后城市连廊，玻璃墙外有青瓷色水光，远处行人虚化",
+        "深夜便利店冷柜前，货架尽头出现一面铜镜般的柔光反射",
+        "旧书店后门小巷，宣纸一样的白色雾气从门缝里飘出",
+        "现代地铁出口的长楼梯，灯箱光被竹影切成细长斑纹",
+        "海边公交站，候车亭玻璃上映出不存在的月门和莲灯",
+        "安静美术馆侧厅，漆黑展墙前只有一件发光的玉质器物",
+        "清晨天桥，浅雾和城市高楼之间出现一条水墨般的风带",
+        "老式电梯厅，金属门反射出一座很远的东方庭院",
+    ],
+    "outfit": [
+        "米白棉麻短衫，浅青长裙，低马尾，少量玉色配饰",
+        "象牙白衬衫，墨绿色马甲，宽松半裙，黑发半挽",
+        "浅灰针织短上衣，青瓷色伞裙，薄纱披肩但不透明",
+        "月白真丝衬衫，深茶色阔腿裤，细玉扣耳饰",
+        "淡杏色轻外套，白色内搭，浅色长裙，帆布鞋",
+        "雾蓝棉麻上衣，米白半裙，简单发簪，生活化",
+    ],
+    "story": [
+        "她正伸手触碰一件异常发光的东方器物，听见你叫她后回头",
+        "她走到空间边界前停下，手里的小物件和远处光影产生呼应",
+        "她刚推开门，风把发丝和衣角轻轻带起，像看见了不可思议的一幕",
+        "她低头确认手中道具，又抬眼看向镜头，表情介于惊讶和温柔之间",
+        "她从人群旁经过，忽然被一束不合常理但很安静的东方光线吸引",
+        "她将手中道具递到一半，环境里的异象刚刚出现",
+    ],
+    "hook": [
+        "一圈像月门一样的柔光，只在人物身后半边出现",
+        "青瓷色水光沿地面延伸，像一条很窄的河",
+        "铜镜反射出另一个不存在的东方庭院",
+        "竹影在玻璃上形成书法般的斜线",
+        "一盏莲灯出现在现代空间的远处尽头",
+        "宣纸雾气从门缝或窗边轻轻展开",
+        "玉质器物发出低亮度冷光，成为唯一奇观点",
+        "城市灯箱被墨色风带切开，形成安静的留白",
+    ],
+    "prop": [
+        "白瓷杯",
+        "小开本旧书",
+        "青瓷色雨伞",
+        "单枝白花",
+        "玉质小盒",
+        "纸质车票",
+        "竹柄团扇",
+        "透明玻璃水瓶",
+    ],
+}
+
+
+def _exploration_pick(options: list[str], idea: ExplorationIdea, day: dt.date, salt: int) -> str:
+    seed = day.toordinal() + sum(ord(char) for char in idea.slug) + salt
+    return options[seed % len(options)]
+
+
+def exploration_summary(idea: ExplorationIdea, day: dt.date) -> dict[str, str]:
+    prop = _exploration_pick(EXPLORATION_DETAIL_AXES["prop"], idea, day, 23)
+    return {
+        "style_name": _exploration_pick(EXPLORATION_DETAIL_AXES["style_name"], idea, day, 3),
+        "aesthetic": _exploration_pick(EXPLORATION_DETAIL_AXES["aesthetic"], idea, day, 5),
+        "scene": _exploration_pick(EXPLORATION_DETAIL_AXES["scene"], idea, day, 7),
+        "outfit": _exploration_pick(EXPLORATION_DETAIL_AXES["outfit"], idea, day, 11),
+        "story": _exploration_pick(EXPLORATION_DETAIL_AXES["story"], idea, day, 13),
+        "hook": _exploration_pick(EXPLORATION_DETAIL_AXES["hook"], idea, day, 17),
+        "prop": prop,
+        "prop_lock": f"{prop}必须保持为清晰可识别的原物体，不得变成链条、首饰、脸部纹理、背景噪声或随机装饰。",
+    }
+
+
 COMMON_NEGATIVE = (
     "low quality, low resolution, blurry, jpeg artifacts, watermark, text, logo, "
     "bad anatomy, bad hands, extra fingers, missing fingers, fused fingers, "
@@ -150,18 +250,238 @@ COMMON_NEGATIVE = (
 )
 
 
-def exploration_route(idea: ExplorationIdea) -> Route:
+VARIANT_AXES = {
+    "face": [
+        "鹅蛋脸，清冷眉眼，淡妆",
+        "圆润鹅蛋脸，柔和杏眼，低饱和唇色",
+        "偏长鹅蛋脸，沉静眼神，自然眉形",
+        "方圆脸，端正骨相，温柔但有主见",
+        "小圆脸，明亮眼睛，干净亲和",
+        "窄鹅蛋脸，细长眼尾，气质更疏离",
+        "柔和方圆脸，眉眼舒展，成熟温婉",
+        "饱满鹅蛋脸，眼神明亮，少女感但成年",
+        "高颧骨轻熟脸，眼神克制，轮廓清晰",
+        "圆中带长的脸型，眉眼柔软，安静亲近",
+    ],
+    "hair": [
+        "低盘发，少量碎发贴近脸侧",
+        "半挽发，发尾自然垂落",
+        "高髻但发饰克制",
+        "低马尾或松散发髻，生活化",
+        "黑发顺直，发丝被风轻轻带起",
+        "侧分长发，耳侧一缕碎发",
+        "松散双环髻，发饰极少",
+        "湿润空气里的微乱发丝",
+        "低髻配一支素簪",
+        "长发半披，发尾压在肩前",
+    ],
+    "time": [
+        "清晨薄光",
+        "午后斜光",
+        "雨后蓝调时刻",
+        "黄昏暖光",
+        "夜晚灯火",
+        "月光与低灯混合",
+    ],
+    "weather": [
+        "晴天微风",
+        "阴天柔光",
+        "细雨",
+        "薄雾",
+        "雪后反光",
+        "潮湿空气",
+    ],
+    "camera": [
+        "平视中近景，眼神优先",
+        "轻微低机位，保留人物气场",
+        "肩后视角，强调正在发生的瞬间",
+        "长焦压缩背景，主体更突出",
+        "近距离抓拍，保留生活感",
+        "侧前方三分之四角度，保留动作关系",
+        "门框或窗框前景遮挡，制造窥见瞬间但不偷窥",
+        "人物略偏画面一侧，留出故事方向",
+        "手部和道具在前景，脸部仍最清晰",
+        "半身近景，背景只保留柔和形状",
+    ],
+    "gesture": [
+        "手指停在动作中途，不要摆拍完成态",
+        "听见脚步声后微微回头",
+        "整理袖口或衣摆，动作自然",
+        "视线先看向道具，再看向镜头",
+        "被叫住的一瞬间，表情刚刚变化",
+    ],
+    "palette": [
+        "月白、淡青、少量香槟金",
+        "雾蓝、米白、温润木色",
+        "浅杏、茶金、低饱和朱砂",
+        "墨蓝、暖灰、烛火金",
+        "浅绿、宣纸白、淡墨灰",
+        "藕荷、烟灰蓝、旧木色",
+        "雪白、深青、冷银灰",
+        "淡粉、米白、雨后青石灰",
+        "暖玉白、浅绛红、低亮金",
+        "青瓷绿、象牙白、浅茶色",
+    ],
+    "prop": [
+        "单一主道具，背景道具只做软焦",
+        "增加一个小型生活道具，但不得抢脸",
+        "道具靠近手部，语义必须清晰",
+        "道具放在前景边缘，形成空间层次",
+        "道具只保留一件高光物，避免堆叠",
+    ],
+    "scene": [
+        "把主场景切到入口、窗边、廊下或转角，不总在正中央",
+        "加入一个可感知的远处次空间，如院门、街口、屏风后或水面尽头",
+        "使用前景遮挡建立空间层次，但不得遮住脸和眼睛",
+        "让人物处在移动路径上，如经过门槛、桥边、窗前或桌边",
+        "把环境压缩为少量关键形状，避免背景铺满细节",
+        "使用一个局部生活角落，而不是完整大场景展示",
+        "让场景中存在明确方向感：她正在走来、离开、回头或停下",
+        "把背景主符号放在侧后方，人物仍是第一视觉焦点",
+    ],
+    "outfit": [
+        "改变上装轮廓：短衫、薄外衫、披帛、衬衫或家居常服中择一",
+        "改变下装轮廓：长裙、短裙、阔腿裤、曲裾下摆或轻便短裤中择一",
+        "强调一种真实材质：丝、棉麻、绡纱、针织、牛仔、宋锦或宣纸感纹理",
+        "服装层次保持两层以内，避免堆满珠宝、披帛和复杂纹样",
+        "让衣料有真实重量和垂坠，不能像塑料片或游戏皮肤",
+        "用一处小面积主题色改变气质，主体服装仍保持克制",
+        "穿搭必须服务故事动作，比如便于行走、递茶、翻书、撑伞或回眸",
+        "避免沿用上一张的固定白裙、红金礼服或黑金晚装套路",
+    ],
+    "story": [
+        "故事触发点来自外部声音：有人叫她、风吹动门帘、雨声突然变大",
+        "故事触发点来自手中物：书页停住、茶杯递到一半、花束刚被接过",
+        "故事触发点来自关系互动：等待、照顾、回应、重逢或同行",
+        "故事触发点来自环境变化：灯火亮起、云影移动、雨停、月光落下",
+        "人物不是展示服装，而是在完成一个生活动作的中途",
+        "画面必须能用一句话说清正在发生什么",
+        "优先保留未完成瞬间：将要开口、刚刚回头、手还停在半空",
+        "叙事不能只写美貌，要写事件、动作和视线目标",
+    ],
+    "composition": [
+        "大腿以上，脸、手、主道具同时清楚",
+        "半身近景，眼神和手部动作优先",
+        "全身竖构图，但人物高度必须占画面70%以上",
+        "双人关系图时两人形成斜线，不要并排证件照",
+        "人物偏左或偏右三分之一，给动作方向留空间",
+        "前景道具只占边缘，不能压住脸",
+        "低机位或平视二选一，不使用夸张超广角",
+        "画面第一眼看脸，第二眼看动作，第三眼看场景",
+    ],
+    "visual_hook": [
+        "一个清晰主视觉钩子：光、伞、团扇、书页、花影、帘幕或水面倒影只能选一个",
+        "主视觉钩子必须和人物动作发生关系，不做纯背景装饰",
+        "如果有金色、珠宝或灯火，只保留一处高光",
+        "如果有花、云纹或壁画，只做低透明背景气氛",
+        "钩子要帮助叙事：说明她为什么停下、回头、抬眼或伸手",
+        "不要让钩子变成满屏粒子、满屏纹样或随机发光物",
+    ],
+    "environment_motion": [
+        "微风带动发丝和衣摆，幅度克制",
+        "雨滴、雾气或水面反光只做空气感",
+        "帘幕、树影或灯火轻微移动，制造被抓拍感",
+        "背景人群或远景保持软焦，不形成第二主体",
+        "环境运动必须解释故事瞬间，而不是制造视觉噪声",
+    ],
+}
+
+
+FAMILY_VARIANTS = {
+    "东方幻想古风": [
+        "减少珠宝和粒子，只保留一个奇观装置",
+        "把奇观放到远景，脸部保持干净",
+        "强化动作链，让神性来自事件而不是装饰",
+        "使用更冷静的矿物色调，避免红金过载",
+    ],
+    "古典东方美人": [
+        "强化古典生活瞬间，减少舞台感",
+        "用器物和手势讲故事，避免只站着看镜头",
+        "服装更日常、更有真实布料重量",
+        "背景只保留一处文化符号，避免满屏装饰",
+    ],
+    "现代东方美人": [
+        "偏写实杂志抓拍，避免商业大片摆拍",
+        "增加城市或室内生活细节，弱化棚拍感",
+        "换成更自然的动作，不要固定珠宝特写套路",
+        "使用真实环境光，减少高反差广告光",
+    ],
+    "古风闺蜜": [
+        "关系动作必须变化，不能总是坐着聊天",
+        "两人一动一静，形成照顾或回应关系",
+        "脸型、发型和服装色相必须明显区分",
+        "背景服务两人关系，不做仙侠奇观",
+    ],
+    "甜系纯欲生活写真": [
+        "强化真实生活抓拍，避免固定女友视角模板",
+        "改变人脸风格、发型和小动作",
+        "穿搭只保留生活化，不做网红封面",
+        "用环境小事件制造故事，而不是单纯站姿",
+    ],
+    "东方美学图鉴": [
+        "保持图鉴版式，但更换纸张肌理和主元素",
+        "标题区只留干净区域，文字后期叠加",
+        "人物动作和道具每次变化，避免同构图套壳",
+        "主色跟随主题变化，避免固定米白金色模板",
+    ],
+}
+
+
+def _variant_pick(options: list[str], day: dt.date, route: Route, position: int, salt: int) -> str:
+    slug_score = sum(ord(char) for char in route.slug)
+    family_score = sum(ord(char) for char in route.family)
+    step = 1
+    for candidate in (3, 5, 7, 2):
+        if len(options) % candidate != 0:
+            step = candidate
+            break
+    index = (day.toordinal() + slug_score + family_score + position * step + salt) % len(options)
+    return options[index]
+
+
+def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
+    if day is None:
+        return ""
+    family_notes = FAMILY_VARIANTS.get(route.family, [])
+    family_note = (
+        _variant_pick(family_notes, day, route, position, 3)
+        if family_notes
+        else "在不改变核心路线的前提下制造新的日常瞬间"
+    )
+    parts = [
+        f"当日变体锁定：{family_note}",
+        f"脸部差异：{_variant_pick(VARIANT_AXES['face'], day, route, position, 5)}",
+        f"发型变化：{_variant_pick(VARIANT_AXES['hair'], day, route, position, 11)}",
+        f"时间光线：{_variant_pick(VARIANT_AXES['time'], day, route, position, 17)}",
+        f"天气空气：{_variant_pick(VARIANT_AXES['weather'], day, route, position, 23)}",
+        f"镜头变化：{_variant_pick(VARIANT_AXES['camera'], day, route, position, 29)}",
+        f"动作微差：{_variant_pick(VARIANT_AXES['gesture'], day, route, position, 31)}",
+        f"当日色彩：{_variant_pick(VARIANT_AXES['palette'], day, route, position, 37)}",
+        f"道具策略：{_variant_pick(VARIANT_AXES['prop'], day, route, position, 41)}",
+        f"场景变体：{_variant_pick(VARIANT_AXES['scene'], day, route, position, 43)}",
+        f"穿搭变体：{_variant_pick(VARIANT_AXES['outfit'], day, route, position, 47)}",
+        f"叙事变体：{_variant_pick(VARIANT_AXES['story'], day, route, position, 53)}",
+        f"构图变体：{_variant_pick(VARIANT_AXES['composition'], day, route, position, 59)}",
+        f"主视觉钩子：{_variant_pick(VARIANT_AXES['visual_hook'], day, route, position, 61)}",
+        f"环境运动：{_variant_pick(VARIANT_AXES['environment_motion'], day, route, position, 67)}",
+        "变体约束：保留原路线的核心身份，但人物、场景子空间、穿搭轮廓、叙事触发点、动作、镜头、光线、色调、主视觉钩子和副道具必须与上次明显不同。",
+    ]
+    return "；".join(parts)
+
+
+def exploration_route(idea: ExplorationIdea, day: dt.date) -> Route:
+    detail = exploration_summary(idea, day)
     return Route(
         family="探索路线",
         skill="东方美人",
-        style=f"原创探索思路：{idea.title}",
-        temperament="由GPT根据探索思路自行推导，必须保持年轻、东方美人主体、20-26岁",
-        scene=f"由GPT根据探索思路自行发明：{idea.brief}",
-        outfit="由GPT自行设计，要求东方审美、人物优先、不过度暴露、不落入固定古风模板",
-        action="由GPT自行设计一个正在发生的故事瞬间，必须有明确手部动作和视线目标",
-        composition="默认9比16；由GPT在全身、大腿以上、上半身或特写中选择最适合的一种",
-        visual_hook="由GPT自行设计一个唯一主视觉钩子；必须新鲜、清晰、可被一句话概括",
-        prop_lock=f"开放探索约束：{idea.constraint} 同时所有具体道具一旦生成，必须保持原物体语义，不得变形为链条、皮肤纹样或脸部噪声",
+        style=f"原创探索：{detail['style_name']}（探索种子：{idea.title}）",
+        temperament=f"20-26岁年轻成年东亚女性，{detail['aesthetic']}，人物真实、脸和眼睛优先",
+        scene=f"{detail['scene']}。探索来源：{idea.brief}",
+        outfit=f"{detail['outfit']}。穿搭要求东方审美、生活可信、不过度暴露、不套用固定古风模板",
+        action=f"{detail['story']}。手中道具：{detail['prop']}",
+        composition="9比16，人物主体占画面60%以上；按故事在全身、大腿以上、上半身或特写中选择最合适景别",
+        visual_hook=detail["hook"],
+        prop_lock=f"开放探索约束：{idea.constraint} {detail['prop_lock']}",
         slug=idea.slug,
     )
 
@@ -171,7 +491,7 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
 
     selected: list[Route] = []
     if count > 0:
-        selected.append(exploration_route(rng.choice(EXPLORATION_IDEAS)))
+        selected.append(exploration_route(rng.choice(EXPLORATION_IDEAS), day))
 
     by_family: dict[str, list[Route]] = {}
     for route in ROUTES:
@@ -181,19 +501,23 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
     # window covers every fixed family, and each family walks through its full
     # route list before repeating, so daily automation does not collapse back to
     # the same familiar four styles.
+    fixed_slots = max(count - len(selected), 0)
     ordered_families = [family for family in FIXED_FAMILY_ORDER if family in by_family]
-    if len(ordered_families) >= 5:
-        omitted_index = day.toordinal() % len(ordered_families)
-        families = ordered_families[:omitted_index] + ordered_families[omitted_index + 1 :]
+    if ordered_families:
+        start_index = day.toordinal() % len(ordered_families)
+        rotated_families = ordered_families[start_index:] + ordered_families[:start_index]
+        families = rotated_families[:fixed_slots]
     else:
         families = list(by_family)
         rng.shuffle(families)
 
-    for family_index, family in enumerate(families):
+    family_order_index = {family: index for index, family in enumerate(FIXED_FAMILY_ORDER)}
+    for family in families:
         if len(selected) >= count:
             break
         family_routes = by_family[family]
-        route_index = (day.toordinal() + family_index) % len(family_routes)
+        route_seed = family_order_index.get(family, 0) * 3
+        route_index = (day.toordinal() + route_seed) % len(family_routes)
         selected.append(family_routes[route_index])
 
     if len(selected) < count:
@@ -204,7 +528,8 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
     return selected[:count]
 
 
-def prompt_for(route: Route) -> str:
+def prompt_for(route: Route, day: dt.date | None = None, position: int = 0) -> str:
+    variant = daily_variant(route, day, position)
     if route.family == "探索路线":
         return (
             "开放原创探索任务。请不要复用现有固定风格名，不要直接套用唐宫、宋韵、敦煌、赛博等既有模板。"
@@ -214,6 +539,23 @@ def prompt_for(route: Route) -> str:
             "最终画面必须仍然是东方美人主题：年轻成年东亚女性，年龄20-26岁，脸和眼睛第一优先，"
             "人物占画面60%以上，皮肤真实自然，主体清晰，背景服务人物，装饰密度受控。"
             f"物体语义锁定：{route.prop_lock}。"
+            f"{variant}。"
+        )
+    if route.family == "古风闺蜜":
+        return (
+            "AncientFemaleCompanionship，古代中国女性陪伴真人摄影，两个成年东亚女性，年龄20-28岁，"
+            "关系可以是姐妹、闺蜜、青梅旧友、同行旅伴、同门师姐妹、知己、书友或茶友。"
+            "重点是陪伴、守护、依赖、信任、成长、重逢或离别，不是百合恋爱海报，不是挑逗，不是仙侠海报。"
+            f"技能路线为{route.skill}，风格为{route.style}。"
+            f"气质：{route.temperament}。场景：{route.scene}。服装：{route.outfit}。"
+            f"互动瞬间：{route.action}。构图：{route.composition}。"
+            f"主视觉钩子：{route.visual_hook}。"
+            "必须真实摄影质感，35mm、50mm、85mm或135mm，镜头服务关系和故事，光线柔和自然，有情绪层次，"
+            "两位人物脸部骨相不同，不能复制粘贴脸；肩膀有厚度，手臂有肉感，腰胯自然过渡，整体健康丰润。"
+            "布料必须是桑蚕丝、丝棉、轻纱、软烟罗或缎面丝绸的分层结构，内层、外层、披帛、床品、枕头彼此独立。"
+            "人物占画面75%-85%，人物边界清晰，背景服务人物，禁止魔法光效、HDR、影楼写真和游戏宣传图。"
+            f"物体语义锁定：{route.prop_lock}。"
+            f"{variant}。"
         )
     return (
         f"年轻成年东亚女性，年龄20-26岁，{route.temperament}。"
@@ -224,21 +566,25 @@ def prompt_for(route: Route) -> str:
         "脸和眼睛是第一视觉重点，人物占画面60%以上，皮肤真实自然，"
         "主体清晰，背景服务人物，装饰密度受控。"
         f"物体语义锁定：{route.prop_lock}。"
+        f"{variant}。"
     )
 
 
-def structured_block(route: Route) -> str:
+def structured_block(route: Route, day: dt.date | None = None, position: int = 0) -> str:
+    variant = daily_variant(route, day, position)
     if route.family == "探索路线":
         return (
             "技能: 东方美人\n"
-            "风格: 原创探索，由GPT自行命名\n"
-            f"探索思路: {route.scene.removeprefix('由GPT根据探索思路自行发明：')}\n"
+            f"风格: {route.style}\n"
+            f"审美方向: {route.temperament}\n"
             "人群: 20-26岁年轻成年东亚女性\n"
-            "场景: 由GPT自行发明\n"
-            "服装: 由GPT自行设计，保留东方审美与人物主体\n"
-            "动作: 由GPT自行设计一个正在发生的故事瞬间\n"
-            "构图: 9比16，GPT自行选择全身/大腿以上/上半身/特写\n"
-            "要求: 必须有唯一主视觉钩子，必须有明确道具语义锁定\n"
+            f"场景: {route.scene}\n"
+            f"穿搭: {route.outfit}\n"
+            f"故事瞬间: {route.action}\n"
+            f"构图: {route.composition}\n"
+            f"主视觉钩子: {route.visual_hook}\n"
+            f"道具语义锁定: {route.prop_lock}\n"
+            f"当日变体: {variant}\n"
             "生成: 是"
         )
     if route.skill == "东方美学图鉴":
@@ -254,6 +600,7 @@ def structured_block(route: Route) -> str:
             f"构图: {route.composition}\n"
             "比例: 9比16\n"
             "文字规则: 生图阶段只保留干净文字区；如果需要准确中文标题，发布前后期叠字，不依赖模型生成文字\n"
+            f"当日变体: {variant}\n"
             "生成: 是"
         )
     if route.skill == "甜系纯欲生活写真":
@@ -264,6 +611,20 @@ def structured_block(route: Route) -> str:
             f"穿搭: {route.outfit}\n"
             f"故事瞬间: {route.action}\n"
             f"构图: {route.composition}\n"
+            f"当日变体: {variant}\n"
+            "生成: 是"
+        )
+    if route.skill == "古风闺蜜":
+        return (
+            "技能: 古风闺蜜\n"
+            f"场景: {route.style}\n"
+            "关系: 姐姐 + 妹妹\n"
+            f"气质: {route.temperament}\n"
+            f"服装: {route.outfit}\n"
+            f"动作: {route.action}\n"
+            f"构图: {route.composition}\n"
+            "比例: 9比16\n"
+            f"当日变体: {variant}\n"
             "生成: 是"
         )
     return (
@@ -275,6 +636,7 @@ def structured_block(route: Route) -> str:
         f"动作: {route.action}\n"
         f"构图: {route.composition}\n"
         "年龄: 20-26\n"
+        f"当日变体: {variant}\n"
         "生成: 是"
     )
 
@@ -304,8 +666,11 @@ def build_markdown(day: dt.date, routes: list[Route]) -> str:
         "",
         "- 年龄统一：20-26岁年轻成年东亚女性。",
         "- 风格分散：同一天不重复同一风格家族，且五张中固定包含一张原创探索思路种子。",
+        "- 变体分散：即使抽到同一路线，也必须改变人物脸型、发型、场景子空间、穿搭轮廓、叙事触发点、镜头、光线、天气、动作微差、色彩、主视觉钩子和副道具。",
+        "- 比例统一：五张图全部使用9:16；图鉴路线也转换为9:16竖版海报变体。",
         "- 主体优先：脸和眼睛第一优先级，人物占画面60%以上。",
         "- 道具锁定：杯子、花束、灯笼、团扇、书籍等必须保持原物体语义。",
+        "- 双人检查：古风闺蜜路线必须两张脸不同骨相、人物边界清晰、布料枕头床品互相独立。",
         "- 崩坏规避：禁止景物长进脸里、道具变链条、饰品替代杯子、人物和背景融合。",
         "",
     ]
@@ -323,13 +688,13 @@ def build_markdown(day: dt.date, routes: list[Route]) -> str:
                 "结构化参数：",
                 "",
                 "```text",
-                structured_block(route),
+                structured_block(route, day, index),
                 "```",
                 "",
                 "Prompt 摘要：",
                 "",
                 "```text",
-                prompt_for(route),
+                prompt_for(route, day, index),
                 "```",
                 "",
                 "负面提示补充：",

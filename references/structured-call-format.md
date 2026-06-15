@@ -24,6 +24,7 @@ Recommended for all Eastern beauty routes:
 Field meanings:
 
 - `技能`: 东方美人, 古典东方美人, 东方幻想古风, 现代东方美人, 甜系纯欲生活写真, or SweetHomeGirl.
+- `技能` can also be 古风闺蜜 or AncientFemaleCompanionship when the user wants two-person ancient Chinese female companionship photography.
 - `技能` can also be 东方美学图鉴 when the user wants a 3:4 小红书 / 博物馆图录感 content system.
 - `风格`: route or broad style, such as 宋韵茶影, 唐宫夜宴, 绮罗金帐, 东方珠宝大片.
 - `气质`: one or two aesthetics, such as 温婉优雅, 成熟妩媚, 高贵成熟, 清冷高贵.
@@ -130,6 +131,58 @@ Keep the existing lightweight SweetHomeGirl format:
 镜头要求:
 生成:
 ```
+
+### 古风闺蜜 / AncientFemaleCompanionship
+
+```text
+技能: 古风闺蜜
+
+场景: 闺阁夜话
+关系: 姐姐 + 妹妹
+气质: 温暖陪伴
+服装: 月白与藕荷色古代家居常服
+动作: 姐姐替妹妹整理发丝，两人低声说话
+构图: 双人半身
+生成: 是
+```
+
+English engine format:
+
+```text
+Skill: AncientFemaleCompanionship
+
+Scene: LakePavilion
+Season: Summer
+Weather: LightRain
+Time: Sunset
+Story: UmbrellaSharing
+Emotion: Dependence
+Costume: Jiangnan
+Lens: 85mm
+Generate: Yes
+```
+
+Supported `场景`:
+
+- 闺阁夜话
+- 灯下梳发
+- 共读
+- 夏夜纳凉
+- 守夜
+- 江南雨巷
+- 湖亭共伞
+- 山寺同行
+- 灯会夜游
+- 古街重逢
+
+Supported engine values:
+
+- Relationship: Sister, CloseFriend, ChildhoodFriend, TravelCompanion, DiscipleSister, Confidante, ScholarCompanion, TeaCompanion.
+- Scene: Bedroom, DressingRoom, StudyRoom, TeaRoom, EmbroideryRoom, RainLane, StoneBridge, Boat, LakePavilion, Garden, Temple, BambooForest, MountainPath, TeaGarden, Waterfall, LanternFestival, MidAutumn, Qixi, Market, AncientStreet, TeaHouse, Bookstore, OperaStage.
+- Weather: Sunny, Cloudy, Fog, LightRain, HeavyRain, Snow, Moonlight, Windy.
+- Time: Dawn, Morning, Noon, Afternoon, Sunset, Night, Midnight.
+- Story: ReadingTogether, TeaDrinking, HairBraiding, WatchingMoon, FlowerPicking, BoatTravel, UmbrellaSharing, WritingPoetry, LanternFestival, NightConversation, GuardingSleep, WaitingForReturn, Reunion, Farewell, TravelCompanion, ListeningRain, FixingHair, HelpingDress, FestivalWalk, SnowWatching.
+- Emotion: Joy, Warmth, Trust, Dependence, Comfort, Nostalgia, Longing, Protectiveness, Bittersweet, Hope, Reunion, Melancholy, Peace.
 
 ### 东方美学图鉴
 

@@ -2,6 +2,8 @@
 
 Use this reference when the user gives a short Chinese request, asks for a rewrite, requests a prompt pack, or names a model/platform. Route first; then write the prompt with `prompt-framework.md`.
 
+Before creating or implying a new route family, check `style-taxonomy.md`. If the request fits an existing canonical family, extend that family with a new route or scene rather than creating a duplicate template.
+
 ## Intent Routing
 
 | User intent | Output mode | What to load |
@@ -15,6 +17,7 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | "东方美人", "东方审美", "柔美", "妩媚", "成熟", "优雅", "高贵", "清冷", "温婉", "英气", "神性", "慵懒" | aesthetic-led Eastern beauty prompt | `styles/东方美人审美系统.md`, then route reference |
 | "东方美学图鉴", "图鉴封面", "图鉴正文", "小红书图鉴", "四大美人", "四大才女", "十二花神", "二十四节气", "东方神女", "敦煌飞天", "朝代服饰", "历史人物", "东方器物", "东方神话", "东方文化专题" | Eastern aesthetic atlas cover/content system | `styles/东方美学图鉴.md`, `prompt-framework.md`, `quality-control.md` |
 | "SweetHomeGirl", "甜系纯欲生活写真", "甜系纯欲", "甜美女友感", "真实女生", "自然抓拍", "故事感", "女友视角", "girlfriend portrait" | 甜系纯欲生活写真 realistic pure-desire lifestyle prompt | `styles/甜系纯欲生活写真.md`, `prompt-framework.md`, `quality-control.md` |
+| "古风闺蜜", "闺阁夜话", "姐妹古风写真", "古代闺阁生活", "灯下梳发", "共读", "夏夜纳凉", "守夜", "双人古风真人摄影", "AncientFemaleCompanionship", "Ancient Female Companionship" | 古风闺蜜 / ancient Chinese female companionship photography | `styles/古风闺蜜.md`, `prompt-framework.md`, `quality-control.md` |
 | "古典东方美人", "宋韵", "唐宫", "江南", "洛神", "青瓷", "昆曲", "仕女" | classical Eastern beauty prompt | `styles/东方美人审美系统.md`, `styles/古典东方美人.md`, `prompt-framework.md` |
 | "写实", "现代", "摄影", "杂志", "新中式", "东方高级感", "旗袍电影感", "东方静奢", "珠宝大片", "茶室光影", "都市晚宴" | realistic / modern Eastern beauty prompt | `styles/东方美人审美系统.md`, `styles/现代东方美人.md`, `prompt-framework.md`, `character-subject-system.md` |
 | "小程序", "标签", "参数块", "表单字段" | modular fields | `prompt-framework.md`, relevant mini-program tags |
@@ -34,6 +37,7 @@ Use this reference when the user gives a short Chinese request, asks for a rewri
 | 月宫, 桂树, 炼丹, 银炉, 月镜 | `moon-palace-alchemy` | Combine cold lunar divinity with warm alchemy light. |
 | 青铜, 甲骨, 古城, 祭司, 预言 | `bronze-oracle-city` | Make it epic and archaeological; avoid steampunk. |
 | 浴后, 湿发, 私房, 纯欲, 水汽 | `mist-bath-boudoir` | Keep adult, covered, opaque, and non-voyeuristic. |
+| 闺阁, 夜话, 梳发, 共读, 纳凉, 守夜, 姐妹, 闺蜜, 同行, 知己, 江南同行, 湖亭共伞 | `ancient-female-companionship` | Keep ancient Chinese lifestyle photography, two distinct adult women, caring interaction, realistic silk fabric, no xianxia poster. |
 
 ## Structured Chinese Calls
 
@@ -86,6 +90,18 @@ When the user asks for 古典东方美人, 古典美人, 宋韵, 唐宫, 江南,
 2. Choose one classical route and one dominant aesthetic.
 3. Do not force mythic artifacts, impossible scale, or battle spectacle unless the user asks for fantasy.
 4. Focus on line, gesture, fabric, light, face temperament, and spatial poetry.
+
+## Gu Feng Girlfriends
+
+When the user asks for 古风闺蜜, 闺阁夜话, 姐妹古风写真, 古代闺阁生活, 灯下梳发, 共读, 夏夜纳凉, 守夜, 双人古风真人摄影, AncientFemaleCompanionship, or Ancient Female Companionship:
+
+1. Load `styles/古风闺蜜.md`.
+2. Treat the result as realistic ancient Chinese lifestyle photography, not illustration, xianxia, fantasy poster, game art, goddess wallpaper, fashion catalog, or studio portrait.
+3. Lock the relationship first: sister, close friend, childhood friend, travel companion, disciple sister, confidante, scholar companion, or tea companion.
+4. Make the two faces visibly different. Avoid duplicate face, twin-face, doll-face, or copy-paste AI face.
+5. Build the image around an interaction: chatting, combing hair, reading together, arranging hair, tea, umbrella sharing, boat travel, farewell, reunion, watching moon, listening rain, or night watch.
+6. Use realistic silk/cotton/linen material, separated fabric layers, clear prop semantics, visible body boundaries, and soft natural emotional lighting.
+7. Keep both subjects adult, tasteful, non-erotic, and non-voyeuristic.
 
 ## SweetHomeGirl Routing
 
