@@ -532,12 +532,23 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
     for route in ROUTES:
         by_family.setdefault(route.family, []).append(route)
 
-    # Use a deterministic rotation instead of ad hoc random sampling. A five-day
-    # window covers every fixed family, and each family walks through its full
-    # route list before repeating, so daily automation does not collapse back to
+    # Use a deterministic rotation instead of ad hoc random sampling. The first
+    # fixed family is the core Eastern fantasy route, so include it every day;
+    # the remaining slots rotate through the other families. This keeps daily
+    # posts anchored in the skill's main fantasy axis without collapsing back to
     # the same familiar four styles.
+    family_order_index = {family: index for index, family in enumerate(FIXED_FAMILY_ORDER)}
+    required_family = FIXED_FAMILY_ORDER[0] if FIXED_FAMILY_ORDER else None
+    if required_family in by_family and len(selected) < count:
+        family_routes = by_family[required_family]
+        route_seed = family_order_index.get(required_family, 0) * 3
+        route_index = (day.toordinal() + route_seed) % len(family_routes)
+        selected.append(family_routes[route_index])
+
     fixed_slots = max(count - len(selected), 0)
     ordered_families = [family for family in FIXED_FAMILY_ORDER if family in by_family]
+    if required_family:
+        ordered_families = [family for family in ordered_families if family != required_family]
     if ordered_families:
         start_index = day.toordinal() % len(ordered_families)
         rotated_families = ordered_families[start_index:] + ordered_families[:start_index]
@@ -546,7 +557,6 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
         families = list(by_family)
         rng.shuffle(families)
 
-    family_order_index = {family: index for index, family in enumerate(FIXED_FAMILY_ORDER)}
     for family in families:
         if len(selected) >= count:
             break
