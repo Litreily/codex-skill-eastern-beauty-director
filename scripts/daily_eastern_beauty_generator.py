@@ -71,6 +71,10 @@ ROUTES: list[Route] = [
     Route("现代东方美人", "现代东方美人", "现代茶室光影", "年轻，温婉，聪慧，自然", "现代茶室，木格栅，雨窗，陶瓷杯，暖木桌", "米白交领衬衫，亚麻半裙，珍珠耳钉", "她正要喝茶时被叫住，杯盖停在半空", "9比16，上半身到大腿", "木格栅影子切在桌面和袖口上", "陶瓷杯和杯盖必须保持为茶具，不变成链条、花或手指", "modern-tea-room-light"),
     Route("现代东方美人", "现代东方美人", "都市晚宴东方", "年轻，高贵，冷静，都市感", "高层酒店窗边，城市夜景，黑金反射地面", "黑金新中式晚装，丝缎长裙，玉石戒指", "她站在落地窗前，手持小杯，从城市灯光中转身", "9比16，全身，城市夜景背景", "窗外城市灯光形成一条书法般的金色反射", "小杯必须保持为杯子，不变成戒指、链条或灯泡", "urban-evening-oriental"),
     Route("现代东方美人", "现代东方美人", "江南现代诗意", "年轻，清润，文艺，东方感", "雨后江南白墙黑瓦街口，现代长廊，水面倒影", "浅灰新中式风衣，白色真丝内搭，低马尾", "她撑伞走过水面倒影，听见你喊她后回头", "9比16，全身，35mm环境人像", "白墙黑瓦在水中形成一条墨线", "伞必须保持为伞，不变成披帛、背景纹或头饰", "jiangnan-modern-poetic"),
+    Route("现代东方美人", "现代东方美人", "美术馆开幕夜", "年轻，知性，疏离，高级", "当代美术馆开幕夜，白墙，黑石地面，远处人群软焦", "象牙白无袖长马甲，黑色阔腿裤，玉色耳饰", "她拿着展览手册停在一幅水墨装置前，侧身回头", "9比16，大腿以上，50mm环境人像", "白墙上的水墨投影与她的肩线形成一条干净斜线", "展览手册必须保持为纸质手册，不变成链条、花或脸部纹理", "museum-opening-night"),
+    Route("现代东方美人", "现代东方美人", "雨夜出租车窗", "年轻，电影感，温柔，都市孤独", "雨夜出租车后座，车窗雨痕，城市霓虹被压成柔和色块", "深墨绿色针织上衣，米白长裙，珍珠耳钉", "她用指尖擦开车窗雾气，看见你站在路边后轻轻抬眼", "9比16，上半身近景，85mm", "车窗雨痕把城市灯光拉成一条纵向水墨线", "车窗和雨痕必须保持为玻璃与水滴，不进入脸部或眼睛", "taxi-window-rain-night"),
+    Route("现代东方美人", "现代东方美人", "东方香氛空间", "年轻，松弛，温婉，静奢", "极简香氛展厅，暖石墙，单枝白花，玻璃香水瓶", "月白丝质衬衫，浅茶色半裙，低盘发", "她拿起玻璃香水瓶闻香，听见脚步声后停住动作", "9比16，大腿以上，浅景深", "玻璃香水瓶的一点高光成为唯一亮点", "香水瓶必须保持为玻璃瓶，不变成水杯、链条、戒指或眼睛", "oriental-fragrance-room"),
+    Route("现代东方美人", "现代东方美人", "城市天桥晨光", "年轻，清爽，英气，现代东方", "清晨城市天桥，玻璃栏杆，远处高楼，薄雾晨光", "浅灰新中式短外套，白色内搭，深青长裤", "她走到天桥中段时回头，手里拎着一只小纸袋", "9比16，全身，35mm环境人像", "晨光沿玻璃栏杆形成一条淡金色引导线", "纸袋必须保持为纸袋，不变成手、链条或背景纹样", "city-bridge-morning"),
 
     # Gu feng girlfriends / private-room companionship photography routes.
     Route("古风闺蜜", "古风闺蜜", "闺阁夜话", "温暖，安心，陪伴，生活化，非暧昧", "古代闺阁夜晚，雕花木榻，纱帐，暖黄灯笼，烛火，软枕，丝被", "姐姐月白丝棉家居常服，妹妹藕荷色轻纱外衫，内层丝棉，披帛独立，布料轻薄柔软但覆身", "姐姐替妹妹把滑落的披帛拢好，两人靠近低声说睡前话", "9比16，双人半身，85mm，中近景，人物占75%-85%", "暖黄灯笼光落在两人之间，形成安静的陪伴焦点", "灯笼、软枕、丝被、披帛必须保持独立结构；两人身体边界清晰，不能融合，不能复制粘贴脸", "gufeng-bedtime-talk"),
@@ -90,6 +94,10 @@ ROUTES: list[Route] = [
     Route("甜系纯欲生活写真", "甜系纯欲生活写真", "便利店半夜买饮料", "兔系甜妹，生活感，亲近", "深夜便利店冷柜前，冷白灯，玻璃门反光", "宽松短袖，浅色牛仔短裤，薄针织开衫", "她拿着冰饮回头问你要不要同款", "9比16，上半身，近距离抓拍", "冷柜玻璃上的蓝白光照亮她的侧脸", "饮料瓶必须保持为饮料瓶，不变成链条、灯管或手指", "convenience-store-drink"),
     Route("甜系纯欲生活写真", "甜系纯欲生活写真", "书店翻书抬头", "氧气少女，安静，恋爱感", "独立书店，木书架，午后窗光，纸页气息", "白色棉麻衬衫，浅色短裙，帆布包", "她翻书时听见你走近，抬头停顿了一秒", "9比16，大腿以上，平视", "一束窗光落在书页和眼睛之间", "书必须保持为书，不变成花、链条或脸部纹理", "bookstore-look-up"),
     Route("甜系纯欲生活写真", "甜系纯欲生活写真", "夏夜自动贩卖机", "甜系，都市，轻微俏皮", "夏夜自动贩卖机前，冷色灯箱，街边树影", "工字背心，浅色牛仔短裤，薄衬衫外搭", "她刚拿到冰饮，转头发现你在拍她", "9比16，大腿以上，街拍抓拍", "贩卖机冷光在她发丝边缘形成蓝色轮廓", "冰饮罐必须保持为饮料罐，不变成手镯、链条或灯", "vending-machine-summer-night"),
+    Route("甜系纯欲生活写真", "甜系纯欲生活写真", "清晨早餐店", "甜系，真实，温暖，生活感", "清晨街边早餐店，蒸汽，木桌，窗外树影", "白色短袖针织上衣，浅蓝牛仔短裙，帆布鞋", "她端着豆浆和纸袋走向你，发现你在看她后笑了一下", "9比16，大腿以上，50mm生活抓拍", "豆浆杯上升起的蒸汽连接她的笑意和晨光", "豆浆杯和纸袋必须保持为早餐道具，不变成链条、花或手指", "breakfast-shop-morning"),
+    Route("甜系纯欲生活写真", "甜系纯欲生活写真", "地铁口等你", "邻家女孩，清爽，恋爱感", "夏日地铁口，台阶，城市树影，电子屏软焦", "浅绿色宽松衬衫，白色短裙，白色帆布包", "她站在地铁口台阶边等你，听见脚步声后抬头", "9比16，全身，平视抓拍", "地铁口台阶形成干净的纵深线", "帆布包必须保持为包，不变成衣摆、链条或背景线", "subway-exit-waiting"),
+    Route("甜系纯欲生活写真", "甜系纯欲生活写真", "水果摊夏风", "甜系，明亮，真实，夏日", "夏日下午水果摊，遮阳棚，西瓜和桃子，街边树荫", "浅黄色短款上衣，浅色牛仔短裤，薄白衬衫外搭", "她挑起一个桃子闻了闻，回头问你要不要一起买", "9比16，大腿以上，35mm街边近景", "桃子的暖色成为画面唯一明亮色点", "桃子必须保持为水果，不变成脸部纹样、球体饰品或手指", "fruit-stand-summer"),
+    Route("甜系纯欲生活写真", "甜系纯欲生活写真", "咖啡馆靠窗写字", "氧气感，安静，温柔，恋爱感", "小咖啡馆窗边，雨后玻璃，木桌，手写便签", "米白棉麻衬衫，浅杏色半裙，低马尾", "她写便签时停笔，隔着窗光看向你", "9比16，上半身到大腿，85mm", "便签纸和窗光在桌面形成一个柔和亮面", "便签纸必须保持为纸张，不变成布料、链条或皮肤纹理", "cafe-window-note"),
 
     # Eastern aesthetic atlas routes.
     Route("东方美学图鉴", "东方美学图鉴", "四大才女人物页", "年轻，书卷气，图录感", "米白宣纸背景，浅墨晕染，香槟金圆弧，书案与古籍", "淡青宋风褙子，白色内衫，玉簪", "她翻阅古籍，低头沉思，右侧人物区清晰", "9比16，竖版图鉴海报，人物页变体", "左侧竖排姓名区与右侧人物形成博物馆图录版式", "古籍必须保持为书，不变成脸部纹样、链条或多余装饰", "atlas-talented-woman"),
@@ -97,6 +105,9 @@ ROUTES: list[Route] = [
     Route("东方美学图鉴", "东方美学图鉴", "十二花神人物页", "年轻，典雅，图录感", "米白宣纸背景，浅墨晕染，香槟金圆弧，单枝玉兰", "月白宋风长裙，淡金腰封，玉兰簪", "她手持玉兰花枝，微侧身站在右侧人物区", "9比16，竖版图鉴海报，人物页变体", "左侧竖排姓名区与右侧人物形成博物馆图录版式", "玉兰花枝必须保持为单枝花，不变成脸部纹样、链条或多余装饰", "atlas-magnolia-goddess"),
     Route("东方美学图鉴", "东方美学图鉴", "二十四节气人物页", "年轻，清新，文化感", "9比16竖版宣纸图鉴海报，左上预留清晰标题框写“二十四节气”，标题框下方预留当前节气名位置，淡墨节气纹样，细金线，单枝柳叶", "浅绿色宋风长裙，米白披帛", "她手持柳枝，像正在记录春日第一阵风", "9比16，竖版图鉴海报，人物页变体，左侧文字区+右侧人物区", "左上标题框写二十四节气，节气名位置清晰可后期叠字，人物与柳枝保持第一视觉", "柳枝必须保持为植物枝条，不变成头发、链条或脸部纹理；标题区必须保持干净，不要伪文字乱码", "atlas-solar-term"),
     Route("东方美学图鉴", "东方美学图鉴", "敦煌飞天图鉴", "年轻，神性，壁画感，收藏感", "浅米宣纸，赭石矿物色，抽象飞天飘带，香槟金细线", "赭石与淡金飞天服饰，覆身层叠丝绸", "她手持琵琶，飘带围绕但不遮脸", "9比16，竖版图鉴封面或人物页变体", "赭石色飘带与竖排标题形成图录感", "琵琶必须保持为乐器，飘带不得穿过脸或变成手臂", "atlas-dunhuang-feitian"),
+    Route("东方美学图鉴", "东方美学图鉴", "朝代服饰时间轴", "年轻，典雅，文化感，图录感", "9比16竖版宣纸图鉴海报，左侧预留纵向时间轴，右侧人物主视觉，淡墨朝代纹样", "代表性朝代服饰，低饱和主色，香槟金细节", "她侧身整理衣襟，像正在从时间轴中走出", "9比16，竖版图鉴海报，时间轴变体", "左侧细金时间轴与右侧人物形成清晰阅读路径", "时间轴必须保持为简洁线性装饰，不变成链条、头发或脸部纹理；文字区保持干净", "atlas-dynasty-costume-timeline"),
+    Route("东方美学图鉴", "东方美学图鉴", "东方器物人物页", "年轻，知性，收藏感，博物馆感", "9比16竖版宣纸图鉴海报，右侧人物，左下器物说明区，单件青瓷器物", "月白长裙，青瓷色腰封，极简发簪", "她双手托起青瓷小瓶，目光落在器物上", "9比16，竖版图鉴海报，人物+器物页", "青瓷小瓶成为唯一主元素，信息区留白干净", "青瓷小瓶必须保持为器物，不变成身体、脸部纹样或文字乱码", "atlas-oriental-object"),
+    Route("东方美学图鉴", "东方美学图鉴", "十二花神总览", "年轻，清雅，花神谱系，图录感", "9比16竖版宣纸图鉴海报，四格或三段式花神总览，浅色纸纹，单一花色点缀", "浅色古典长裙，花枝发簪，覆身丝绸", "代表人物轻扶花枝，其他花神以淡墨剪影或留白暗示", "9比16，竖版图鉴总览变体，标题区干净", "单枝主花与人物视线形成第一视觉", "主花必须保持为植物，不变成头发、链条或脸部纹理；不要生成乱码文字", "atlas-flower-gods-overview"),
 
 ]
 
@@ -240,13 +251,20 @@ def exploration_summary(idea: ExplorationIdea, day: dt.date) -> dict[str, str]:
 
 COMMON_NEGATIVE = (
     "low quality, low resolution, blurry, jpeg artifacts, watermark, text, logo, "
-    "bad anatomy, bad hands, extra fingers, missing fingers, fused fingers, "
-    "distorted face, asymmetrical eyes, plastic skin, over-smoothed skin, "
+    "bad anatomy, malformed anatomy, wrong limb count, extra limbs, extra arms, missing arms, "
+    "extra legs, missing legs, broken limbs, twisted joints, dislocated shoulders, broken wrists, "
+    "deformed elbows, deformed knees, unnatural torso twist, broken neck, neck too long, "
+    "bad hands, deformed hands, extra hands, missing hands, floating hands, extra fingers, "
+    "missing fingers, wrong finger count, fused fingers, melted fingers, fingers fused with objects, "
+    "hand fused with fabric, bad feet, deformed feet, missing feet, extra feet, mutated toes, "
+    "distorted face, broken face, asymmetrical eyes, misaligned eyes, duplicated face parts, "
+    "melted facial features, plastic skin, over-smoothed skin, "
     "old-looking face, matronly styling, age drift, underage, childish, "
     "scenery inside face, landscape on face, object fused with face, cup turning into chain, "
     "prop morphing, object mutation, jewelry replacing prop, random chain objects, "
     "deformed prop, melted object, broken cup, lantern becoming jewelry, "
-    "flowers fused into skin, fabric fused into hands, duplicate person, background stealing focus"
+    "flowers fused into skin, fabric fused into hands, duplicate person, unwanted third person, "
+    "merged bodies, fused torsos, unclear body boundary, background stealing focus"
 )
 
 
@@ -469,6 +487,23 @@ def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
     return "；".join(parts)
 
 
+def daily_variant_compact(route: Route, day: dt.date | None, position: int = 0) -> str:
+    if day is None:
+        return ""
+    return "；".join(
+        [
+            f"脸型={_variant_pick(VARIANT_AXES['face'], day, route, position, 5)}",
+            f"发型={_variant_pick(VARIANT_AXES['hair'], day, route, position, 11)}",
+            f"光线={_variant_pick(VARIANT_AXES['time'], day, route, position, 17)}",
+            f"场景={_variant_pick(VARIANT_AXES['scene'], day, route, position, 43)}",
+            f"穿搭={_variant_pick(VARIANT_AXES['outfit'], day, route, position, 47)}",
+            f"叙事={_variant_pick(VARIANT_AXES['story'], day, route, position, 53)}",
+            f"构图={_variant_pick(VARIANT_AXES['composition'], day, route, position, 59)}",
+            f"钩子={_variant_pick(VARIANT_AXES['visual_hook'], day, route, position, 61)}",
+        ]
+    )
+
+
 def exploration_route(idea: ExplorationIdea, day: dt.date) -> Route:
     detail = exploration_summary(idea, day)
     return Route(
@@ -570,8 +605,26 @@ def prompt_for(route: Route, day: dt.date | None = None, position: int = 0) -> s
     )
 
 
+def prompt_brief_for(route: Route, day: dt.date | None = None, position: int = 0) -> str:
+    variant = daily_variant_compact(route, day, position)
+    subject = (
+        route.temperament
+        if route.family == "探索路线"
+        else f"20-26岁年轻成年东亚女性，{route.temperament}"
+    )
+    return (
+        f"{route.skill} / {route.style}。"
+        f"{subject}。"
+        f"场景：{route.scene}。穿搭：{route.outfit}。"
+        f"瞬间：{route.action}。构图：{route.composition}。"
+        f"主视觉：{route.visual_hook}。"
+        f"道具锁定：{route.prop_lock}。"
+        f"当日变体：{variant}。"
+    )
+
+
 def structured_block(route: Route, day: dt.date | None = None, position: int = 0) -> str:
-    variant = daily_variant(route, day, position)
+    variant = daily_variant_compact(route, day, position)
     if route.family == "探索路线":
         return (
             "技能: 东方美人\n"
@@ -673,6 +726,12 @@ def build_markdown(day: dt.date, routes: list[Route]) -> str:
         "- 双人检查：古风闺蜜路线必须两张脸不同骨相、人物边界清晰、布料枕头床品互相独立。",
         "- 崩坏规避：禁止景物长进脸里、道具变链条、饰品替代杯子、人物和背景融合。",
         "",
+        "## 全局负面提示",
+        "",
+        "```text",
+        COMMON_NEGATIVE,
+        "```",
+        "",
     ]
 
     for index, route in enumerate(routes, 1):
@@ -691,16 +750,10 @@ def build_markdown(day: dt.date, routes: list[Route]) -> str:
                 structured_block(route, day, index),
                 "```",
                 "",
-                "Prompt 摘要：",
+                "导演摘要：",
                 "",
                 "```text",
-                prompt_for(route, day, index),
-                "```",
-                "",
-                "负面提示补充：",
-                "",
-                "```text",
-                COMMON_NEGATIVE,
+                prompt_brief_for(route, day, index),
                 "```",
                 "",
             ]

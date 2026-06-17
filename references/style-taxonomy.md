@@ -30,6 +30,7 @@ families in automation or user-facing style lists.
 | `references/wow-factor-system.md` | first-glance visual hook system, not a style template |
 | `references/character-subject-system.md` | face, posture, gesture, and subject integrity system |
 | `references/quality-control.md` | global prompt QA and failure prevention |
+| `references/global-negative-system.md` | shared anatomy, hands, feet, face integrity, prop semantics, multi-subject boundary, and quality negative base |
 
 ## Current Route Inventory
 
@@ -68,6 +69,10 @@ families in automation or user-facing style lists.
 - 现代茶室光影
 - 都市晚宴东方
 - 江南现代诗意
+- 美术馆开幕夜
+- 雨夜出租车窗
+- 东方香氛空间
+- 城市天桥晨光
 
 ### 古风闺蜜 / AncientFemaleCompanionship
 
@@ -89,6 +94,10 @@ families in automation or user-facing style lists.
 - 便利店半夜买饮料
 - 书店翻书抬头
 - 夏夜自动贩卖机
+- 清晨早餐店
+- 地铁口等你
+- 水果摊夏风
+- 咖啡馆靠窗写字
 
 ### 东方美学图鉴
 
@@ -97,6 +106,9 @@ families in automation or user-facing style lists.
 - 十二花神人物页
 - 二十四节气人物页
 - 敦煌飞天图鉴
+- 朝代服饰时间轴
+- 东方器物人物页
+- 十二花神总览
 
 ## Boundary Rules
 

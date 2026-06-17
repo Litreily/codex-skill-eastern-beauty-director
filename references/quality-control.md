@@ -164,17 +164,30 @@ When returning a final prompt for copy/paste, keep the final prompt and negative
 
 ## Common Negative Prompt
 
+Apply `references/global-negative-system.md` first. This local block is the
+compact copy/paste version for ordinary prompt output.
+
 ```text
 low quality, low resolution, blurry, jpeg artifacts, watermark, text, logo,
-bad anatomy, bad hands, extra fingers, missing fingers, fused fingers,
-distorted face, asymmetrical eyes, plastic skin, over-smoothed skin,
+bad anatomy, malformed anatomy, wrong limb count, extra limbs,
+extra arms, missing arms, extra legs, missing legs, broken limbs,
+twisted joints, dislocated shoulders, broken wrists, deformed elbows,
+deformed knees, unnatural torso twist, broken neck, neck too long,
+bad hands, deformed hands, extra hands, missing hands, floating hands,
+extra fingers, missing fingers, wrong finger count, fused fingers,
+melted fingers, fingers fused with objects, hand fused with fabric,
+bad feet, deformed feet, missing feet, extra feet, mutated toes,
+distorted face, broken face, asymmetrical eyes, misaligned eyes,
+duplicated face parts, melted facial features, plastic skin, over-smoothed skin,
 modern clothing, cheap cosplay, zipper, sneakers, phone, microphone,
 generic hanfu photoshoot, plain beauty portrait, western medieval armor,
 japanese shrine, korean hanbok, random cyberpunk neon,
 overexposed, oversaturated, messy background, duplicate person,
 visual clutter, ornament overload, excessive particles, chaotic ribbons,
 too many jewelry layers, excessive glowing effects, artificial glow,
-multiple focal points, mobile game splash art, AI fantasy poster style
+multiple focal points, mobile game splash art, AI fantasy poster style,
+object fused with face, scenery inside face, prop morphing, object mutation,
+cup turning into chain, lantern becoming jewelry, book becoming fabric
 ```
 
 ## Daily Automation Failure Guard

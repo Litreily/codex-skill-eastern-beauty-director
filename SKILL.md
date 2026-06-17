@@ -20,6 +20,7 @@ Produce prompts that feel directed, specific, and image-ready rather than a list
 8. Complete an internal director gate before writing: concept, mythic role, character subject profile, story moment, action chain, gaze target, worldbuilding hook, wow device, visual priority, color system, composition, lighting, ornament density, and negative risks.
 9. Compose the prompt in layers: mythic role, character face/temperament/body language, hair/makeup, costume system, gesture, iconic prop, wonder-scale environment, supernatural phenomenon, wow device, light, lens/composition, color, texture, style, quality tags.
 10. Add a negative prompt that prevents common failures: generic hanfu photoshoot, modern objects, plastic skin, extra fingers, distorted hands, bad anatomy, cheap cosplay, low-resolution artifacts, text/watermarks, visual clutter, ornament overload, excessive particles, and AI fantasy poster style.
+    Always apply `references/global-negative-system.md` first, then append the route-specific negative layer.
 11. Adapt wording for the target model. If the user does not specify a model, provide a universal Chinese prompt plus an English prompt suitable for Midjourney/SD-style tools.
 12. Include 2-4 controlled variations when developing a series: route, role, wow device, element, color system, setting, or camera scale.
 
@@ -232,6 +233,7 @@ Read only the reference needed for the current request:
 - `references/gufeng-visual-library.md`: gu feng subgenres, clothing, hair, makeup, props, settings, light, color palettes.
 - `references/eastern-fantasy-series.md`: mythic roles, series concepts, spectacle rules, stronger visual hooks.
 - `references/quality-control.md`: checklist for avoiding generic, unsafe, or broken image prompts.
+- `references/global-negative-system.md`: shared base negative system for anatomy, hands, feet, face integrity, prop semantics, multi-subject boundaries, and image quality. Apply before style-specific negatives.
 - `examples/`: copyable example prompts by route. Read when the user asks for examples, style samples, prompt packs, or wants to compare routes.
 
 ## Style Rules
