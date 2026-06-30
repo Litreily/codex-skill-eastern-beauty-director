@@ -72,6 +72,9 @@ Rules:
 8. Face integrity has highest priority: no scenery, water, buildings, flowers, chains, cups, ornaments, or texture patterns may appear inside the face, eyes, mouth, or skin area.
 9. Keep visual hierarchy: face and eyes first, story moment second, costume and environment third.
 10. If a generated candidate has broken face, object morphing, prop fusion, body distortion, or severe semantic drift, reject it and regenerate with a simpler prompt, fewer ornaments, a clearer prop phrase, and stronger negative constraints.
+11. Face clarity does not mean front-facing. A clear face may be three-quarter view, side profile, lowered gaze, over-shoulder return, mirror face, window reflection, or a face lit from the side.
+12. In every default five-image daily batch, use viewpoint distribution: at most two front-facing/direct-camera images; at least one three-quarter or side-profile image; at least one lowered-gaze / looking-at-prop image; at least one over-shoulder, back-turn, mirror/reflection, or environment-interaction image.
+13. Do not use `looking at camera` as the default story closure. Gaze targets may be a cup, fan, book, flower, lantern, mirror, window, water surface, companion, doorway, street direction, light source, or the action being performed.
 
 Daily automation execution rules:
 

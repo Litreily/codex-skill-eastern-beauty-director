@@ -457,6 +457,48 @@ def _variant_pick(options: list[str], day: dt.date, route: Route, position: int,
     return options[index]
 
 
+VIEWPOINT_PLAN = [
+    {
+        "name": "正面互动",
+        "camera": "正面或轻微三分之四视角，允许短暂眼神交流",
+        "gaze": "可以看向镜头，但动作必须来自故事，不是站桩展示",
+    },
+    {
+        "name": "三分之四侧身",
+        "camera": "侧前方三分之四视角或侧脸中近景，脸部清晰但不要求直视镜头",
+        "gaze": "眼神看向道具、窗外、水面、灯火或同伴",
+    },
+    {
+        "name": "低头做事",
+        "camera": "半侧面近景，人物正在低头完成一个动作，保留可读的脸部轮廓和眼睫",
+        "gaze": "眼神落在书页、茶杯、花束、器物、衣摆或手部动作上",
+    },
+    {
+        "name": "过肩回眸",
+        "camera": "过肩视角、背影回头、镜中视角或窗面倒影，至少保留半张清晰脸或镜中脸",
+        "gaze": "眼神从肩后、镜中、窗面倒影或侧向环境返回，不必直视镜头",
+    },
+    {
+        "name": "环境互动",
+        "camera": "侧面或带前景层次的故事视角，人物与空间、道具或光线发生互动",
+        "gaze": "眼神看向光线、门口、窗外、远处主道具、同伴或行动方向",
+    },
+]
+
+
+def viewpoint_directive(position: int) -> str:
+    plan = VIEWPOINT_PLAN[(max(position, 1) - 1) % len(VIEWPOINT_PLAN)]
+    return (
+        f"视角分配：{plan['name']}；镜头：{plan['camera']}；视线：{plan['gaze']}；"
+        "脸部必须清晰，但不要求正面直视镜头"
+    )
+
+
+def viewpoint_directive_compact(position: int) -> str:
+    plan = VIEWPOINT_PLAN[(max(position, 1) - 1) % len(VIEWPOINT_PLAN)]
+    return f"{plan['name']}；{plan['camera']}；{plan['gaze']}"
+
+
 def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
     if day is None:
         return ""
@@ -472,6 +514,7 @@ def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
         f"发型变化：{_variant_pick(VARIANT_AXES['hair'], day, route, position, 11)}",
         f"时间光线：{_variant_pick(VARIANT_AXES['time'], day, route, position, 17)}",
         f"天气空气：{_variant_pick(VARIANT_AXES['weather'], day, route, position, 23)}",
+        viewpoint_directive(position),
         f"镜头变化：{_variant_pick(VARIANT_AXES['camera'], day, route, position, 29)}",
         f"动作微差：{_variant_pick(VARIANT_AXES['gesture'], day, route, position, 31)}",
         f"当日色彩：{_variant_pick(VARIANT_AXES['palette'], day, route, position, 37)}",
@@ -495,6 +538,7 @@ def daily_variant_compact(route: Route, day: dt.date | None, position: int = 0) 
             f"脸型={_variant_pick(VARIANT_AXES['face'], day, route, position, 5)}",
             f"发型={_variant_pick(VARIANT_AXES['hair'], day, route, position, 11)}",
             f"光线={_variant_pick(VARIANT_AXES['time'], day, route, position, 17)}",
+            f"视角={viewpoint_directive_compact(position)}",
             f"场景={_variant_pick(VARIANT_AXES['scene'], day, route, position, 43)}",
             f"穿搭={_variant_pick(VARIANT_AXES['outfit'], day, route, position, 47)}",
             f"叙事={_variant_pick(VARIANT_AXES['story'], day, route, position, 53)}",
@@ -762,7 +806,8 @@ def build_markdown(day: dt.date, routes: list[Route]) -> str:
         "- 风格分散：同一天不重复同一风格家族，且五张中固定包含一张原创探索思路种子。",
         "- 变体分散：即使抽到同一路线，也必须改变人物脸型、发型、场景子空间、穿搭轮廓、叙事触发点、镜头、光线、天气、动作微差、色彩、主视觉钩子和副道具。",
         "- 比例统一：五张图全部使用9:16；图鉴路线也转换为9:16竖版海报变体。",
-        "- 主体优先：脸和眼睛第一优先级，人物占画面60%以上。",
+        "- 主体优先：脸和眼睛第一优先级，人物占画面60%以上；脸部清晰不等于必须正面直视镜头。",
+        "- 视角分散：五张图默认轮换正面互动、三分之四侧身、低头做事、过肩回眸、环境互动，避免全员面向镜头。",
         "- 道具锁定：杯子、花束、灯笼、团扇、书籍等必须保持原物体语义。",
         "- 双人检查：古风闺蜜路线必须两张脸不同骨相、人物边界清晰、布料枕头床品互相独立。",
         "- 崩坏规避：禁止景物长进脸里、道具变链条、饰品替代杯子、人物和背景融合。",
