@@ -81,11 +81,15 @@ Daily automation execution rules:
 1. Generate the daily route plan from `scripts/daily_eastern_beauty_generator.py` before creating images. Do not invent the four fixed routes from memory.
 2. Use the generated plan as the source of truth for style family, style name, scene, outfit, story moment, composition, visual hook, slug, prompt summary, and negative prompt.
 3. The default five-image batch is one original exploration route plus four fixed-family routes chosen by the script's rotation. Do not replace this with the same familiar fantasy/classical/modern/lifestyle set unless the plan says so.
-4. For Hexo validation, compression, deploy, and blog git operations, use WSL commands in the Hexo repo, not Windows-native shell fallbacks.
-5. After successful image generation and path validation, commit only the daily post and its daily image directory in the blog repo. Do not modify or commit `package.json`, `push.sh`, build scripts, or unrelated blog files.
-6. Push the blog source commit after validation and deployment. A daily automation run is not complete until both deployment and blog source push succeed.
-7. Daily image ratio is always `9:16`. If a route such as 东方美学图鉴 normally uses 3:4, convert it into a 9:16 daily-poster variant.
-8. Do not rely on the image model to render accurate Chinese text. For atlas/title routes, keep a clean title area in the generated image and use post-processing text overlay when accurate words such as `二十四节气` or a specific solar term are required.
+4. The daily generator script is a route-plan / Markdown-plan compiler only. It is not an image generator and is not expected to create PNG files.
+5. After the route plan is ready, generate each real image with the available Codex image generation capability / `imagegen` skill. Do not search the repository for a local image-generation CLI as a required dependency.
+6. Missing repo-local image-generation executors are not a failure by themselves. Missing Codex/imagegen image generation capability is a hard blocker, because the daily post requires five real images.
+7. Do not treat `scripts/run_daily_eastern_beauty_prompts.sh` as the full publishing pipeline. It is a prompt/Markdown helper for old local flows, not the complete image-generation workflow.
+8. For Hexo validation, compression, deploy, and blog git operations, use WSL commands in the Hexo repo, not Windows-native shell fallbacks.
+9. After successful image generation and path validation, commit only the daily post and its daily image directory in the blog repo. Do not modify or commit `package.json`, `push.sh`, build scripts, or unrelated blog files.
+10. Push the blog source commit after validation and deployment. A daily automation run is not complete until both deployment and blog source push succeed.
+11. Daily image ratio is always `9:16`. If a route such as 东方美学图鉴 normally uses 3:4, convert it into a 9:16 daily-poster variant.
+12. Do not rely on the image model to render accurate Chinese text. For atlas/title routes, keep a clean title area in the generated image and use post-processing text overlay when accurate words such as `二十四节气` or a specific solar term are required.
 
 Daily automation shared negative prompt additions:
 
