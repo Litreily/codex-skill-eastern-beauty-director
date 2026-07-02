@@ -258,6 +258,7 @@ When the selected route is `Cosplay展会摄影`:
 6. Preserve the photo standard: RAW photo, 85mm portrait lens, f/1.8, shallow depth of field, Kodak Portra-like color, natural skin texture, clean low noise, subject about 70% of frame.
 7. Keep the convention background softly blurred: booth logo, game poster, LED light, photographers, and audience are allowed only as supporting context.
 8. Avoid cheap Lolita, plastic fabric, excessive lace, excessive organza, taobao costume, eroticized costume, wide-angle distortion, cluttered crowd, and all-subjects-looking-at-camera repetition.
+9. For two or more Coser images, enforce cross-cluster diversity. Role cluster, convention subspace, costume silhouette, prop type, action story, gaze direction, and camera scale must all differ; do not satisfy a batch by only changing color on the same official booth portrait.
 
 ## Style Rules
 
