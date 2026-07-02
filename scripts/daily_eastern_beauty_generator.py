@@ -76,6 +76,16 @@ ROUTES: list[Route] = [
     Route("现代东方美人", "现代东方美人", "东方香氛空间", "年轻，松弛，温婉，静奢", "极简香氛展厅，暖石墙，单枝白花，玻璃香水瓶", "月白丝质衬衫，浅茶色半裙，低盘发", "她拿起玻璃香水瓶闻香，听见脚步声后停住动作", "9比16，大腿以上，浅景深", "玻璃香水瓶的一点高光成为唯一亮点", "香水瓶必须保持为玻璃瓶，不变成水杯、链条、戒指或眼睛", "oriental-fragrance-room"),
     Route("现代东方美人", "现代东方美人", "城市天桥晨光", "年轻，清爽，英气，现代东方", "清晨城市天桥，玻璃栏杆，远处高楼，薄雾晨光", "浅灰新中式短外套，白色内搭，深青长裤", "她走到天桥中段时回头，手里拎着一只小纸袋", "9比16，全身，35mm环境人像", "晨光沿玻璃栏杆形成一条淡金色引导线", "纸袋必须保持为纸袋，不变成手、链条或背景纹样", "city-bridge-morning"),
 
+    # Cosplay convention photography routes.
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "官方展台女武神", "年轻，高级，英气，官方游戏宣传感", "大型游戏展馆官方展台，LED主屏，少量摄影师与观众软焦", "白金色结构化战袍，少量金属肩甲，哑光皮革腰封，高级弹力面料", "她半靠展示台，低头检查手中的发光长枪道具", "9比16，大腿以上，85mm，f1.8，官方展会摄影", "发光长枪与LED屏边缘光形成唯一角色识别钩子", "长枪必须保持为角色武器，不变成链条、灯管、首饰或背景线；Booth Logo必须弱化软焦", "cosplay-booth-valkyrie"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "赛博巫女发布区", "年轻，神秘，清冷，未来东方", "Bilibili World风格互动展区，紫银LED，官方游戏海报软焦", "紫银短款角色外套，哑光皮革腰封，少量水晶发饰，非透明材质", "她整理袖口上的能量符牌，侧脸看向展台屏幕", "9比16，上半身到大腿，85mm，浅景深", "紫银符牌在手边发出克制微光", "符牌必须保持为道具卡片，不变成链条、手指、纹身或脸部光斑；LED不得污染肤色", "cosplay-cyber-miko"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "星际驾驶员摄影区", "年轻，利落，未来感，商业大片", "Tokyo Game Show风格发布展台，飞船座舱布景，银灰蓝屏幕光", "银灰蓝飞行员夹克，高腰短裙，细金属扣件，黑色长靴", "她坐在主题座舱边缘，单手拿着头盔，抬眼看向侧前方摄影师", "9比16，大腿以上，85mm，眼平视角", "头盔透明面罩反射出展馆LED线条", "头盔必须保持为头盔，不变成发饰、链条或脸部结构；座舱布景不能吞掉身体边界", "cosplay-starpilot-booth"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "皇家护卫合影墙", "年轻，高贵，克制，红黑金", "官方合影墙，红黑金游戏视觉，远处观众和灯架软焦", "红黑金短披肩礼服战袍，细金属胸针，哑光皮革手套", "她扶住腰间短剑，三分之四侧身，像刚听见摄影师指令", "9比16，全身到大腿，85mm，轻微低机位", "短剑护手与合影墙金色弧线呼应", "短剑必须保持为短剑，不变成手指、链条或裙摆；合影墙文字只做虚化色块", "cosplay-royal-guard-wall"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "赛车皇后主舞台", "年轻，明亮，时尚，赛事官方感", "游戏赛车主题主舞台侧区，黑白红展车局部，LED灯带软焦", "黑白红结构化短夹克，高腰短裙，哑光皮革长靴，少量金属徽章", "她单手扶着赛车头盔，另一手向摄影师轻轻挥手", "9比16，大腿以上，85mm，展会抓拍", "赛车头盔成为角色身份的唯一高光道具", "赛车头盔必须保持为头盔，不变成包、链条或灯；禁止现实职业制服恋物化", "cosplay-racing-queen-stage"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "AI操作员试玩区", "年轻，聪慧，冷静，科技感", "游戏试玩区外侧，蓝白银交互屏，少量玩家背影软焦", "蓝白银高领角色制服，短披肩，细金属腰封，透明材质禁用", "她低头调试手持控制终端，屏幕光照亮侧脸", "9比16，上半身，85mm，浅景深", "手持控制终端的蓝白界面成为主视觉钩子", "控制终端必须保持为设备，不变成手机链、首饰或脸部纹理；屏幕UI不得盖住脸", "cosplay-ai-operator-demo"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "狐妖偶像展台", "年轻，甜美，灵动，东方幻想偶像", "官方音乐游戏展台，青绿金灯光，舞台边缘，少量观众软焦", "青绿金偶像角色服，短披肩，腰封，少量狐耳发饰，材质高级克制", "她刚结束展示动作，回头看向同伴，手里拿着角色麦克风", "9比16，大腿以上，85mm，Vogue editorial convention portrait", "角色麦克风与青绿金边缘光形成唯一视觉焦点", "麦克风必须保持为麦克风，不变成链条、首饰或手指；狐耳发饰必须克制不幼态", "cosplay-fox-idol-booth"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "女侦探互动展区", "年轻，知性，悬疑感，高级", "沉浸式推理游戏互动展区，暖木布景，暗金线索板软焦", "酒红金短斗篷外套，黑色高腰裙，哑光皮革手套，细金属怀表", "她拿起一张线索卡，侧身看向展区入口", "9比16，大腿以上，85mm，电影级展会摄影", "线索卡和怀表形成清晰侦探身份符号", "线索卡必须保持为纸卡，怀表必须保持为怀表，不变成链条、眼睛或背景纹样", "cosplay-detective-zone"),
+
     # Gu feng girlfriends / private-room companionship photography routes.
     Route("古风闺蜜", "古风闺蜜", "闺阁夜话", "温暖，安心，陪伴，生活化，非暧昧", "古代闺阁夜晚，雕花木榻，纱帐，暖黄灯笼，烛火，软枕，丝被", "姐姐月白丝棉家居常服，妹妹藕荷色轻纱外衫，内层丝棉，披帛独立，布料轻薄柔软但覆身", "姐姐替妹妹把滑落的披帛拢好，两人靠近低声说睡前话", "9比16，双人半身，85mm，中近景，人物占75%-85%", "暖黄灯笼光落在两人之间，形成安静的陪伴焦点", "灯笼、软枕、丝被、披帛必须保持独立结构；两人身体边界清晰，不能融合，不能复制粘贴脸", "gufeng-bedtime-talk"),
     Route("古风闺蜜", "古风闺蜜", "灯下梳发", "照顾，守护，温柔，信任", "闺阁铜镜前，木梳，妆台，灯笼，低垂纱帐，少量月光", "姐姐烟灰蓝宋制家居长衫，妹妹浅樱粉丝棉内衫与薄纱披帛，材质分层清楚", "姐姐一手握木梳为妹妹梳发，妹妹从铜镜里看向姐姐，神态安心", "9比16，双人中近景，50mm，人物优先", "铜镜边缘反射出灯火，让两人的视线关系成为画面中心", "木梳必须保持为木梳，铜镜必须保持为镜子；头发、手指和披帛不能穿模，脸部骨相必须不同", "gufeng-lantern-hair-combing"),
@@ -115,6 +125,7 @@ FIXED_FAMILY_ORDER = [
     "东方幻想古风",
     "古典东方美人",
     "现代东方美人",
+    "Cosplay展会摄影",
     "古风闺蜜",
     "甜系纯欲生活写真",
     "东方美学图鉴",
@@ -424,6 +435,12 @@ FAMILY_VARIANTS = {
         "换成更自然的动作，不要固定珠宝特写套路",
         "使用真实环境光，减少高反差广告光",
     ],
+    "Cosplay展会摄影": [
+        "保持官方展会摄影质感，避免普通漫展随拍",
+        "更换角色职业、配色、道具和展台子空间",
+        "背景只保留少量摄影师和观众软焦，不让展板文字抢主体",
+        "服装强调高级剪裁和统一材质，避免廉价Lolita和塑料Cos服",
+    ],
     "古风闺蜜": [
         "关系动作必须变化，不能总是坐着聊天",
         "两人一动一静，形成照顾或回应关系",
@@ -441,6 +458,58 @@ FAMILY_VARIANTS = {
         "标题区只留干净区域，文字后期叠加",
         "人物动作和道具每次变化，避免同构图套壳",
         "主色跟随主题变化，避免固定米白金色模板",
+    ],
+}
+
+
+COSPLAY_VARIANT_AXES = {
+    "face": [
+        "小鹅蛋脸，眼神利落，真人摄影感强",
+        "柔和鹅蛋脸，眉眼清晰，大眼但不过度动漫化",
+        "轻熟小脸，鼻梁自然，妆容干净高级",
+        "方圆脸，五官端正，官方宣传照气质",
+    ],
+    "hair": [
+        "低马尾配少量金属发扣",
+        "高马尾，发丝被展馆风轻微带起",
+        "半扎发，少量角色发饰但不夸张",
+        "顺直长发，发饰克制，保持真人质感",
+    ],
+    "light": [
+        "LED主屏柔光与暖色人物补光",
+        "展台顶部柔光加一圈克制轮廓光",
+        "蓝白屏幕光只落在道具边缘，肤色保持自然",
+        "主舞台侧光与浅景深背景光点",
+    ],
+    "scene": [
+        "官方展台入口侧区，观众和摄影师只做软焦",
+        "游戏角色摄影区，背景海报弱化成色块",
+        "试玩区外侧，LED屏和展台结构形成层次",
+        "发布舞台侧边，灯架和Booth Logo不抢主体",
+    ],
+    "outfit": [
+        "高级剪裁角色服，材质控制在哑光皮革、丝缎和少量金属件，同时保留自然胸线、收腰结构和腰臀过渡",
+        "服装层次不超过两到三层，避免大量蕾丝和欧根纱",
+        "保留一个身份符号，如徽章、肩甲、腰封、头盔或控制终端",
+        "整体不复刻具体IP角色，只保留AAA游戏宣传图品质；正式覆身但不能宽松吞掉身体曲线",
+    ],
+    "story": [
+        "她正在检查角色道具灯效，被摄影师捕捉到自然瞬间",
+        "工作人员递来角色卡，她伸手接过但动作停在半途",
+        "她刚从合影墙侧边走出，听见摄影师指令后微微转身",
+        "她与同伴短暂交换视线，不是所有人都看镜头",
+    ],
+    "composition": [
+        "大腿以上中景，人物占画面约70%，85mm浅景深",
+        "单人三分之四侧身，展台背景软焦压缩",
+        "坐姿或半靠展示台，角色道具在前景边缘但不遮脸",
+        "双人时保持自然距离和错落站位，不做拥挤合影",
+    ],
+    "hook": [
+        "角色道具是唯一高光点，不能变成链条或首饰",
+        "LED边缘光只勾勒人物轮廓，不污染脸部",
+        "Booth Logo只作为软焦环境，不是第一视觉",
+        "展台海报与人物服装配色呼应，但不得抢主体",
     ],
 }
 
@@ -499,9 +568,67 @@ def viewpoint_directive_compact(position: int) -> str:
     return f"{plan['name']}；{plan['camera']}；{plan['gaze']}"
 
 
+COSPLAY_VIEWPOINT_PLAN = [
+    {
+        "name": "正面互动",
+        "camera": "正面或轻微三分之四视角，官方摄影师近距离拍摄",
+        "gaze": "可以短暂看向摄影师，但动作必须来自角色展示瞬间",
+    },
+    {
+        "name": "三分之四侧身",
+        "camera": "侧前方三分之四视角，85mm浅景深，脸部清晰但不强制直视镜头",
+        "gaze": "眼神看向展台屏幕、角色道具、同伴或摄影区入口",
+    },
+    {
+        "name": "低头检查道具",
+        "camera": "半侧面近景，人物正在检查角色道具或服装细节，保留可读脸部轮廓",
+        "gaze": "眼神落在武器、头盔、控制终端、麦克风、线索卡或腰封上",
+    },
+    {
+        "name": "过肩回眸",
+        "camera": "过肩视角、背影回头或合影墙侧边回眸，至少保留半张清晰脸",
+        "gaze": "眼神从肩后、展台侧边、同伴方向或摄影师提示方向返回",
+    },
+    {
+        "name": "展台互动",
+        "camera": "带前景层次的展台故事视角，人物与官方布景、道具或LED光发生互动",
+        "gaze": "眼神看向展台灯光、主屏、工作人员、同伴或行动方向",
+    },
+]
+
+
+def cosplay_viewpoint_directive(position: int) -> str:
+    plan = COSPLAY_VIEWPOINT_PLAN[(max(position, 1) - 1) % len(COSPLAY_VIEWPOINT_PLAN)]
+    return (
+        f"视角分配：{plan['name']}；镜头：{plan['camera']}；视线：{plan['gaze']}；"
+        "脸部必须清晰，但不要求正面直视镜头"
+    )
+
+
+def cosplay_viewpoint_directive_compact(position: int) -> str:
+    plan = COSPLAY_VIEWPOINT_PLAN[(max(position, 1) - 1) % len(COSPLAY_VIEWPOINT_PLAN)]
+    return f"{plan['name']}；{plan['camera']}；{plan['gaze']}"
+
+
 def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
     if day is None:
         return ""
+    if route.family == "Cosplay展会摄影":
+        family_note = _variant_pick(FAMILY_VARIANTS[route.family], day, route, position, 3)
+        parts = [
+            f"当日变体锁定：{family_note}",
+            f"脸部差异：{_variant_pick(COSPLAY_VARIANT_AXES['face'], day, route, position, 5)}",
+            f"发型变化：{_variant_pick(COSPLAY_VARIANT_AXES['hair'], day, route, position, 11)}",
+            f"展馆光线：{_variant_pick(COSPLAY_VARIANT_AXES['light'], day, route, position, 17)}",
+            cosplay_viewpoint_directive(position),
+            f"展台子空间：{_variant_pick(COSPLAY_VARIANT_AXES['scene'], day, route, position, 43)}",
+            f"服装变体：{_variant_pick(COSPLAY_VARIANT_AXES['outfit'], day, route, position, 47)}",
+            f"叙事变体：{_variant_pick(COSPLAY_VARIANT_AXES['story'], day, route, position, 53)}",
+            f"构图变体：{_variant_pick(COSPLAY_VARIANT_AXES['composition'], day, route, position, 59)}",
+            f"主视觉钩子：{_variant_pick(COSPLAY_VARIANT_AXES['hook'], day, route, position, 61)}",
+            "变体约束：保留官方展会摄影和原创游戏角色质感，但角色方向、道具、展台子空间、姿态、镜头和配色必须与上次明显不同。",
+        ]
+        return "；".join(parts)
     family_notes = FAMILY_VARIANTS.get(route.family, [])
     family_note = (
         _variant_pick(family_notes, day, route, position, 3)
@@ -533,6 +660,20 @@ def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
 def daily_variant_compact(route: Route, day: dt.date | None, position: int = 0) -> str:
     if day is None:
         return ""
+    if route.family == "Cosplay展会摄影":
+        return "；".join(
+            [
+                f"脸型={_variant_pick(COSPLAY_VARIANT_AXES['face'], day, route, position, 5)}",
+                f"发型={_variant_pick(COSPLAY_VARIANT_AXES['hair'], day, route, position, 11)}",
+                f"光线={_variant_pick(COSPLAY_VARIANT_AXES['light'], day, route, position, 17)}",
+                f"视角={cosplay_viewpoint_directive_compact(position)}",
+                f"展台={_variant_pick(COSPLAY_VARIANT_AXES['scene'], day, route, position, 43)}",
+                f"服装={_variant_pick(COSPLAY_VARIANT_AXES['outfit'], day, route, position, 47)}",
+                f"叙事={_variant_pick(COSPLAY_VARIANT_AXES['story'], day, route, position, 53)}",
+                f"构图={_variant_pick(COSPLAY_VARIANT_AXES['composition'], day, route, position, 59)}",
+                f"钩子={_variant_pick(COSPLAY_VARIANT_AXES['hook'], day, route, position, 61)}",
+            ]
+        )
     return "；".join(
         [
             f"脸型={_variant_pick(VARIANT_AXES['face'], day, route, position, 5)}",
@@ -646,6 +787,24 @@ def prompt_for(route: Route, day: dt.date | None = None, position: int = 0) -> s
             f"物体语义锁定：{route.prop_lock}。"
             f"{variant}。"
         )
+    if route.family == "Cosplay展会摄影":
+        return (
+            "Cosplay展会摄影，官方动漫游戏展会摄影，超写实RAW photo，Vogue editorial，luxury fashion campaign，"
+            "ChinaJoy / Bilibili World / Tokyo Game Show官方摄影质感，85mm portrait lens，f/1.8，浅景深，Kodak Portra色调，干净低噪点。"
+            "年轻成年东亚女性，年龄20-26岁，真实自然骨相，真人摄影感，健康白皙皮肤，自然皮肤纹理，"
+            "身材系统硬锁定：健康丰润，圆润有体积感，胸部自然饱满但不夸张，腰臀自然过渡，肩颈舒展，锁骨柔和，比例协调，腿部修长；"
+            "正式覆身不等于宽松遮挡身材，角色服必须通过高级剪裁保留自然胸线、收腰结构、腰臀过渡和女性化曲线，不允许纸片人、平板身材或过度清瘦。"
+            "不幼态，不网红脸，不AI塑料脸。"
+            f"角色路线为{route.style}，气质：{route.temperament}。"
+            f"展馆场景：{route.scene}。角色服装：{route.outfit}。"
+            f"故事动作：{route.action}。构图：{route.composition}。"
+            f"主视觉钩子：{route.visual_hook}。"
+            "人物占画面约70%，优先大腿以上中景，摄影师近距离拍摄，背景展台、游戏海报、Booth Logo、少量摄影师和观众保持轻微虚化，"
+            "不要商业广告文字抢戏，不要大量人群，不要超广角，不要拼图。"
+            "角色设计必须是原创AAA游戏角色质感，不复刻具体IP或具体角色；服装高级剪裁，材质统一，丝缎、哑光皮革、金属件、水晶点缀克制，曲线表达来自剪裁和姿态，不来自暴露。"
+            f"物体语义锁定：{route.prop_lock}。"
+            f"{variant}。"
+        )
     if route.family == "东方幻想古风":
         return (
             f"东方幻想古风主视觉，年轻成年东亚女性，年龄20-26岁，{route.temperament}。"
@@ -748,6 +907,21 @@ def structured_block(route: Route, day: dt.date | None = None, position: int = 0
             f"动作: {route.action}\n"
             f"构图: {route.composition}\n"
             "比例: 9比16\n"
+            f"当日变体: {variant}\n"
+            "生成: 是"
+        )
+    if route.skill == "Cosplay展会摄影":
+        return (
+            "技能: Cosplay展会摄影\n"
+            f"角色方向: {route.style}\n"
+            f"气质: {route.temperament}\n"
+            f"场景: {route.scene}\n"
+            f"服装: {route.outfit}\n"
+            f"动作: {route.action}\n"
+            f"人数: 单人\n"
+            f"构图: {route.composition}\n"
+            f"主视觉钩子: {route.visual_hook}\n"
+            f"物体语义锁定: {route.prop_lock}\n"
             f"当日变体: {variant}\n"
             "生成: 是"
         )

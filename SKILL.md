@@ -1,6 +1,6 @@
 ---
 name: eastern-beauty-director
-description: Director-level AI art prompt creation for Eastern beauty series, including Eastern fantasy / gu feng Chinese beauty character art, classical Eastern beauty, realistic and modern Eastern beauty, 古风闺蜜 / AncientFemaleCompanionship two-person ancient Chinese female companionship photography, 东方美学图鉴 / 小红书图鉴 cover and content systems for 四大美人、四大才女、十二花神、东方神女、敦煌飞天、朝代服饰、东方器物、东方神话, 甜系纯欲生活写真 / SweetHomeGirl lifestyle portraits built around realism, feminine charm, romantic feeling, story moment, and natural attraction, new-Chinese-style fashion editorials, magazine portraits, worldbuilding, mythic role design, costume/styling systems, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方美人, 东方审美, 东方美学图鉴, 小红书图鉴, 图鉴封面, 图鉴正文, 四大美人, 四大才女, 十二花神, 东方神女, 敦煌飞天, 朝代服饰, 东方器物, 东方神话, 古风闺蜜, AncientFemaleCompanionship, Ancient Female Companionship, 闺阁夜话, 姐妹古风写真, 古代闺阁生活, 灯下梳发, 共读, 夏夜纳凉, 守夜, 江南同行, 湖亭共伞, 山寺同行, 灯会夜游, 柔美, 妩媚, 成熟, 优雅, 高贵, 清冷, 温婉, 英气, 神性, 慵懒, 东方幻想, 古风美女, 古典东方美人, 宋韵, 唐宫, 江南, 洛神, 青瓷, 昆曲, 国风人物, 汉服女子, 写实东方美人, 现代东方审美, 新中式, 东方高级感, SweetHomeGirl, 甜系纯欲生活写真, 甜系纯欲, 甜美女友感, 真实女生, 自然抓拍, 故事感, 女友视角, lifestyle girlfriend portrait, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
+description: Director-level AI art prompt creation for Eastern beauty series, including Eastern fantasy / gu feng Chinese beauty character art, classical Eastern beauty, realistic and modern Eastern beauty, Cosplay展会摄影 / official convention cosplay photography with AAA game character campaign and Vogue editorial quality, 古风闺蜜 / AncientFemaleCompanionship two-person ancient Chinese female companionship photography, 东方美学图鉴 / 小红书图鉴 cover and content systems for 四大美人、四大才女、十二花神、东方神女、敦煌飞天、朝代服饰、东方器物、东方神话, 甜系纯欲生活写真 / SweetHomeGirl lifestyle portraits built around realism, feminine charm, romantic feeling, story moment, and natural attraction, new-Chinese-style fashion editorials, magazine portraits, worldbuilding, mythic role design, costume/styling systems, cinematic composition, lighting, negative prompts, and model-specific prompt variants. Use when the user asks for 东方美人, 东方审美, 东方美学图鉴, 小红书图鉴, 图鉴封面, 图鉴正文, 四大美人, 四大才女, 十二花神, 东方神女, 敦煌飞天, 朝代服饰, 东方器物, 东方神话, Cosplay展会摄影, coser, Coser, 漫展摄影, 展会摄影, ChinaJoy, Bilibili World, Tokyo Game Show, 游戏展台, 官方展会摄影, AAA游戏角色Cosplay, 古风闺蜜, AncientFemaleCompanionship, Ancient Female Companionship, 闺阁夜话, 姐妹古风写真, 古代闺阁生活, 灯下梳发, 共读, 夏夜纳凉, 守夜, 江南同行, 湖亭共伞, 山寺同行, 灯会夜游, 柔美, 妩媚, 成熟, 优雅, 高贵, 清冷, 温婉, 英气, 神性, 慵懒, 东方幻想, 古风美女, 古典东方美人, 宋韵, 唐宫, 江南, 洛神, 青瓷, 昆曲, 国风人物, 汉服女子, 写实东方美人, 现代东方审美, 新中式, 东方高级感, SweetHomeGirl, 甜系纯欲生活写真, 甜系纯欲, 甜美女友感, 真实女生, 自然抓拍, 故事感, 女友视角, lifestyle girlfriend portrait, 仙侠/武侠/宫廷/江南/敦煌风 AI 绘画提示词, image prompt optimization, style word expansion, character series concepts, or prompt packs for Midjourney, Stable Diffusion, ComfyUI, DALL-E, Gemini, Seedream, or other image generation tools.
 ---
 
 # Eastern Beauty Director
@@ -13,7 +13,7 @@ Produce prompts that feel directed, specific, and image-ready rather than a list
 1. Clarify only when a missing choice changes the image: subject age category, era/subgenre, mood, image model, aspect ratio, or use case. If unclear, choose a refined default and state it briefly.
 2. Classify the request intent with `references/request-router.md` when the user gives a short Chinese phrase, a structured Chinese parameter block, asks for a rewrite, requests a prompt pack, asks for SweetHomeGirl, asks for realistic/modern Eastern beauty, or names a platform. Use `references/style-taxonomy.md` as the canonical family map before adding or selecting any new style direction.
 3. Lock explicit parameters before expanding: subject, style route, mood, costume, scene, prop, palette, aspect ratio, model/platform, output mode, and any "must keep / must avoid" instructions. Preserve them; add inferred defaults only as labeled supplements.
-4. Select the route family first. For 东方美学图鉴 / 小红书图鉴 / 四大美人 / 四大才女 / 十二花神 / 东方神女 / 敦煌飞天 / 朝代服饰 / 东方器物 / 东方神话 requests, load `styles/东方美学图鉴.md` and decide whether the output is cover, overview page, character page, timeline page, compare page, or knowledge page. For 古风闺蜜 / AncientFemaleCompanionship / 闺阁夜话 / 姐妹古风写真 / 灯下梳发 / 共读 / 夏夜纳凉 / 守夜 / 江南同行 / 湖亭共伞 requests, load `styles/古风闺蜜.md` and treat the result as realistic ancient Chinese female companionship photography, not xianxia fantasy. For gu feng or Eastern fantasy visual direction, select exactly one primary route from `styles/东方幻想古风.md`. Do not blend incompatible routes unless the user asks for a hybrid; if hybrid is requested, name the dominant route and the secondary accent. For classical non-fantasy Eastern beauty, load `styles/古典东方美人.md`. For SweetHomeGirl / 甜系纯欲生活写真 requests, load `styles/甜系纯欲生活写真.md`. For other realistic or modern Eastern beauty requests, load `styles/现代东方美人.md` instead of forcing fantasy routes.
+4. Select the route family first. For 东方美学图鉴 / 小红书图鉴 / 四大美人 / 四大才女 / 十二花神 / 东方神女 / 敦煌飞天 / 朝代服饰 / 东方器物 / 东方神话 requests, load `styles/东方美学图鉴.md` and decide whether the output is cover, overview page, character page, timeline page, compare page, or knowledge page. For Cosplay展会摄影 / coser / Coser / 漫展摄影 / 展会摄影 / ChinaJoy / Bilibili World / Tokyo Game Show / 游戏展台 / 官方展会摄影 requests, load `styles/Cosplay展会摄影.md` and treat the result as official convention photography with original AAA-game-character cosplay quality, not ordinary convention snapshots. For 古风闺蜜 / AncientFemaleCompanionship / 闺阁夜话 / 姐妹古风写真 / 灯下梳发 / 共读 / 夏夜纳凉 / 守夜 / 江南同行 / 湖亭共伞 requests, load `styles/古风闺蜜.md` and treat the result as realistic ancient Chinese female companionship photography, not xianxia fantasy. For gu feng or Eastern fantasy visual direction, select exactly one primary route from `styles/东方幻想古风.md`. Do not blend incompatible routes unless the user asks for a hybrid; if hybrid is requested, name the dominant route and the secondary accent. For classical non-fantasy Eastern beauty, load `styles/古典东方美人.md`. For SweetHomeGirl / 甜系纯欲生活写真 requests, load `styles/甜系纯欲生活写真.md`. For other realistic or modern Eastern beauty requests, load `styles/现代东方美人.md` instead of forcing fantasy routes.
 5. Decide the ambition level: refined portrait, character concept, series key visual, or mythic world poster. For vague requests, default to series key visual, not a plain beauty portrait.
 6. For non-atlas image routes, choose a primary wow device from `references/wow-factor-system.md`. The prompt must have one first-glance attraction point: a giant shape, impossible moment, dramatic scale contrast, luminous artifact, dangerous action, or surreal transformation. For 东方美学图鉴 routes, do not force a fantasy wow device; use layout hierarchy, title/person priority, restrained color, and one main cultural element as the first-glance attraction.
 7. For 东方美人 / 东方幻想古风 routes, apply `references/oriental-visual-discipline.md` as a hidden clean system: subject-first, clean face priority, one wow device only, controlled ornament density, premium color harmony, and visual breathing room.
@@ -31,6 +31,7 @@ Do not create or imply duplicate templates for the same visual direction. The cu
 - `东方幻想古风`
 - `古典东方美人`
 - `现代东方美人`
+- `Cosplay展会摄影`
 - `古风闺蜜 / AncientFemaleCompanionship`
 - `甜系纯欲生活写真`
 - `东方美学图鉴`
@@ -55,6 +56,7 @@ When generating daily Eastern Beauty images automatically, do not reuse a small 
 - Eastern fantasy / gu feng routes.
 - Classical Eastern beauty routes.
 - Modern Eastern beauty and new-Chinese editorial routes.
+- Cosplay convention photography routes.
 - Gu Feng Girlfriends / ancient private-room companionship photography routes.
 - SweetHomeGirl / realistic lifestyle routes.
 - Eastern aesthetic atlas / Xiaohongshu catalog routes.
@@ -230,6 +232,7 @@ Read only the reference needed for the current request:
 - `styles/甜系纯欲生活写真.md`: SweetHomeGirl-compatible Chinese style reference for 甜系纯欲生活写真, built around realism, feminine charm, romantic feeling, story moment, and natural pure-desire.
 - `styles/甜系纯欲生活写真-场景素材库.md`: optional SweetHomeGirl micro-scene library for more specific, story-rich, less repetitive lifestyle scenes.
 - `styles/现代东方美人.md`: realistic, modern, new-Chinese-style, fashion editorial, magazine, and cinematic Eastern beauty prompt direction.
+- `styles/Cosplay展会摄影.md`: official convention cosplay photography system for coser / ChinaJoy / Bilibili World / Tokyo Game Show / AAA game character campaign style; use for original game-role cosplay, polished exhibition background, high-end costume design, and Vogue editorial convention photography.
 - `styles/古风闺蜜.md`: AncientFemaleCompanionship / two-person ancient Chinese female companionship photography system for 闺阁、江南、山寺、节庆、古街等场景; relationship-first storytelling, realistic fabric, soft natural light, sisterhood/friendship interaction, and anti-xianxia-poster rules.
 - `styles/东方美学图鉴.md`: 小红书 / 博物馆图录感 content system for 东方美学图鉴, 四大美人, 四大才女, 十二花神, 东方神女, 敦煌飞天, 朝代服饰, 东方器物, 东方神话; includes 3:4 cover layout, content page layouts, palette, typography, and visual hierarchy.
 - `styles/古典东方美人.md`: non-fantasy classical Eastern beauty routes such as 洛神水镜, 宋韵茶影, 唐宫夜宴, 江南烟雨, 青瓷月影, 昆曲花影.
@@ -242,6 +245,19 @@ Read only the reference needed for the current request:
 - `references/quality-control.md`: checklist for avoiding generic, unsafe, or broken image prompts.
 - `references/global-negative-system.md`: shared base negative system for anatomy, hands, feet, face integrity, prop semantics, multi-subject boundaries, and image quality. Apply before style-specific negatives.
 - `examples/`: copyable example prompts by route. Read when the user asks for examples, style samples, prompt packs, or wants to compare routes.
+
+## Cosplay Convention Photography Rules
+
+When the selected route is `Cosplay展会摄影`:
+
+1. Load `styles/Cosplay展会摄影.md`.
+2. Treat the result as official convention photography: original AAA game-character cosplay, luxury fashion campaign, and real exhibition photography.
+3. Keep the subject as a 20-26-year-old adult East Asian woman unless the user explicitly requests another adult subject.
+4. Do not copy a specific copyrighted character. Use original role directions such as 女武神, AI操作员, 皇家护卫, 赛车皇后, 巫女, 星际驾驶员, or 原创幻想角色.
+5. Lock one role direction, one color system, one convention scene, one costume silhouette, one action, one person count, and one framing mode.
+6. Preserve the photo standard: RAW photo, 85mm portrait lens, f/1.8, shallow depth of field, Kodak Portra-like color, natural skin texture, clean low noise, subject about 70% of frame.
+7. Keep the convention background softly blurred: booth logo, game poster, LED light, photographers, and audience are allowed only as supporting context.
+8. Avoid cheap Lolita, plastic fabric, excessive lace, excessive organza, taobao costume, eroticized costume, wide-angle distortion, cluttered crowd, and all-subjects-looking-at-camera repetition.
 
 ## Style Rules
 

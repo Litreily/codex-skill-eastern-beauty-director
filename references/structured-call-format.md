@@ -23,9 +23,10 @@ Recommended for all Eastern beauty routes:
 
 Field meanings:
 
-- `技能`: 东方美人, 古典东方美人, 东方幻想古风, 现代东方美人, 甜系纯欲生活写真, or SweetHomeGirl.
+- `技能`: 东方美人, 古典东方美人, 东方幻想古风, 现代东方美人, Cosplay展会摄影, 甜系纯欲生活写真, or SweetHomeGirl.
 - `技能` can also be 古风闺蜜 or AncientFemaleCompanionship when the user wants two-person ancient Chinese female companionship photography.
 - `技能` can also be 东方美学图鉴 when the user wants a 3:4 小红书 / 博物馆图录感 content system.
+- `技能` can also be Cosplay展会摄影 when the user wants official convention coser photography with AAA game character quality.
 - `风格`: route or broad style, such as 宋韵茶影, 唐宫夜宴, 绮罗金帐, 东方珠宝大片.
 - `气质`: one or two aesthetics, such as 温婉优雅, 成熟妩媚, 高贵成熟, 清冷高贵.
 - `场景`: user-facing scene phrase. If broad, refine it internally.
@@ -85,6 +86,62 @@ Supported `风格`:
 - 茶室光影
 - 都市晚宴东方
 - 江南现代诗意
+
+### Cosplay展会摄影
+
+```text
+技能: Cosplay展会摄影
+
+角色方向: 女武神
+配色: 白金
+场景: 官方游戏展台
+服装: 白金色结构化战袍，少量金属肩甲，哑光皮革腰封
+动作: 半靠展示台，低头检查手中的发光长枪道具
+人数: 单人
+构图: 9比16，大腿以上
+生成: 是
+```
+
+Supported `角色方向` examples:
+
+- 偶像歌手
+- 赛车皇后
+- 女侦探
+- 飞行员
+- 女骑士
+- 皇家护卫
+- 女王
+- 精灵
+- 狐妖
+- 巫女
+- 神官
+- AI操作员
+- 女武神
+- 企业特工
+- 星际驾驶员
+- 赛博巫女
+- 原创幻想角色
+
+Supported `配色` examples:
+
+- 蓝白银
+- 红黑金
+- 紫银
+- 黑金
+- 白金
+- 青绿金
+- 酒红金
+- 银灰蓝
+
+Supported `场景` examples:
+
+- 官方游戏展台
+- Bilibili World互动展区
+- Tokyo Game Show发布展台
+- 游戏角色摄影区
+- LED主舞台侧区
+- 官方主题布景区
+- 游戏试玩区外侧
 
 ### Eastern Fantasy / Gu Feng
 

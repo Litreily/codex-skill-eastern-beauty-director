@@ -12,6 +12,7 @@ These are the only primary generation families currently supported.
 | 东方幻想古风 | `styles/东方幻想古风.md` | mythic, xianxia-adjacent, wonder-scale, supernatural, palace ritual, Dunhuang fantasy, moon palace, bronze oracle, dragon court | separate goddess, xianxia, Dunhuang fantasy, palace fantasy, mythic heroine templates |
 | 古典东方美人 | `styles/古典东方美人.md` | non-fantasy classical beauty, Song/Tang/Jiangnan/Kunqu/celadon/literati scenes, realistic or lightly stylized classical portraiture | separate Song beauty, Tang beauty, Jiangnan beauty, Kunqu beauty templates |
 | 现代东方美人 | `styles/现代东方美人.md` | modern realistic Eastern beauty, new-Chinese fashion, qipao cinema, jewelry/editorial, modern tea room, quiet luxury, urban scenes | separate qipao, jewelry, modern tea, new-Chinese fashion templates |
+| Cosplay展会摄影 | `styles/Cosplay展会摄影.md` | official convention cosplay photography, coser, ChinaJoy, Bilibili World, Tokyo Game Show, AAA original game-character cosplay, Vogue editorial convention portrait | separate ChinaJoy, BW, TGS, coser, racing queen, game booth templates |
 | 古风闺蜜 / AncientFemaleCompanionship | `styles/古风闺蜜.md` | two-person ancient Chinese female companionship, sisters, close friends, confidantes, travel companions, night talk, hair braiding, umbrella sharing, reunion, farewell | separate ancient girlfriends, sisterhood, Jiangnan companions, lantern reunion templates |
 | 甜系纯欲生活写真 | `styles/甜系纯欲生活写真.md` | modern girlfriend/lifestyle portrait, real young women, story moment, natural attraction, casual street/home/cafe/bookstore scenes | separate SweetHomeGirl, girlfriend POV, pure-desire lifestyle templates |
 | 东方美学图鉴 | `styles/东方美学图鉴.md` | Xiaohongshu / museum-catalog visual content system: covers, overview pages, character pages, cultural atlas, four beauties, four talented women, flower gods, solar terms | separate cover, character page, cultural atlas, Xiaohongshu card templates |
@@ -74,6 +75,17 @@ families in automation or user-facing style lists.
 - 东方香氛空间
 - 城市天桥晨光
 
+### Cosplay展会摄影
+
+- 官方展台女武神
+- 赛博巫女发布区
+- 星际驾驶员摄影区
+- 皇家护卫合影墙
+- 赛车皇后主舞台
+- AI操作员试玩区
+- 狐妖偶像展台
+- 女侦探互动展区
+
 ### 古风闺蜜 / AncientFemaleCompanionship
 
 - 闺阁夜话
@@ -117,16 +129,19 @@ families in automation or user-facing style lists.
 2. If a request is classical but not supernatural, use `古典东方美人`.
 3. If a request is modern, realistic, editorial, new-Chinese fashion, urban, or
    jewelry-led, use `现代东方美人`.
-4. If the subject is two ancient women and the relationship is the point, use
+4. If the request is about coser, cosplay convention, ChinaJoy, Bilibili World,
+   Tokyo Game Show, official booth photography, AAA game character costume, or
+   a polished convention portrait, use `Cosplay展会摄影`.
+5. If the subject is two ancient women and the relationship is the point, use
    `古风闺蜜 / AncientFemaleCompanionship`, even when the scene is Jiangnan,
    mountain, festival, or bookstore.
-5. If the subject is one modern lifestyle woman with girlfriend/story feeling,
+6. If the subject is one modern lifestyle woman with girlfriend/story feeling,
    use `甜系纯欲生活写真`.
-6. If the output is a designed content page, cover, character page, overview,
+7. If the output is a designed content page, cover, character page, overview,
    cultural card, or museum-catalog layout, use `东方美学图鉴`.
-7. `东方美人审美系统` can modify any compatible family, but it is not a standalone
+8. `东方美人审美系统` can modify any compatible family, but it is not a standalone
    output template.
-8. Do not create a new style file when the request can be represented as a new
+9. Do not create a new style file when the request can be represented as a new
    route inside an existing canonical family.
 
 ## Merge Candidates And Decisions
