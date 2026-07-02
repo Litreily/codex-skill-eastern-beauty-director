@@ -85,6 +85,16 @@ families in automation or user-facing style lists.
 - AI操作员试玩区
 - 狐妖偶像展台
 - 女侦探互动展区
+- 机械调律师装备区
+- 舞台偶像侧拍
+- 企业特工发布墙
+- 精灵弓手森林展台
+- 魔法学院导师
+- 未来特勤女警
+- 治愈系医疗支援
+- 咖啡厅女仆看板娘
+- 猫耳看板角色
+- 女侦探互动展区
 
 ### 古风闺蜜 / AncientFemaleCompanionship
 

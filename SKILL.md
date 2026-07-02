@@ -253,7 +253,7 @@ When the selected route is `Cosplay展会摄影`:
 1. Load `styles/Cosplay展会摄影.md`.
 2. Treat the result as official convention photography: original AAA game-character cosplay, luxury fashion campaign, and real exhibition photography.
 3. Keep the subject as a 20-26-year-old adult East Asian woman unless the user explicitly requests another adult subject.
-4. Do not copy a specific copyrighted character. Use original role directions such as 女武神, AI操作员, 皇家护卫, 赛车皇后, 巫女, 星际驾驶员, or 原创幻想角色.
+4. Do not copy a specific copyrighted character. Use original role directions such as 女武神, AI操作员, 皇家护卫, 赛车皇后, 巫女, 星际驾驶员, 教师, 女警, 护士, 女仆, 精灵, 猫耳角色, or 原创幻想角色.
 5. Lock one role direction, one color system, one convention scene, one costume silhouette, one action, one person count, and one framing mode.
 6. Preserve the photo standard: RAW photo, 85mm portrait lens, f/1.8, shallow depth of field, Kodak Portra-like color, natural skin texture, clean low noise, subject about 70% of frame.
 7. Keep the convention background softly blurred: booth logo, game poster, LED light, photographers, and audience are allowed only as supporting context.
