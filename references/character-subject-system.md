@@ -19,6 +19,172 @@ Avoid body descriptions that sexualize the subject. Emphasize silhouette, postur
 
 For intimate portrait routes, use tasteful figure language instead of erasing body presence. Emphasize shoulder-neck line, collarbone implied by robe structure, waist-to-sleeve silhouette, damp fabric weight, relaxed posture, and gaze tension while keeping clothing opaque and coverage complete.
 
+## Global Character Diversity Engine
+
+Use this engine for every single-woman route and every multi-image batch. The goal is to keep the same Eastern beauty universe without producing the same face, same hairstyle, same smile, and same camera posture repeatedly.
+
+Core rule:
+
+- Aesthetic continuity comes from age boundary, Eastern facial structure, natural skin, refined styling, story moment, and visual hierarchy.
+- Character repetition must not come from reusing one default face.
+- When generating a series, each image must change at least four axes: face shape, eye style, hairstyle, expression, makeup, posture, gaze target, outfit silhouette, prop, or camera angle.
+- For two-person scenes, the two women must have visibly different bone structure, hairstyle, clothing color, and emotional role.
+- For cosplay scenes, the role identity must also change hair, makeup, prop, silhouette, and persona; it cannot be one model changing costumes.
+
+### Face Library
+
+Choose one face structure and one eye/brow detail. Do not stack every option.
+
+Face structures:
+
+- Soft oval classical face: balanced, gentle, broadly usable.
+- Rounded oval face: sweeter, more approachable, good for lifestyle and companionship.
+- Refined melon-seed face: sharper, elegant, good for palace, qipao, or editorial.
+- Soft square-round face: dignified, reliable, good for Tang, guard, professional, or noble roles.
+- Lean high-fashion oval face: modern, cool, suitable for magazine and quiet luxury.
+- Slightly long classical face: literati, restrained, suitable for Song, scholar, oracle, or melancholy scenes.
+- Full-cheeked sweet face: lively, romantic, suitable for SweetHomeGirl and cute Coser roles.
+- Heroic bone-structure face: firm brows and cheek contour, suitable for sword, knight, police, guard, or envoy roles.
+- Mature gentle sister face: warm eyes, steady expression, suitable for companionship elder role.
+- Bright younger companion face: rounder eyes, softer cheeks, suitable for companionship younger role.
+
+Eye and brow details:
+
+- Almond eyes with soft natural brows.
+- Phoenix eyes with thin arched brows.
+- Long narrow eyes with calm straight brows.
+- Round bright eyes with gentle brows.
+- Slightly upturned cat-like eyes with clean eyeliner.
+- Lowered contemplative eyes with relaxed brows.
+- Clear direct gaze with defined brows.
+- Wet-light eyes under window or rain reflection.
+- Side-glance eyes, face still clear.
+- Over-shoulder return gaze.
+
+### Hair Library
+
+Hair must match era, route, action, and role. Avoid using loose long black hair as the default every time.
+
+Classical and fantasy:
+
+- High palace bun with restrained gold or jade ornament.
+- Low Song-style bun with one plain jade hairpin.
+- Half-up long hair with wind-touched loose strands.
+- Side-parted long hair under veil or pibo.
+- Twin loop buns used only when adult styling remains clear.
+- Braided side lock with simple ribbon.
+- Wet-look loose hair only for safe, opaque, non-voyeuristic bath or mist scenes.
+- Tight warrior ponytail for sword, guard, envoy, or travel scenes.
+- Scholar low bun with minimal ornament.
+- Dunhuang-inspired hair crown with controlled jewelry density.
+
+Modern and lifestyle:
+
+- Natural long straight hair.
+- Soft chestnut layered hair.
+- Shoulder-length bob.
+- Loose low ponytail.
+- Half-tied casual hair.
+- Long soft curls.
+- Messy home bun.
+- Side-parted smooth hair.
+- Short airy bob.
+- Hair tucked behind one ear.
+
+Cosplay and convention:
+
+- High ponytail with metallic hair clip.
+- Short bob with role headset.
+- Side-parted long waves.
+- Twin buns or twin tails only for clearly adult stage / mascot roles.
+- Low bun with scarf for aviation, secretary, doctor, or hostess roles.
+- Sleek straight hair with small role ornament.
+- Loose curls with crown, ears, or headset.
+- Braided ponytail for knight, archer, guard, or sailor-inspired role.
+
+### Expression Library
+
+Expression must come from the story moment, not from a generic smile.
+
+Use one primary expression:
+
+- Gentle eye contact.
+- Slightly surprised after being called.
+- About to speak.
+- Shy smile with lowered gaze.
+- Warm half smile.
+- Calm determined gaze.
+- Quiet melancholy.
+- Focused on a prop.
+- Soft laugh caught mid-motion.
+- Over-shoulder smile.
+- Sleepy relaxed eyes.
+- Protective gaze toward a companion.
+- Curious side glance.
+- Noble composed expression.
+- Playful confident smile.
+- Thoughtful pause while reading or working.
+
+Avoid:
+
+- Same warm smile in every image.
+- Blank face.
+- Exaggerated open-mouth laugh.
+- Influencer pout.
+- Overly seductive expression.
+- Closed eyes as the main expression unless the story requires sleep or meditation.
+
+### Makeup Library
+
+Makeup should separate characters while staying route-appropriate.
+
+- Barely-there natural makeup.
+- Soft peach blush and subtle lip color.
+- Clear oxygen makeup with natural black hair.
+- Song-style pale base with restrained red lips.
+- Tang-inspired warm rouge and flower tint, not stage-heavy.
+- Dunhuang mineral-color eye detail, restrained.
+- Cool editorial makeup with clean eyeliner.
+- New-Chinese magazine makeup with matte red lip.
+- Rainy cinematic low-saturation makeup.
+- Sweet pink lifestyle makeup.
+- Coffee-brown natural makeup.
+- Cosplay silver-blue eye detail.
+- Cosplay red-black gold stage makeup.
+- Cat-eye playful eyeliner for mascot / catgirl / fox roles.
+- Professional clean makeup for secretary, doctor, aviation, or police-inspired roles.
+
+### Body Presence Lock
+
+Do not let diversity erase the user's body preference.
+
+Across compatible routes, the adult woman should keep a healthy, feminine, natural body presence:
+
+- Natural volume and realistic anatomy.
+- Soft shoulders and natural arms.
+- Clear waist-to-hip transition.
+- Refined but visible feminine curve.
+- Outfit silhouette should preserve body structure when the route calls for attractiveness.
+
+Avoid:
+
+- Paper-thin body.
+- Extreme model thinness.
+- Flat body caused by oversized clothes.
+- Exaggerated cartoon proportions.
+- Body display posing that overwhelms story, face, or taste.
+
+### Series Diversity Checklist
+
+Before generating or returning a multi-image set, verify:
+
+- No two images share the same face structure.
+- No two adjacent images share the same hairstyle.
+- No two adjacent images use the same expression.
+- Gaze targets are distributed: camera, prop, companion, window, light, path, mirror, or water.
+- Camera angles are distributed: front, three-quarter, side, lowered gaze, over-shoulder, reflection, or environmental interaction.
+- Props remain semantically locked and do not merge into face, hands, hair, or costume.
+
 ## Face Temperament Tags
 
 | Tag | Use For | Visual Notes |

@@ -94,6 +94,11 @@ ROUTES: list[Route] = [
     Route("Cosplay展会摄影", "Cosplay展会摄影", "治愈系医疗支援", "年轻，干净，甜美，治愈感，角色魅力强", "科幻医疗支援游戏展台，白蓝互动屏，医疗箱道具，展馆灯光柔和", "白蓝短款治疗师制服，高腰短裙，细腰封，白色长靴，医疗十字徽章，非透明材质，清爽甜美但不低俗", "她打开医疗箱检查发光药剂瓶，抬眼向摄影师确认，裙摆和腰封形成清晰角色轮廓", "9比16，全身到大腿，85mm，浅景深", "医疗箱、药剂瓶和白蓝短款制服形成治疗师身份钩子", "医疗箱必须保持为箱子，药剂瓶必须保持为瓶子，不变成链条、首饰或脸部光斑；禁止病房私密感和护士制服恋物化", "cosplay-healer-nurse"),
     Route("Cosplay展会摄影", "Cosplay展会摄影", "咖啡厅女仆看板娘", "年轻，甜美，灵动，经典Coser魅力，官方活动感", "游戏联动咖啡厅展台，菜单牌软焦，咖啡托盘，暖色展灯，少量排队观众虚化", "黑白经典女仆风短裙，修身上身，干净围裙，少量蝴蝶结，黑色长袜，高跟鞋，材质高级，非廉价蕾丝", "她端着咖啡托盘从展台侧边走来，听见同伴喊她后回头微笑，裙摆和腿部线条清晰", "9比16，全身到大腿，85mm，生活化展会抓拍", "咖啡托盘、长袜和联动菜单牌形成经典女仆看板娘钩子", "托盘必须保持为托盘，咖啡杯必须保持为杯子，不变成链条、首饰或手指；禁止低俗女仆写真和过度暴露", "cosplay-maid-cafe"),
     Route("Cosplay展会摄影", "Cosplay展会摄影", "猫耳看板角色", "年轻，灵动，甜酷，可爱但不幼态，互动感", "原创手游互动拍照区，猫爪灯牌，抽卡机布景，观众软焦", "黑白灰短款角色夹克，露腰内搭，高腰短裙裤，黑色长靴，克制猫耳发饰，尾饰可选但不抢主体，成年原创Coser", "她刚把角色卡递给观众，回头看向摄影师，手边猫爪灯牌微亮", "9比16，大腿以上，85mm，官方展会抓拍", "角色卡、猫耳发饰和猫爪灯牌形成可爱拟人身份钩子", "猫耳必须保持为发饰，角色卡必须保持为卡片，猫爪灯牌不能长进脸里；禁止幼态化和低俗卖萌", "cosplay-cat-ear-booth"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "星际航空乘务长", "年轻，优雅，亲和，高级航空感", "星际航空主题游戏展台，舱门布景，航线图LED，登机牌互动区，观众软焦", "白金修身短款乘务外套，高腰短裙，丝巾，白色长靴，胸针徽章，成年原创Coser", "她递出一张登机牌道具，侧身回头看向摄影师，像刚完成航线引导", "9比16，全身到大腿，85mm，官方展台摄影", "登机牌、丝巾和舱门布景形成航空角色钩子", "登机牌必须保持为纸卡，丝巾必须保持为丝巾，不变成链条或手指；禁止现实航空服务场景恋物化", "cosplay-stellar-flight-attendant"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "都市职场秘书", "年轻，成熟，干练，职场魅力，商务游戏角色", "现代都市经营游戏发布墙，玻璃会议室布景，金属Logo软焦，媒体摄影师虚化", "黑白修身短款西装外套，高腰铅笔短裙，细腰带，胸针，手持文件夹，长靴，成年原创Coser", "她抱着文件夹从发布墙侧边走来，听见摄影师提示后微微侧身回眸", "9比16，大腿以上，85mm，商务展会抓拍", "文件夹、胸针和玻璃会议室布景形成职场角色钩子", "文件夹必须保持为文件夹，不变成链条、布料或背景纹样；禁止现实办公室私密场景和秘书恋物化", "cosplay-business-secretary"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "科幻外科医生", "年轻，聪慧，冷静，治愈科技感", "科幻医疗游戏官方展台，手术机器人模型，白蓝屏幕，药剂箱展示区，观众软焦", "白色短款医生外套，修身蓝色内搭，高腰短裙裤，医疗平板，银色腰封，成年原创Coser", "她一手拿医疗平板，一手打开药剂箱，抬眼确认镜头", "9比16，大腿以上，70mm长焦，浅景深", "医疗平板、药剂箱和手术机器人模型形成医生角色钩子", "医疗平板必须保持为设备，药剂箱必须保持为箱子，机器人模型不能融合进身体；禁止真实病房私密感", "cosplay-sci-fi-doctor"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "海军水手领航员", "年轻，明亮，清爽，航海冒险感", "海洋冒险游戏展台，船舵形布景，蓝白波浪灯带，航海图展示墙，少量观众软焦", "海军蓝短款水手上衣，白色高腰短裙，水手帽，白色长靴，航海图道具，成年原创Coser", "她展开航海图道具，听见同伴喊她后回头，裙摆和长靴线条清晰", "9比16，全身到大腿，85mm，展会抓拍", "水手帽、航海图和船舵形展台形成水手角色钩子", "航海图必须保持为地图，水手帽必须保持为帽子，不变成头发、链条或背景纹样；禁止幼态水手服表达", "cosplay-sailor-navigator"),
+    Route("Cosplay展会摄影", "Cosplay展会摄影", "酒店礼宾服务员", "年轻，甜美，礼仪感，高级服务角色", "豪华酒店经营游戏联动展台，前台布景，金色门牌，行李车模型，暖色展灯", "酒红修身礼宾短外套，高腰短裙，白手套，小领结，托盘或房卡道具，成年原创Coser", "她一手托着房卡托盘，另一手轻扶领结，侧身向摄影师微笑", "9比16，全身到大腿，85mm，官方活动摄影", "房卡托盘、白手套和金色门牌形成礼宾服务员钩子", "房卡必须保持为卡片，托盘必须保持为托盘，不变成链条或首饰；禁止现实服务关系恋物化", "cosplay-hotel-concierge"),
 
     # Gu feng girlfriends / private-room companionship photography routes.
     Route("古风闺蜜", "古风闺蜜", "闺阁夜话", "温暖，安心，陪伴，生活化，非暧昧", "古代闺阁夜晚，雕花木榻，纱帐，暖黄灯笼，烛火，软枕，丝被", "姐姐月白丝棉家居常服，妹妹藕荷色轻纱外衫，内层丝棉，披帛独立，布料轻薄柔软但覆身", "姐姐替妹妹把滑落的披帛拢好，两人靠近低声说睡前话", "9比16，双人半身，85mm，中近景，人物占75%-85%", "暖黄灯笼光落在两人之间，形成安静的陪伴焦点", "灯笼、软枕、丝被、披帛必须保持独立结构；两人身体边界清晰，不能融合，不能复制粘贴脸", "gufeng-bedtime-talk"),
@@ -129,6 +134,18 @@ ROUTES: list[Route] = [
     Route("东方美学图鉴", "东方美学图鉴", "十二花神总览", "年轻，清雅，花神谱系，图录感", "9比16竖版宣纸图鉴海报，四格或三段式花神总览，浅色纸纹，单一花色点缀", "浅色古典长裙，花枝发簪，覆身丝绸", "代表人物轻扶花枝，其他花神以淡墨剪影或留白暗示", "9比16，竖版图鉴总览变体，标题区干净", "单枝主花与人物视线形成第一视觉", "主花必须保持为植物，不变成头发、链条或脸部纹理；不要生成乱码文字", "atlas-flower-gods-overview"),
 
 ]
+
+
+STRONG_FANTASY_EVIDENCE_SLUGS = {
+    "celestial-observatory",
+    "kunlun-snow-sword",
+    "dunhuang-mural-oracle",
+    "tide-dragon-observatory",
+    "lotus-dream-exorcist",
+    "phoenix-palace-fire",
+    "moon-palace-alchemy",
+    "oracle-bronze-city",
+}
 
 FIXED_FAMILY_ORDER = [
     "东方幻想古风",
@@ -313,6 +330,42 @@ VARIANT_AXES = {
         "低髻配一支素簪",
         "长发半披，发尾压在肩前",
     ],
+    "expression": [
+        "温柔注视，嘴角只有很轻的笑意",
+        "听见你叫她后轻微惊讶，眼神刚刚抬起",
+        "欲言又止，像下一秒要开口",
+        "低头看向手中道具，神情专注",
+        "回眸浅笑，表情自然不摆拍",
+        "若有所思，眼神安静但不空洞",
+        "害羞笑意，视线略微下移",
+        "坚定平静，适合英气或神性路线",
+        "被风或雨打断动作后的短暂停顿",
+        "看到消息或灯光后的细小笑意",
+    ],
+    "makeup": [
+        "自然淡妆，保留真实皮肤纹理",
+        "桃粉腮红与低饱和唇色",
+        "清透氧气妆，眼妆干净",
+        "宋韵淡妆，唇色克制",
+        "唐风暖胭脂，但不厚重舞台化",
+        "敦煌矿物色眼尾点缀，面积很小",
+        "冷感杂志妆，干净眼线",
+        "新中式红唇妆，底妆真实",
+        "雨夜电影感低饱和妆容",
+        "生活写真咖啡色自然妆",
+    ],
+    "persona": [
+        "温柔姐姐感，动作更稳，眼神有照顾感",
+        "清冷书卷气，动作克制，距离感更强",
+        "元气邻家感，动作轻快，表情更明亮",
+        "高贵宫廷感，颈肩挺拔，神态端正",
+        "英气守护感，眉眼更利落，站姿更稳定",
+        "松弛生活感，动作自然未完成",
+        "神秘预言感，眼神像知道秘密",
+        "甜系恋爱感，眼神交流更柔和",
+        "知性都市感，姿态清爽利落",
+        "柔美古典感，手势更慢，衣料更有垂坠",
+    ],
     "time": [
         "清晨薄光",
         "午后斜光",
@@ -452,7 +505,7 @@ FAMILY_VARIANTS = {
         "多张生成时必须跨风格簇，不能只是同一个展台战斗服换颜色",
         "至少一张使用非标准站姿看镜头，如走动抓拍、坐姿调试、舞台侧拍或过肩回眸",
         "主道具语义必须稳定，头盔、麦克风、机械臂、线索卡、弓形道具不得互相变形",
-        "经典角色也要纳入轮换，如教师、女警、护士、女仆、猫耳、修女、魔法师；必须保持成年原创Coser和官方展会摄影语境，同时保留修身剪裁、短款轮廓、腿部线条、腰臀过渡和角色魅力",
+        "经典角色也要纳入轮换，如教师、女警、护士、医生、空姐、职场女性、水手、服务员、女仆、猫耳、修女、魔法师；必须保持成年原创Coser和官方展会摄影语境，同时保留修身剪裁、短款轮廓、腿部线条、腰臀过渡和角色魅力",
     ],
     "古风闺蜜": [
         "关系动作必须变化，不能总是坐着聊天",
@@ -481,12 +534,36 @@ COSPLAY_VARIANT_AXES = {
         "柔和鹅蛋脸，眉眼清晰，大眼但不过度动漫化",
         "轻熟小脸，鼻梁自然，妆容干净高级",
         "方圆脸，五官端正，官方宣传照气质",
+        "圆润甜妹脸，笑容明亮，适合看板娘或偶像角色",
+        "清冷偏长脸，眼神锋利，适合特勤、骑士或企业特工",
+        "短下巴瓜子脸，五官精致，适合航空、秘书或医生角色",
+        "元气圆脸，眉眼可爱但成年感明确，适合猫耳、服务员或水手角色",
     ],
     "hair": [
         "低马尾配少量金属发扣",
         "高马尾，发丝被展馆风轻微带起",
         "半扎发，少量角色发饰但不夸张",
         "顺直长发，发饰克制，保持真人质感",
+        "短发波波头，轮廓清爽，强调职业角色辨识度",
+        "长卷发侧分，适合成熟职场或礼宾角色",
+        "双丸子头或双马尾改良版，只用于成年元气看板角色",
+        "低盘发配丝巾或发簪，适合航空、医生、秘书等高级职业角色",
+    ],
+    "makeup": [
+        "桃粉甜美妆，适合女仆、猫耳、偶像和服务员角色",
+        "冷感银蓝眼线，适合科幻医生、AI操作员和星际驾驶员",
+        "职场红唇和干净底妆，适合秘书、经理人和企业特工",
+        "清透白蓝妆容，适合医疗支援和医生角色",
+        "舞台细闪眼影，适合偶像歌手和舞台主持",
+        "猫系上扬眼线，适合猫耳、狐妖和甜酷看板娘",
+    ],
+    "persona": [
+        "元气甜美型，动作更轻快，笑容明显",
+        "冷静专业型，动作利落，眼神专注",
+        "成熟职场型，姿态稳定，表情自信",
+        "甜酷看板型，互动感强，镜头吸引力强",
+        "清冷科技型，侧脸和道具关系更强",
+        "温柔治愈型，动作围绕医疗箱、托盘或书本展开",
     ],
     "light": [
         "LED主屏柔光与暖色人物补光",
@@ -499,6 +576,10 @@ COSPLAY_VARIANT_AXES = {
         "联动咖啡厅暖色展灯，脸部保持真实肤色",
         "学院展台柔和书页光和屏幕光分层，不形成教室棚拍感",
         "医疗支援展台白蓝柔光，禁止冷冰冰病房私密感",
+        "星际航空展台舱门柔光，航线图LED只做背景层次",
+        "都市商务发布墙暖白柔光，玻璃会议室背景软焦",
+        "海洋冒险展台蓝白波浪光，肤色保持自然",
+        "酒店经营游戏展台暖金礼宾光，背景保持高级但不抢主体",
     ],
     "scene": [
         "官方展台入口侧区，观众和摄影师只做软焦",
@@ -514,6 +595,10 @@ COSPLAY_VARIANT_AXES = {
         "科幻医疗支援展台，医疗箱和白蓝互动屏保持官方展示感",
         "游戏联动咖啡厅展台，菜单牌和托盘形成活动现场感",
         "原创手游互动拍照区，猫爪灯牌和抽卡机布景服务人物",
+        "星际航空主题展台，舱门布景、航线图LED和登机牌互动区保持清晰层次",
+        "现代都市经营游戏发布墙，玻璃会议室布景和金属Logo软焦",
+        "海洋冒险游戏展台，船舵形布景、蓝白波浪灯带和航海图展示墙",
+        "豪华酒店经营游戏联动展台，前台布景、金色门牌和行李车模型",
     ],
     "outfit": [
         "高级剪裁角色服，材质控制在哑光皮革、丝缎和少量金属件，同时保留自然胸线、收腰结构和腰臀过渡",
@@ -531,6 +616,11 @@ COSPLAY_VARIANT_AXES = {
         "经典女仆风短裙配修身上身、干净围裙、少量蝴蝶结和黑色长袜，避免廉价蕾丝",
         "猫耳看板角色短款夹克配露腰内搭、高腰短裙裤和长靴，甜酷不幼态",
         "所有经典职业Coser都要保留明确腰线、腿部线条和舞台角色魅力，不能变成保守工作人员制服",
+        "星际航空乘务长修身短外套配高腰短裙、丝巾和长靴，优雅但有Coser轮廓",
+        "都市职场秘书短款西装外套配高腰铅笔短裙、胸针和文件夹，成熟高级",
+        "科幻医生短款白色外套配修身内搭、高腰短裙裤和医疗平板，科技治愈感",
+        "海军水手领航员短款水手上衣配白色高腰短裙、水手帽和长靴，明亮但不幼态",
+        "酒店礼宾服务员修身短外套配高腰短裙、白手套、小领结和房卡托盘，高级服务角色",
     ],
     "story": [
         "她正在检查角色道具灯效，被摄影师捕捉到自然瞬间",
@@ -548,6 +638,11 @@ COSPLAY_VARIANT_AXES = {
         "她打开医疗箱检查发光药剂瓶，抬眼确认镜头",
         "她端着咖啡托盘从联动咖啡厅展台侧边走来",
         "她把角色卡递给观众后回头，手边猫爪灯牌微亮",
+        "她递出登机牌道具，侧身回头像刚完成航线引导",
+        "她抱着文件夹从发布墙侧边走来，听见提示后微微侧身回眸",
+        "她一手拿医疗平板，一手打开药剂箱，抬眼确认镜头",
+        "她展开航海图道具，听见同伴喊她后回头",
+        "她托着房卡托盘，另一手轻扶领结，侧身向摄影师微笑",
     ],
     "composition": [
         "大腿以上中景，人物占画面约70%，85mm浅景深",
@@ -562,6 +657,9 @@ COSPLAY_VARIANT_AXES = {
         "联动展台走动抓拍，全身到大腿，托盘或角色卡保持清楚",
         "学院角色讲解中景，书本和教鞭在手边，脸部清晰",
         "医疗支援道具近景，药剂瓶在箱内，不遮脸不贴脸",
+        "航空主题全身到大腿，舱门布景形成纵深，登机牌在手边不遮脸",
+        "商务发布墙大腿以上，文件夹贴近身体一侧，保持脸和腰线清晰",
+        "航海主题全身抓拍，水手帽和航海图形成对角线构图",
     ],
     "hook": [
         "角色道具是唯一高光点，不能变成链条或首饰",
@@ -683,6 +781,8 @@ def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
             f"当日变体锁定：{family_note}",
             f"脸部差异：{_variant_pick(COSPLAY_VARIANT_AXES['face'], day, route, position, 5)}",
             f"发型变化：{_variant_pick(COSPLAY_VARIANT_AXES['hair'], day, route, position, 11)}",
+            f"妆容差异：{_variant_pick(COSPLAY_VARIANT_AXES['makeup'], day, route, position, 13)}",
+            f"人物气质：{_variant_pick(COSPLAY_VARIANT_AXES['persona'], day, route, position, 15)}",
             f"展馆光线：{_variant_pick(COSPLAY_VARIANT_AXES['light'], day, route, position, 17)}",
             cosplay_viewpoint_directive(position),
             f"展台子空间：{_variant_pick(COSPLAY_VARIANT_AXES['scene'], day, route, position, 43)}",
@@ -703,6 +803,9 @@ def daily_variant(route: Route, day: dt.date | None, position: int = 0) -> str:
         f"当日变体锁定：{family_note}",
         f"脸部差异：{_variant_pick(VARIANT_AXES['face'], day, route, position, 5)}",
         f"发型变化：{_variant_pick(VARIANT_AXES['hair'], day, route, position, 11)}",
+        f"表情差异：{_variant_pick(VARIANT_AXES['expression'], day, route, position, 13)}",
+        f"妆容差异：{_variant_pick(VARIANT_AXES['makeup'], day, route, position, 15)}",
+        f"人物气质：{_variant_pick(VARIANT_AXES['persona'], day, route, position, 19)}",
         f"时间光线：{_variant_pick(VARIANT_AXES['time'], day, route, position, 17)}",
         f"天气空气：{_variant_pick(VARIANT_AXES['weather'], day, route, position, 23)}",
         viewpoint_directive(position),
@@ -729,6 +832,8 @@ def daily_variant_compact(route: Route, day: dt.date | None, position: int = 0) 
             [
                 f"脸型={_variant_pick(COSPLAY_VARIANT_AXES['face'], day, route, position, 5)}",
                 f"发型={_variant_pick(COSPLAY_VARIANT_AXES['hair'], day, route, position, 11)}",
+                f"妆容={_variant_pick(COSPLAY_VARIANT_AXES['makeup'], day, route, position, 13)}",
+                f"气质={_variant_pick(COSPLAY_VARIANT_AXES['persona'], day, route, position, 15)}",
                 f"光线={_variant_pick(COSPLAY_VARIANT_AXES['light'], day, route, position, 17)}",
                 f"视角={cosplay_viewpoint_directive_compact(position)}",
                 f"展台={_variant_pick(COSPLAY_VARIANT_AXES['scene'], day, route, position, 43)}",
@@ -742,6 +847,9 @@ def daily_variant_compact(route: Route, day: dt.date | None, position: int = 0) 
         [
             f"脸型={_variant_pick(VARIANT_AXES['face'], day, route, position, 5)}",
             f"发型={_variant_pick(VARIANT_AXES['hair'], day, route, position, 11)}",
+            f"表情={_variant_pick(VARIANT_AXES['expression'], day, route, position, 13)}",
+            f"妆容={_variant_pick(VARIANT_AXES['makeup'], day, route, position, 15)}",
+            f"气质={_variant_pick(VARIANT_AXES['persona'], day, route, position, 19)}",
             f"光线={_variant_pick(VARIANT_AXES['time'], day, route, position, 17)}",
             f"视角={viewpoint_directive_compact(position)}",
             f"场景={_variant_pick(VARIANT_AXES['scene'], day, route, position, 43)}",
@@ -789,7 +897,11 @@ def choose_routes(day: dt.date, count: int) -> list[Route]:
     family_order_index = {family: index for index, family in enumerate(FIXED_FAMILY_ORDER)}
     required_family = FIXED_FAMILY_ORDER[0] if FIXED_FAMILY_ORDER else None
     if required_family in by_family and len(selected) < count:
-        family_routes = by_family[required_family]
+        family_routes = [
+            route
+            for route in by_family[required_family]
+            if route.slug in STRONG_FANTASY_EVIDENCE_SLUGS
+        ] or by_family[required_family]
         route_seed = family_order_index.get(required_family, 0) * 3
         route_index = (day.toordinal() + route_seed) % len(family_routes)
         selected.append(family_routes[route_index])
@@ -1042,7 +1154,7 @@ def build_markdown(day: dt.date, routes: list[Route]) -> str:
         "",
         "- 年龄统一：20-26岁年轻成年东亚女性。",
         "- 风格分散：同一天不重复同一风格家族，且五张中固定包含一张原创探索思路种子。",
-        "- 变体分散：即使抽到同一路线，也必须改变人物脸型、发型、场景子空间、穿搭轮廓、叙事触发点、镜头、光线、天气、动作微差、色彩、主视觉钩子和副道具。",
+        "- 变体分散：即使抽到同一路线，也必须改变人物脸型、眼神表情、发型、妆容、人物气质、场景子空间、穿搭轮廓、叙事触发点、镜头、光线、天气、动作微差、色彩、主视觉钩子和副道具。",
         "- 比例统一：五张图全部使用9:16；图鉴路线也转换为9:16竖版海报变体。",
         "- 主体优先：脸和眼睛第一优先级，人物占画面60%以上；脸部清晰不等于必须正面直视镜头。",
         "- 视角分散：五张图默认轮换正面互动、三分之四侧身、低头做事、过肩回眸、环境互动，避免全员面向镜头。",

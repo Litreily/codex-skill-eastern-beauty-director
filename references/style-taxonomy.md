@@ -94,6 +94,11 @@ families in automation or user-facing style lists.
 - 治愈系医疗支援
 - 咖啡厅女仆看板娘
 - 猫耳看板角色
+- 星际航空乘务长
+- 都市职场秘书
+- 科幻外科医生
+- 海军水手领航员
+- 酒店礼宾服务员
 - 女侦探互动展区
 
 ### 古风闺蜜 / AncientFemaleCompanionship
